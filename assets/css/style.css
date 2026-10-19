@@ -1,0 +1,189 @@
+:root {
+  --navy: #0b1f3a;
+  --navy-2: #12305a;
+  --blue: #1d6fe8;
+  --cyan: #19b8d6;
+  --bg: #f4f7fb;
+  --white: #ffffff;
+  --text: #1b2a3d;
+  --muted: #55667c;
+  --border: #dde5ef;
+  --shadow: 0 6px 20px rgb(11 31 58 / 8%);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+}
+
+.container { width: min(1100px, 92%); margin-inline: auto; }
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+
+/* ---------- En-tête ---------- */
+header {
+  position: sticky; top: 0; z-index: 50;
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 2px 10px rgb(11 31 58 / 6%);
+}
+nav {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; padding-block: 8px;
+}
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand img { width: 48px; height: 48px; object-fit: contain; }
+.brand-text {
+  display: flex; flex-direction: column; line-height: 1.1;
+  font-weight: 800; font-size: 1.35rem; color: var(--navy);
+}
+.brand-text small {
+  font-size: .62rem; font-weight: 600; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--muted);
+}
+nav ul { display: flex; align-items: center; gap: 22px; font-weight: 600; font-size: .95rem; }
+nav ul a { color: var(--navy); padding: 6px 2px; border-bottom: 2px solid transparent; }
+nav ul a:hover { border-bottom-color: var(--cyan); }
+.nav-cta {
+  background: var(--blue); color: var(--white) !important;
+  padding: 8px 16px !important; border-radius: 8px; border-bottom: 0 !important;
+}
+.nav-cta:hover { background: var(--navy-2); }
+
+/* ---------- Sections ---------- */
+section { padding-block: 72px; }
+section.alt { background: var(--white); }
+
+.tag {
+  display: inline-block; font-size: .75rem; font-weight: 700;
+  letter-spacing: .12em; color: var(--blue); margin-bottom: 10px;
+}
+h1, h2, h3 { color: var(--navy); line-height: 1.2; }
+h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); margin-bottom: 12px; }
+h3 { font-size: 1.15rem; margin-bottom: 8px; }
+.section-intro { color: var(--muted); max-width: 680px; margin-bottom: 32px; }
+
+/* ---------- Hero ---------- */
+.hero {
+  background:
+    radial-gradient(ellipse at 85% 15%, rgb(25 184 214 / 28%) 0%, transparent 55%),
+    linear-gradient(135deg, var(--navy), var(--navy-2));
+  color: var(--white);
+  padding-block: 96px 88px;
+}
+.hero .tag { color: var(--cyan); }
+.hero h1 { color: var(--white); font-size: clamp(2.1rem, 5vw, 3.4rem); margin-bottom: 18px; }
+.hero h1 span { color: var(--cyan); }
+.hero p { max-width: 620px; color: #d3deec; margin-bottom: 30px; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; }
+
+.btn {
+  display: inline-block; padding: 13px 26px; border-radius: 10px;
+  background: var(--cyan); color: var(--navy); font-weight: 700;
+  transition: transform .15s, background .15s;
+}
+.btn:hover { transform: translateY(-2px); background: #3cc9e4; }
+.btn.secondary { background: transparent; color: var(--white); border: 1.5px solid rgb(255 255 255 / 55%); }
+.btn.secondary:hover { background: rgb(255 255 255 / 12%); }
+
+/* ---------- Cartes ---------- */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+.card {
+  background: var(--white); border: 1px solid var(--border);
+  border-top: 3px solid var(--cyan);
+  border-radius: 12px; padding: 26px; box-shadow: var(--shadow);
+}
+.card p { color: var(--muted); font-size: .96rem; }
+.card p + p { margin-top: 8px; }
+.founder { max-width: 720px; background: var(--bg); }
+
+/* ---------- Contact ---------- */
+.contact { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: var(--white); }
+.contact h2 { color: var(--white); }
+.contact .tag { color: var(--cyan); }
+.contact .section-intro { color: #d3deec; }
+
+.contact-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.contact-option {
+  display: flex; align-items: center; gap: 16px;
+  background: var(--white); color: var(--navy);
+  padding: 18px 20px; border-radius: 14px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 18%);
+  transition: transform .15s;
+}
+.contact-option:hover { transform: translateY(-3px); }
+.contact-icon {
+  flex: none; width: 52px; height: 52px; border-radius: 50%;
+  display: grid; place-items: center; color: var(--white);
+}
+.contact-icon svg { width: 26px; height: 26px; fill: currentColor; }
+.phone-option .contact-icon { background: var(--blue); }
+.whatsapp-option .contact-icon { background: #25d366; }
+.email-option .contact-icon { background: #ea4335; }
+.contact-text { display: flex; flex-direction: column; min-width: 0; }
+.contact-text strong { font-size: 1rem; }
+.contact-text small { color: var(--muted); font-size: .92rem; overflow-wrap: anywhere; }
+
+/* ---------- Pied de page ---------- */
+footer {
+  background: #07152a; color: #9fb0c6;
+  text-align: center; padding-block: 24px; font-size: .9rem;
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 700px) {
+  nav { flex-wrap: wrap; justify-content: center; }
+  nav ul { width: 100%; justify-content: center; gap: 14px; font-size: .9rem; }
+  .brand img { width: 42px; height: 42px; }
+  section { padding-block: 48px; }
+  .hero { padding-block: 56px 52px; }
+  .actions .btn { width: 100%; text-align: center; }
+  .card { padding: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .btn, .contact-option { transition: none; }
+}
+/* ===== CORRECTIF ESPACES ET ICONES ===== */
+
+/* Logo + nom : espace entre le logo et le texte, et entre GTSI et le sous-titre */
+.brand { gap: 12px; }
+.brand-text { gap: 4px; line-height: 1.2; }
+.brand-text small { display: block; letter-spacing: .08em; }
+
+/* Icônes de contact : plus petites */
+.contact-icon {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+}
+.contact-icon svg {
+  width: 22px !important;
+  height: 22px !important;
+  max-width: 22px;
+  max-height: 22px;
+}
+
+/* Cartes de contact : espaces entre icône, titre et numéro */
+.contact-option { gap: 18px; padding: 16px 20px; }
+.contact-text { gap: 5px; line-height: 1.35; }
+.contact-text strong { display: block; }
+.contact-text small { display: block; margin-top: 2px; }
+
+/* Textes en général : un peu plus d'air */
+.card h3 { margin-bottom: 10px; }
+.card p + p { margin-top: 10px; }
+.tag { margin-bottom: 14px; }
+h2 { margin-bottom: 16px; }
+
+@media (max-width: 700px) {
+  nav { row-gap: 10px; }
+  .brand-text { font-size: 1.2rem; }
+  .contact-option { padding: 14px 16px; }
+}
