@@ -321,7 +321,7 @@ section { position: relative; }
 body::after {
   content: ""; position: fixed; inset: 0; z-index: 5;
   pointer-events: none; opacity: .045;
-  background: url("../images/gtsi-logo.png") no-repeat center
+  background: url("../images/gtsi-logo.webp") no-repeat center
     / min(80vw, 540px) auto;
 }
 
