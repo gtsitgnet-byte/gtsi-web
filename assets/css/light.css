@@ -1,0 +1,100 @@
+/* ===== THEME CLAIR GTSI ===== */
+:root {
+  --bg: #f6f9fd; --bg-2: #eaf1fa; --card: #ffffff; --border: #d5e0ee;
+  --text: #1b2a3d; --muted: #52647b; --navy: #0b1f3a;
+  --blue: #1d6fe8; --cyan: #0b8fb0;
+}
+body { background: var(--bg); color: var(--text); }
+body::after { opacity: .035; }
+h1, h2, h3, h4 { color: var(--navy); }
+.tag, .hero .tag { color: var(--blue); }
+.section-intro { color: var(--muted); }
+
+header { background: rgba(255,255,255,.96); border-bottom: 1px solid var(--border);
+  box-shadow: 0 2px 12px rgba(11,31,58,.06); }
+.brand-text { color: var(--navy); }
+.brand-text small { color: var(--muted); }
+header ul a { color: var(--navy); }
+header ul a:hover { color: var(--blue); border-bottom-color: var(--blue); }
+header .nav-cta { background: var(--blue); color: #fff; }
+header .nav-cta:hover { background: #0f56c2; color: #fff; }
+.burger { background: #fff; border-color: var(--border); }
+.burger span, .burger span::before, .burger span::after { background: var(--navy); }
+
+.hero {
+  background-color: #fff;
+  background-image:
+    radial-gradient(ellipse at 85% 0%, rgba(29,111,232,.14), transparent 55%),
+    radial-gradient(ellipse at 0% 100%, rgba(11,143,176,.12), transparent 55%),
+    linear-gradient(rgba(11,31,58,.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(11,31,58,.05) 1px, transparent 1px);
+  background-repeat: no-repeat, no-repeat, repeat, repeat;
+  background-position: 0 0, 0 0, 0 0, 0 0;
+  background-size: auto, auto, 44px 44px, 44px 44px;
+}
+.hero .container::before { color: rgba(11,31,58,.05); }
+.hero h1 { color: var(--navy); }
+.hero h1 span { color: var(--blue); }
+.hero p { color: var(--muted); }
+.chips li { background: #fff; border-color: var(--border); color: var(--navy); }
+
+.btn { background: var(--blue); color: #fff; }
+.btn:hover { background: #0f56c2; }
+.btn.secondary { background: #fff; border: 1.5px solid var(--border); color: var(--navy); }
+.btn.secondary:hover { border-color: var(--blue); background: #f1f6fd; }
+
+.card, .step, .partner-card, .product, .diagram {
+  background: #fff; border: 1px solid var(--border);
+  box-shadow: 0 6px 20px rgba(11,31,58,.06); }
+.card, .partner-card { border-top: 3px solid var(--blue); }
+.card p, .step p, .product-body p { color: var(--muted); }
+.card strong { color: var(--navy); }
+.num, .cat, .pc-info strong { color: var(--blue); }
+.step .num { background: var(--blue); color: #fff; }
+.card:hover, .product:hover, .step:hover {
+  border-color: var(--blue); box-shadow: 0 14px 34px rgba(29,111,232,.15); }
+.founder { background: #fff; }
+
+.contact { background-image: none; background-color: var(--bg-2); }
+.contact .tag { color: var(--blue); }
+.contact-option { border: 1px solid var(--border);
+  box-shadow: 0 6px 18px rgba(11,31,58,.08); }
+.contact-text small { color: var(--muted); }
+
+footer { background: var(--navy); background-image: none; color: #b9c7da;
+  border-top: 0; }
+.footer-grid strong { color: #fff; }
+footer .copy { border-top-color: rgba(255,255,255,.14); }
+
+.bx { fill: #f3f8ff; stroke: var(--blue); }
+.bx.hi { fill: #dbe9ff; }
+.tx { fill: var(--navy); }
+.lb { fill: var(--muted); }
+.ln { stroke: var(--blue); }
+.ln.rd { stroke: var(--cyan); }
+.diagram figcaption { border-top-color: var(--border); }
+.diagram figcaption strong { color: var(--navy); }
+
+.partners { background: #fff; border-block: 1px solid var(--border); }
+.partners-label { color: var(--blue); }
+.partners-label a { color: var(--navy); }
+.ad { border: 1px solid var(--border); box-shadow: 0 4px 14px rgba(11,31,58,.08); }
+.ad-cta { background: var(--blue); }
+.ad.promo { background: #f5f9ff; border: 1.5px dashed var(--blue); color: var(--navy); }
+.ad.promo .ad-text small { color: var(--muted); }
+.ad-plus { color: var(--blue); background: rgba(29,111,232,.1); }
+.pc-info a, .pc-cols h4 { color: var(--navy); }
+.partner-card.promo { border: 1.5px dashed var(--blue); }
+
+.shop-controls input, .shop-controls select, #b-who {
+  background: #fff; color: var(--text); }
+.badge { background: rgba(29,111,232,.1); color: var(--blue); }
+.product-img { background-image: linear-gradient(135deg, #e8f0fc, #d6e4f8); }
+.product-body .price { color: var(--blue); }
+dialog { background: #fff; color: var(--text); }
+.rec-title { color: var(--navy); }
+.cart-list input { background: #fff; }
+
+.react { background: #fff; border: 1px solid var(--border); color: var(--navy); }
+.react:hover { border-color: var(--blue); }
+.review { background: #fff; border-left-color: var(--blue); }
