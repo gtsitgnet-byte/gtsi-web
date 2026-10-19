@@ -186,3 +186,9 @@ footer {
 .review { background: var(--card); border: 1px solid var(--border); border-left: 3px solid var(--cyan); border-radius: 14px; padding: 22px; }
 .review p { color: var(--text); font-style: italic; }
 .review footer { margin-top: 12px; color: var(--muted); font-size: .9rem; }
+
+/* ===== BOUTIQUE PHOTOS ===== */
+.product-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.cat { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--cyan); }
+.product-body .btn-wa { margin-top: auto; }
+.btn-wa { margin-top: auto; }
