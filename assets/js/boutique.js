@@ -9,8 +9,8 @@
     ["PoE", /PoE/i], ["Wi-Fi", /Wi-Fi/i],
     ["Fibre optique", /fibre|SFP|optique|FTTH|pigtail/i],
     ["Extérieur / longue portée", /extérieur|longue portée|directionnelle|sectorielle|point à|CPE|mât|station de base/i],
-    ["Câble Ethernet", /Cat 5e|Cat 6|RJ45|keystone|brassage/i],
-    ["Sécurité", /VPN|pare-feu|biométrique|contrôle d'accès|serrure/i],
+    ["Câble Ethernet", /Cat ?5e|Cat ?6|Cat ?7|RJ45|keystone|brassage|coaxia/i],
+    ["Sécurité", /VPN|pare-feu|biométrique|contrôle d'accès|serrure|alarme|RFID|coffre|interphone|visiophone|détecteur/i],
     ["Énergie", /onduleur|batterie|solaire|stabilisateur|régulateur|parafoudre/i],
     ["Vidéosurveillance", /caméra|NVR|DVR|vidéosurveillance|alarme/i]
   ];
