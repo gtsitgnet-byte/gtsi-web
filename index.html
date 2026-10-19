@@ -14,12 +14,17 @@
 <header>
   <nav class="container" aria-label="Navigation principale">
     <a class="brand" href="#accueil" aria-label="GTSI - Accueil">
-      <img src="assets/images/gtsi-logo.png" alt="Logo GTSI" width="48" height="48">
+      <img src="assets/images/gtsi-logo.png" alt="Logo GTSI"
+           width="48" height="48">
       <span class="brand-text">GTSI<small>Globaltech &amp; Sécurity</small></span>
     </a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle"
+           aria-label="Ouvrir le menu">
+    <label for="menu-toggle" class="burger" aria-label="Menu"><span></span></label>
     <ul>
       <li><a href="#accueil">Accueil</a></li>
-      <li><a href="#services">Services</a></li>
+      <li><a href="#services">Prestations</a></li>
+      <li><a href="#schemas">Schémas</a></li>
       <li><a href="#boutique">Boutique</a></li>
       <li><a href="#apropos">À propos</a></li>
       <li><a class="nav-cta" href="#contact">Contact</a></li>
@@ -41,30 +46,34 @@
         <a class="btn" href="#contact">Demander un devis</a>
         <a class="btn secondary" href="#services">Découvrir nos services</a>
       </div>
-      <ul class="chips">
-        <li>Wifi Zone</li><li>Vidéosurveillance</li><li>Serveurs Linux</li>
-        <li>VPN</li><li>Cybersécurité</li>
-      </ul>
+      <ul class="chips"><li>Réseaux LAN/WAN</li><li>Wifi Zone</li><li>Sécurité</li><li>Serveurs</li><li>Vidéosurveillance</li></ul>
     </div>
   </section>
 
+  <!-- PARTNERS:START -->
+  <section class="partners" id="partenaires" aria-label="Nos partenaires">
+    <div class="partners-label">PARTENAIRES &amp; PUBLICITÉ <a href="#nos-partenaires">Voir les fiches</a></div>
+    <div class="marquee"><div class="track"><a class="ad" href="tel:+22890264002"><img src="assets/images/partenaires/creche-sainte-delphine.jpg" alt="Logo Crèche Sainte Delphine" height="56" loading="lazy" onerror="this.remove()"><span class="ad-text"><strong>Crèche Sainte Delphine</strong><small>Crèche · Garderie · Pré-maternelle</small><small>7j/7 · 24h/24 · Adidogomé</small></span><span class="ad-cta">Appeler 90 26 40 02</span></a><a class="ad flyer" href="#nos-partenaires"><img src="assets/images/partenaires/creche-sainte-delphine-affiche.jpg" alt="Affiche de la Crèche Sainte Delphine" height="110" loading="lazy" onerror="this.parentNode.remove()"></a><a class="ad promo" href="https://wa.me/22879828669?text=Bonjour%20GTSI%2C%20je%20souhaite%20faire%20ma%20publicit%C3%A9%20sur%20votre%20site." target="_blank" rel="noopener noreferrer"><span class="ad-plus" aria-hidden="true">+</span><span class="ad-text"><strong>Votre publicité ici</strong><small>Entreprises, écoles, commerces</small></span><span class="ad-cta">Nous contacter</span></a><a class="ad" href="tel:+22890264002"><img src="assets/images/partenaires/creche-sainte-delphine.jpg" alt="Logo Crèche Sainte Delphine" height="56" loading="lazy" onerror="this.remove()"><span class="ad-text"><strong>Crèche Sainte Delphine</strong><small>Crèche · Garderie · Pré-maternelle</small><small>7j/7 · 24h/24 · Adidogomé</small></span><span class="ad-cta">Appeler 90 26 40 02</span></a><a class="ad flyer" href="#nos-partenaires"><img src="assets/images/partenaires/creche-sainte-delphine-affiche.jpg" alt="Affiche de la Crèche Sainte Delphine" height="110" loading="lazy" onerror="this.parentNode.remove()"></a><a class="ad promo" href="https://wa.me/22879828669?text=Bonjour%20GTSI%2C%20je%20souhaite%20faire%20ma%20publicit%C3%A9%20sur%20votre%20site." target="_blank" rel="noopener noreferrer"><span class="ad-plus" aria-hidden="true">+</span><span class="ad-text"><strong>Votre publicité ici</strong><small>Entreprises, écoles, commerces</small></span><span class="ad-cta">Nous contacter</span></a><a class="ad" href="tel:+22890264002"><img src="assets/images/partenaires/creche-sainte-delphine.jpg" alt="Logo Crèche Sainte Delphine" height="56" loading="lazy" onerror="this.remove()"><span class="ad-text"><strong>Crèche Sainte Delphine</strong><small>Crèche · Garderie · Pré-maternelle</small><small>7j/7 · 24h/24 · Adidogomé</small></span><span class="ad-cta">Appeler 90 26 40 02</span></a><a class="ad flyer" href="#nos-partenaires"><img src="assets/images/partenaires/creche-sainte-delphine-affiche.jpg" alt="Affiche de la Crèche Sainte Delphine" height="110" loading="lazy" onerror="this.parentNode.remove()"></a><a class="ad promo" href="https://wa.me/22879828669?text=Bonjour%20GTSI%2C%20je%20souhaite%20faire%20ma%20publicit%C3%A9%20sur%20votre%20site." target="_blank" rel="noopener noreferrer"><span class="ad-plus" aria-hidden="true">+</span><span class="ad-text"><strong>Votre publicité ici</strong><small>Entreprises, écoles, commerces</small></span><span class="ad-cta">Nous contacter</span></a><a class="ad" href="tel:+22890264002" tabindex="-1" aria-hidden="true"><img src="assets/images/partenaires/creche-sainte-delphine.jpg" alt="Logo Crèche Sainte Delphine" height="56" loading="lazy" onerror="this.remove()"><span class="ad-text"><strong>Crèche Sainte Delphine</strong><small>Crèche · Garderie · Pré-maternelle</small><small>7j/7 · 24h/24 · Adidogomé</small></span><span class="ad-cta">Appeler 90 26 40 02</span></a><a class="ad flyer" href="#nos-partenaires" tabindex="-1" aria-hidden="true"><img src="assets/images/partenaires/creche-sainte-delphine-affiche.jpg" alt="Affiche de la Crèche Sainte Delphine" height="110" loading="lazy" onerror="this.parentNode.remove()"></a><a class="ad promo" href="https://wa.me/22879828669?text=Bonjour%20GTSI%2C%20je%20souhaite%20faire%20ma%20publicit%C3%A9%20sur%20votre%20site." target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><span class="ad-plus" aria-hidden="true">+</span><span class="ad-text"><strong>Votre publicité ici</strong><small>Entreprises, écoles, commerces</small></span><span class="ad-cta">Nous contacter</span></a><a class="ad" href="tel:+22890264002" tabindex="-1" aria-hidden="true"><img src="assets/images/partenaires/creche-sainte-delphine.jpg" alt="Logo Crèche Sainte Delphine" height="56" loading="lazy" onerror="this.remove()"><span class="ad-text"><strong>Crèche Sainte Delphine</strong><small>Crèche · Garderie · Pré-maternelle</small><small>7j/7 · 24h/24 · Adidogomé</small></span><span class="ad-cta">Appeler 90 26 40 02</span></a><a class="ad flyer" href="#nos-partenaires" tabindex="-1" aria-hidden="true"><img src="assets/images/partenaires/creche-sainte-delphine-affiche.jpg" alt="Affiche de la Crèche Sainte Delphine" height="110" loading="lazy" onerror="this.parentNode.remove()"></a><a class="ad promo" href="https://wa.me/22879828669?text=Bonjour%20GTSI%2C%20je%20souhaite%20faire%20ma%20publicit%C3%A9%20sur%20votre%20site." target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><span class="ad-plus" aria-hidden="true">+</span><span class="ad-text"><strong>Votre publicité ici</strong><small>Entreprises, écoles, commerces</small></span><span class="ad-cta">Nous contacter</span></a><a class="ad" href="tel:+22890264002" tabindex="-1" aria-hidden="true"><img src="assets/images/partenaires/creche-sainte-delphine.jpg" alt="Logo Crèche Sainte Delphine" height="56" loading="lazy" onerror="this.remove()"><span class="ad-text"><strong>Crèche Sainte Delphine</strong><small>Crèche · Garderie · Pré-maternelle</small><small>7j/7 · 24h/24 · Adidogomé</small></span><span class="ad-cta">Appeler 90 26 40 02</span></a><a class="ad flyer" href="#nos-partenaires" tabindex="-1" aria-hidden="true"><img src="assets/images/partenaires/creche-sainte-delphine-affiche.jpg" alt="Affiche de la Crèche Sainte Delphine" height="110" loading="lazy" onerror="this.parentNode.remove()"></a><a class="ad promo" href="https://wa.me/22879828669?text=Bonjour%20GTSI%2C%20je%20souhaite%20faire%20ma%20publicit%C3%A9%20sur%20votre%20site." target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><span class="ad-plus" aria-hidden="true">+</span><span class="ad-text"><strong>Votre publicité ici</strong><small>Entreprises, écoles, commerces</small></span><span class="ad-cta">Nous contacter</span></a></div></div>
+  </section>
+  <!-- PARTNERS:END -->
+
   <section id="services">
     <div class="container">
-      <div class="tag">NOS SERVICES</div>
-      <h2>Des solutions techniques complètes</h2>
+      <div class="tag">NOS PRESTATIONS</div>
+      <h2>Des prestations réseau complètes</h2>
       <p class="section-intro">
-        De l'installation à la sécurisation, GTSI accompagne les particuliers,
-        les entreprises et les professionnels.
+        Conception, installation, sécurisation et maintenance de vos
+        infrastructures, pour les particuliers, les entreprises et les
+        professionnels.
       </p>
       <div class="cards">
-        <article class="card"><span class="num">01</span><h3>Wifi Zone et hotspots</h3><p>Installation et configuration de votre Wifi Zone : couverture, portail d'accès, gestion des utilisateurs et des débits pour commerces, bureaux et espaces publics.</p></article>
-        <article class="card"><span class="num">02</span><h3>Vidéosurveillance</h3><p>Installation de caméras IP et Wi-Fi, enregistreur, alimentation PoE et consultation à distance depuis votre téléphone.</p></article>
-        <article class="card"><span class="num">03</span><h3>Réseaux et administration</h3><p>Câblage RJ45, switchs, routeurs MikroTik et TP-Link, segmentation du réseau, supervision et maintenance.</p></article>
-        <article class="card"><span class="num">04</span><h3>Serveurs et programmation</h3><p>Installation et configuration de serveurs Linux, sauvegardes, scripts d'automatisation et outils d'administration sur mesure.</p></article>
-        <article class="card"><span class="num">05</span><h3>VPN et accès distant</h3><p>Mise en place de VPN pour relier vos sites ou permettre le travail à distance de façon sécurisée.</p></article>
-        <article class="card"><span class="num">06</span><h3>Cybersécurité</h3><p>Audit de sécurité, durcissement des systèmes et des réseaux, tests d'intrusion éthiques réalisés uniquement avec l'autorisation du propriétaire.</p></article>
-        <article class="card"><span class="num">07</span><h3>Récupération de fichiers</h3><p>Récupération de données sur disques, clés USB et cartes mémoire, selon l'état du support.</p></article>
-        <article class="card"><span class="num">08</span><h3>Assistance et maintenance</h3><p>Dépannage, installation de systèmes et de logiciels, conseils et accompagnement technique.</p></article>
+        <article class="card"><span class="num">01</span><h3>Installation de réseaux professionnels</h3><p>Conception, câblage, configuration des routeurs, switches et réseaux LAN/WAN.</p></article>
+        <article class="card"><span class="num">02</span><h3>Déploiement et distribution Internet</h3><p>Wifi Zone, Wi-Fi professionnel, antennes longue portée, ponts radio et partage de connexion.</p></article>
+        <article class="card"><span class="num">03</span><h3>Sécurité et protection réseau</h3><p>Pare-feu, VPN, contrôle d'accès, sécurisation Wi-Fi et audit de sécurité.</p></article>
+        <article class="card"><span class="num">04</span><h3>Maintenance et dépannage</h3><p>Diagnostic, réparation, surveillance et optimisation des infrastructures réseau.</p></article>
+        <article class="card"><span class="num">05</span><h3>Administration des serveurs</h3><p>Linux, Windows Server, DNS, DHCP, sauvegardes et services réseau.</p></article>
+        <article class="card"><span class="num">06</span><h3>Vidéosurveillance et réseaux de sécurité</h3><p>Installation de caméras IP, NVR et accès vidéo à distance.</p></article>
+        <article class="card"><span class="num">07</span><h3>Audit, conseil et formation</h3><p>Étude technique, choix des équipements, documentation et accompagnement des clients.</p></article>
       </div>
     </div>
   </section>
@@ -276,6 +285,20 @@
   </section>
   <!-- AVIS:END -->
 
+  <!-- PARTNERCARDS:START -->
+  <section id="nos-partenaires">
+    <div class="container">
+      <div class="tag">NOS PARTENAIRES</div>
+      <h2>Partenaires et annonceurs</h2>
+      <p class="section-intro">GTSI met en avant des entreprises, des écoles et des structures locales.</p>
+      <div class="partner-cards">
+        <article class="partner-card"><div class="pc-head"><img src="assets/images/partenaires/creche-sainte-delphine.jpg" alt="Logo Crèche Sainte Delphine" loading="lazy" onerror="this.remove()"><div><h3>Crèche Sainte Delphine</h3><p>Crèche · Garderie · Pré-maternelle</p></div></div><a class="pc-flyer" href="assets/images/partenaires/creche-sainte-delphine-affiche.jpg" target="_blank" rel="noopener noreferrer"><img src="assets/images/partenaires/creche-sainte-delphine-affiche.jpg" alt="Affiche de la Crèche Sainte Delphine" loading="lazy" onerror="this.parentNode.remove()"></a><ul class="pc-info"><li><strong>Localisation</strong>Adidogomé (Lomé, Togo)</li><li><strong>Adresse</strong>Non loin des frères Franciscains, en face du camp de prière Béthel</li><li><strong>Téléphone</strong><a href="tel:+22890264002">+228 90 26 40 02</a></li><li><strong>Tranche d'âge</strong>De 3 mois à 3 ans</li><li><strong>Horaires</strong>Tous les jours, 7j/7 · 24h/24</li></ul><div class="pc-cols"><div><h4>Services</h4><ul><li>Garde classique</li><li>Garde partielle</li><li>Demi-journée</li><li>Garde de nuit</li><li>Garde week-end</li><li>Garde occasionnelle aux horaires des parents</li></ul></div><div><h4>Activités</h4><ul><li>Comptines</li><li>Lecture des contes</li><li>Jeux éducatifs</li><li>Dessin et peintures</li><li>Travaux manuels</li><li>Jeux de construction</li></ul></div></div><div class="pc-actions"><a class="btn" href="tel:+22890264002">Appeler</a><a class="btn secondary" href="https://www.google.com/maps/search/?api=1&amp;query=Cr%C3%A8che%20Sainte%20Delphine%20Adidogom%C3%A9%20%28Lom%C3%A9%2C%20Togo%29" target="_blank" rel="noopener noreferrer">Voir sur la carte</a></div></article>
+        <article class="partner-card promo"><h3>Votre entreprise ou votre école ici</h3><p>Présentez votre activité, votre adresse et votre téléphone à tous les visiteurs du site GTSI.</p><div class="pc-actions"><a class="btn" href="https://wa.me/22879828669?text=Bonjour%20GTSI%2C%20je%20souhaite%20faire%20ma%20publicit%C3%A9%20sur%20votre%20site." target="_blank" rel="noopener noreferrer">Nous contacter</a></div></article>
+      </div>
+    </div>
+  </section>
+  <!-- PARTNERCARDS:END -->
+
   <section class="contact" id="contact">
     <div class="container">
       <div class="tag">CONTACT</div>
@@ -313,6 +336,7 @@
   </div>
 </footer>
 
+<script>document.querySelectorAll("header ul a").forEach(function(a){a.addEventListener("click",function(){document.getElementById("menu-toggle").checked=false;});});</script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
