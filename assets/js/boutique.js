@@ -103,6 +103,20 @@
   function find(n) { return items.filter(function (p) { return p.nom === n; })[0]; }
   function openD(d) { if (d.showModal) d.showModal(); else d.setAttribute("open", ""); }
   function closeD(d) { if (d.close) d.close(); else d.removeAttribute("open"); }
+  var COMPAT = [
+    [/PoE|injecteur|splitter|caméras? (IP|PoE)|points? d'accès/i, "PoE : vérifiez la norme (802.3af, 802.3at ou 802.3bt), la puissance disponible par port et la tension attendue. Un switch ou un injecteur PoE n'alimente pas tous les équipements."],
+    [/fibre|SFP|QSFP|optique|pigtail|jarretière|OTDR|ODF/i, "Fibre optique : vérifiez le type de fibre (monomode ou multimode), la longueur d'onde, le type de connecteur et la compatibilité du module avec l'équipement."],
+    [/antenne|CPE|point-à-|radio|Wi-Fi|4G|5G/i, "Radio : vérifiez la bande de fréquence (2,4 ou 5 GHz), la réglementation locale, la portée réelle selon les obstacles et la compatibilité entre les deux extrémités de la liaison."],
+    [/onduleur|batterie|solaire|MPPT|groupe|station électrique|régulateur/i, "Énergie : vérifiez la tension et la capacité, la puissance (VA ou W) de ce que vous voulez protéger, l'autonomie souhaitée et la compatibilité entre onduleur et batteries."],
+    [/caméra|NVR|DVR|XVR|BNC|balun|coaxia|vidéosurveillance/i, "Vidéosurveillance : vérifiez la compatibilité entre caméras et enregistreur (IP ou analogique HD), la résolution, le nombre de voies, le stockage et l'alimentation (PoE ou 12 V)."],
+    [/Cat ?5e|Cat ?6|Cat ?7|RJ45|brassage|Ethernet/i, "Câblage : vérifiez la catégorie (débit et distance), le blindage et la compatibilité des connecteurs avec le câble."],
+    [/RFID|biométrique|serrure|ventouse|contrôleur d'accès|reconnaissance faciale|badge/i, "Contrôle d'accès : vérifiez la tension d'alimentation, le type de serrure, le protocole du lecteur et la compatibilité avec le contrôleur."]
+  ];
+  function compatHtml(nom) {
+    return COMPAT.filter(function (c) { return c[0].test(nom); })
+      .map(function (c) { return '<p class="compat">' + esc(c[1]) + '</p>'; })
+      .join("");
+  }
   function detail(n) {
     var p = find(n);
     if (!p) return;
@@ -112,12 +126,12 @@
       '<ul class="dlg-list"><li>Prix : ' + (p.prix ? fmt(p.prix) : "sur demande") + "</li>" +
       "<li>Disponibilité : à confirmer</li>" +
       "<li>Caractéristiques techniques : à renseigner d'après la fiche du fabricant</li>" +
-      "<li>Compatibilités : à confirmer selon votre installation</li></ul>" +
+      "<li>Compatibilités : à confirmer selon votre installation</li></ul>" + compatHtml(p.nom) +
       "<p>Exemple de catalogue. Indiquez la quantité souhaitée, y compris pour de grandes quantités.</p>" +
       '<div class="dlg-actions"><button class="btn" type="button" data-act="add" data-n="' + esc(p.nom) + '">Ajouter au devis</button>' +
       '<a class="btn btn-wa" target="_blank" rel="noopener noreferrer" href="' + WA +
       encodeURIComponent("Bonjour GTSI, je souhaite un devis pour : " + p.nom + ". Merci de m'indiquer le prix et la disponibilité.") +
-      '">WhatsApp</a><button class="btn secondary" type="button" data-act="close">Fermer</button></div>' +
+      '">Commander sur WhatsApp</a><a class="btn secondary" href="#contact" data-act="close">Contacter GTSI</a><button class="btn secondary" type="button" data-act="close">Fermer</button></div>' +
       (rec.length ? '<h4 class="rec-title">Produits associés</h4><div class="rec">' +
         rec.map(function (x) {
           return '<button class="btn secondary btn-sm" type="button" data-act="det" data-n="' + esc(x.nom) + '">' + esc(x.nom) + "</button>";

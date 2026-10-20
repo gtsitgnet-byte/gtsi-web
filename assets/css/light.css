@@ -98,3 +98,59 @@ dialog { background: #fff; color: var(--text); }
 .react { background: #fff; border: 1px solid var(--border); color: var(--navy); }
 .react:hover { border-color: var(--blue); }
 .review { background: #fff; border-left-color: var(--blue); }
+
+/* ===== DESIGN V2 ===== */
+#services, #apropos, #avis, #nos-partenaires {
+  background-color: var(--bg);
+  background-image: radial-gradient(rgba(29,111,232,.13) 1px, transparent 1px);
+  background-size: 24px 24px; }
+#apropos, #nos-partenaires { background-color: #fff; }
+#schemas, #boutique {
+  background-color: var(--bg-2);
+  background-image:
+    linear-gradient(rgba(29,111,232,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(29,111,232,.06) 1px, transparent 1px);
+  background-size: 36px 36px; }
+#methode { background-color: #0b3d91;
+  background-image: linear-gradient(135deg, #0b2a55 0%, #1d6fe8 100%); }
+#methode h2 { color: #fff; }
+#methode .tag { color: #f3c64a; }
+#methode .step h3 { color: var(--navy); }
+section h2::after { background: linear-gradient(90deg, #d9a21b, #1d6fe8); }
+.cards .card:nth-child(3n+2) { border-top-color: #0b8fb0; }
+.cards .card:nth-child(3n) { border-top-color: #d9a21b; }
+
+.hero { background-color: #0b2a55;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20600%20400%22%3E%3Ccircle%20cx%3D%22380%22%20cy%3D%22210%22%20r%3D%2270%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-opacity%3D%22.10%22%20stroke-width%3D%221.5%22/%3E%3Ccircle%20cx%3D%22380%22%20cy%3D%22210%22%20r%3D%22120%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-opacity%3D%22.10%22%20stroke-width%3D%221.5%22/%3E%3Ccircle%20cx%3D%22380%22%20cy%3D%22210%22%20r%3D%22175%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-opacity%3D%22.10%22%20stroke-width%3D%221.5%22/%3E%3Ccircle%20cx%3D%22380%22%20cy%3D%22210%22%20r%3D%22230%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-opacity%3D%22.10%22%20stroke-width%3D%221.5%22/%3E%3Cline%20x1%3D%2290%22%20y1%3D%2290%22%20x2%3D%22190%22%20y2%3D%2255%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%221.6%22/%3E%3Cline%20x1%3D%2290%22%20y1%3D%2290%22%20x2%3D%22120%22%20y2%3D%22205%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%221.6%22/%3E%3Cline%20x1%3D%22190%22%20y1%3D%2255%22%20x2%3D%22245%22%20y2%3D%22150%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%221.6%22/%3E%3Cline%20x1%3D%22120%22%20y1%3D%22205%22%20x2%3D%22245%22%20y2%3D%22150%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%221.6%22/%3E%3Cline%20x1%3D%22120%22%20y1%3D%22205%22%20x2%3D%2295%22%20y2%3D%22325%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%221.6%22/%3E%3Cline%20x1%3D%22245%22%20y1%3D%22150%22%20x2%3D%22235%22%20y2%3D%22335%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%221.6%22/%3E%3Cline%20x1%3D%2295%22%20y1%3D%22325%22%20x2%3D%22235%22%20y2%3D%22335%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%221.6%22/%3E%3Cline%20x1%3D%22190%22%20y1%3D%2255%22%20x2%3D%22335%22%20y2%3D%2235%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%221.6%22/%3E%3Cline%20x1%3D%22335%22%20y1%3D%2235%22%20x2%3D%22505%22%20y2%3D%2270%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%221.6%22/%3E%3Cline%20x1%3D%22505%22%20y1%3D%2270%22%20x2%3D%22545%22%20y2%3D%22175%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%221.6%22/%3E%3Cline%20x1%3D%22545%22%20y1%3D%22175%22%20x2%3D%22510%22%20y2%3D%22305%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%221.6%22/%3E%3Cline%20x1%3D%22510%22%20y1%3D%22305%22%20x2%3D%22420%22%20y2%3D%22355%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%221.6%22/%3E%3Cline%20x1%3D%22420%22%20y1%3D%22355%22%20x2%3D%22235%22%20y2%3D%22335%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%221.6%22/%3E%3Cline%20x1%3D%22245%22%20y1%3D%22150%22%20x2%3D%22380%22%20y2%3D%22210%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.3%22%20stroke-width%3D%221.6%22%20stroke-dasharray%3D%225%206%22/%3E%3Cline%20x1%3D%22545%22%20y1%3D%22175%22%20x2%3D%22380%22%20y2%3D%22210%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.3%22%20stroke-width%3D%221.6%22%20stroke-dasharray%3D%225%206%22/%3E%3Cline%20x1%3D%22235%22%20y1%3D%22335%22%20x2%3D%22380%22%20y2%3D%22210%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.3%22%20stroke-width%3D%221.6%22%20stroke-dasharray%3D%225%206%22/%3E%3Cline%20x1%3D%22420%22%20y1%3D%22355%22%20x2%3D%22380%22%20y2%3D%22210%22%20stroke%3D%22%237fe3f5%22%20stroke-opacity%3D%22.3%22%20stroke-width%3D%221.6%22%20stroke-dasharray%3D%225%206%22/%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%2290%22%20r%3D%2214%22%20fill%3D%22%237fe3f5%22%20fill-opacity%3D%22.14%22/%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%2290%22%20r%3D%226.5%22%20fill%3D%22%230b2a55%22%20stroke%3D%22%237fe3f5%22%20stroke-width%3D%222.5%22/%3E%3Ccircle%20cx%3D%22190%22%20cy%3D%2255%22%20r%3D%2214%22%20fill%3D%22%237fe3f5%22%20fill-opacity%3D%22.14%22/%3E%3Ccircle%20cx%3D%22190%22%20cy%3D%2255%22%20r%3D%226.5%22%20fill%3D%22%230b2a55%22%20stroke%3D%22%237fe3f5%22%20stroke-width%3D%222.5%22/%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%22205%22%20r%3D%2214%22%20fill%3D%22%237fe3f5%22%20fill-opacity%3D%22.14%22/%3E%3Ccircle%20cx%3D%22120%22%20cy%3D%22205%22%20r%3D%226.5%22%20fill%3D%22%230b2a55%22%20stroke%3D%22%237fe3f5%22%20stroke-width%3D%222.5%22/%3E%3Ccircle%20cx%3D%22245%22%20cy%3D%22150%22%20r%3D%2214%22%20fill%3D%22%237fe3f5%22%20fill-opacity%3D%22.14%22/%3E%3Ccircle%20cx%3D%22245%22%20cy%3D%22150%22%20r%3D%226.5%22%20fill%3D%22%230b2a55%22%20stroke%3D%22%237fe3f5%22%20stroke-width%3D%222.5%22/%3E%3Ccircle%20cx%3D%2295%22%20cy%3D%22325%22%20r%3D%2214%22%20fill%3D%22%237fe3f5%22%20fill-opacity%3D%22.14%22/%3E%3Ccircle%20cx%3D%2295%22%20cy%3D%22325%22%20r%3D%226.5%22%20fill%3D%22%230b2a55%22%20stroke%3D%22%237fe3f5%22%20stroke-width%3D%222.5%22/%3E%3Ccircle%20cx%3D%22235%22%20cy%3D%22335%22%20r%3D%2214%22%20fill%3D%22%237fe3f5%22%20fill-opacity%3D%22.14%22/%3E%3Ccircle%20cx%3D%22235%22%20cy%3D%22335%22%20r%3D%226.5%22%20fill%3D%22%230b2a55%22%20stroke%3D%22%237fe3f5%22%20stroke-width%3D%222.5%22/%3E%3Ccircle%20cx%3D%22505%22%20cy%3D%2270%22%20r%3D%2214%22%20fill%3D%22%237fe3f5%22%20fill-opacity%3D%22.14%22/%3E%3Ccircle%20cx%3D%22505%22%20cy%3D%2270%22%20r%3D%226.5%22%20fill%3D%22%230b2a55%22%20stroke%3D%22%237fe3f5%22%20stroke-width%3D%222.5%22/%3E%3Ccircle%20cx%3D%22545%22%20cy%3D%22175%22%20r%3D%2214%22%20fill%3D%22%237fe3f5%22%20fill-opacity%3D%22.14%22/%3E%3Ccircle%20cx%3D%22545%22%20cy%3D%22175%22%20r%3D%226.5%22%20fill%3D%22%230b2a55%22%20stroke%3D%22%237fe3f5%22%20stroke-width%3D%222.5%22/%3E%3Ccircle%20cx%3D%22510%22%20cy%3D%22305%22%20r%3D%2214%22%20fill%3D%22%237fe3f5%22%20fill-opacity%3D%22.14%22/%3E%3Ccircle%20cx%3D%22510%22%20cy%3D%22305%22%20r%3D%226.5%22%20fill%3D%22%230b2a55%22%20stroke%3D%22%237fe3f5%22%20stroke-width%3D%222.5%22/%3E%3Ccircle%20cx%3D%22420%22%20cy%3D%22355%22%20r%3D%2214%22%20fill%3D%22%237fe3f5%22%20fill-opacity%3D%22.14%22/%3E%3Ccircle%20cx%3D%22420%22%20cy%3D%22355%22%20r%3D%226.5%22%20fill%3D%22%230b2a55%22%20stroke%3D%22%237fe3f5%22%20stroke-width%3D%222.5%22/%3E%3Ccircle%20cx%3D%22335%22%20cy%3D%2235%22%20r%3D%2214%22%20fill%3D%22%237fe3f5%22%20fill-opacity%3D%22.14%22/%3E%3Ccircle%20cx%3D%22335%22%20cy%3D%2235%22%20r%3D%226.5%22%20fill%3D%22%230b2a55%22%20stroke%3D%22%237fe3f5%22%20stroke-width%3D%222.5%22/%3E%3Cpath%20d%3D%22M380%20118%20L442%20142%20V212%20C442%20256%20412%20286%20380%20302%20C348%20286%20318%20256%20318%20212%20V142%20Z%22%20fill%3D%22%230f3470%22%20stroke%3D%22%23fff%22%20stroke-opacity%3D%22.85%22%20stroke-width%3D%223%22/%3E%3Crect%20x%3D%22362%22%20y%3D%22202%22%20width%3D%2236%22%20height%3D%2228%22%20rx%3D%225%22%20fill%3D%22%23fff%22/%3E%3Cpath%20d%3D%22M369%20202%20v-9%20a11%2011%200%200%201%2022%200%20v9%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%225%22/%3E%3Ccircle%20cx%3D%22380%22%20cy%3D%22215%22%20r%3D%224%22%20fill%3D%22%230f3470%22/%3E%3C/svg%3E"),
+    linear-gradient(135deg, #0b2a55 0%, #123f86 55%, #1d6fe8 130%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 3% center, 0 0;
+  background-size: min(560px, 62%) auto, cover; }
+.hero::after { opacity: .25; }
+.hero h1 { color: #fff; }
+.hero h1 span { color: #7fe3f5; }
+.hero p { color: #d3e3f7; }
+.hero .tag { color: #f3c64a; }
+.hero .container::before { color: rgba(255,255,255,.05); }
+.chips li { background: rgba(255,255,255,.1);
+  border-color: rgba(255,255,255,.28); color: #fff; }
+.hero .btn { background: #fff; color: #0b2a55; }
+.hero .btn:hover { background: #e6f0ff; }
+.hero .btn.secondary { background: transparent;
+  border: 1.5px solid rgba(255,255,255,.65); color: #fff; }
+.hero .btn.secondary:hover { background: rgba(255,255,255,.12); }
+
+.contact { background-color: #0b2a55;
+  background-image: linear-gradient(135deg, #0b2a55 0%, #1d6fe8 130%); }
+.contact h2 { color: #fff; }
+.contact .tag { color: #f3c64a; }
+.contact .section-intro { color: #d3e3f7; }
+
+@media (max-width: 700px) {
+  .hero { background-position: right -170px top 24px, 0 0;
+    background-size: 440px auto, cover; }
+}
+
+/* ===== COMPAT ===== */
+.compat { margin: 12px 0; padding: 12px 14px; border-left: 3px solid #d9a21b;
+  background: #fff8e6; border-radius: 8px; color: #5b4500; font-size: .9rem; }
