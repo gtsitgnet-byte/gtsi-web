@@ -1,2 +1,12 @@
 *.backup_*
 nohup.out
+
+# Fichiers temporaires Python
+__pycache__/
+*.py[cod]
+
+# Sauvegardes locales du projet
+backups/
+
+# Fichier accidentel contenant l'aide de less
+/trer."
