@@ -22,7 +22,7 @@
       BRANDS.forEach(function (b) { if (nom.indexOf(b) > -1) marque = b; });
       TAGS.forEach(function (t) { if (t[1].test(nom)) tags.push(t[0]); });
       items.push({ cat: cat, nom: nom, marque: marque, tags: tags,
-                   prix: PRIX[nom] || null, vedette: i < 3 });
+                   prix: PRIX[nom] || null, vedette: /(?:Lenovo|ThinkPad|IdeaPad|ThinkCentre|TP-Link|Ubiquiti|MikroTik|Cudy|Hewlett-Packard|HP\b|Dell|ASUS|Acer|Cisco|D-Link|Netgear|UniFi|Archer|RB5009|CPE510|TL-SG|U6 Plus)/i.test(nom) });
     });
   });
   function norm(s) {
