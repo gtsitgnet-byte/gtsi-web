@@ -154,3 +154,10 @@ section h2::after { background: linear-gradient(90deg, #d9a21b, #1d6fe8); }
 /* ===== COMPAT ===== */
 .compat { margin: 12px 0; padding: 12px 14px; border-left: 3px solid #d9a21b;
   background: #fff8e6; border-radius: 8px; color: #5b4500; font-size: .9rem; }
+
+/* ===== ICONES PRODUITS ===== */
+.product-img .pi { position: absolute; inset: 0; display: grid;
+  place-items: center; color: var(--blue); opacity: .5; }
+.pi svg { width: 76px; height: 76px; fill: none; stroke: currentColor;
+  stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.product-img:empty::after { content: none; }

@@ -136,13 +136,7 @@
           <option value="vedette">Mis en avant</option>
           <option value="az">Nom A → Z</option>
           <option value="za">Nom Z → A</option>
-          <option value="pa">Prix croissant</option>
-          <option value="pd">Prix décroissant</option>
         </select>
-        <div id="b-prixwrap" hidden>
-          <input id="b-min" type="number" min="0" placeholder="Prix min (FCFA)">
-          <input id="b-max" type="number" min="0" placeholder="Prix max (FCFA)">
-        </div>
       </div>
       <p id="b-count" class="shop-count"></p>
       <div class="products" id="b-grid"></div>
@@ -151,8 +145,7 @@
                 type="button" hidden>Voir plus d'articles</button>
       </div>
       <p class="shop-note">
-        Articles présentés à titre d'exemple de catalogue. Prix, références,
-        caractéristiques et disponibilité sont confirmés sur demande.
+        Références, caractéristiques et disponibilité à confirmer sur demande.
       </p>
     </div>
   </section>
@@ -162,11 +155,21 @@
   <dialog id="b-cart">
     <h3>Ma demande de devis</h3>
     <ul id="b-cart-list" class="cart-list"></ul>
+    <label for="b-who">Nom du client ou de l’entreprise *</label>
     <input id="b-who" type="text"
-           placeholder="Votre nom ou entreprise (facultatif)">
+           placeholder="Votre nom complet ou le nom de votre entreprise"
+           autocomplete="name" required>
+
+    <label for="b-address">Adresse complète *</label>
+    <textarea id="b-address" rows="3"
+              placeholder="Quartier, rue, ville, pays"
+              autocomplete="street-address" required></textarea>
     <div class="dlg-actions">
       <a id="b-send" class="btn btn-wa" href="#" target="_blank"
          rel="noopener noreferrer">Envoyer sur WhatsApp</a>
+      <a id="b-email" class="btn secondary" href="#">Envoyer par e-mail</a>
+      <a class="btn secondary" href="tel:+22870469304">Appeler GTSI : 70 46 93 04</a>
+      <a class="btn secondary" href="tel:+22879828669">Appeler GTSI : 79 82 86 69</a>
       <button class="btn secondary" data-act="clear" type="button">Vider</button>
       <button class="btn secondary" data-act="close" type="button">Fermer</button>
     </div>
