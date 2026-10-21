@@ -76,7 +76,68 @@
     ICONS.forEach(function (i) { if (i[0].test(cat)) d = i[1]; });
     return '<span class="pi" aria-hidden="true"><svg viewBox="0 0 48 48">' + d + '</svg></span>';
   }
+
+  function imageFor(name) {
+    if (!name || !IMAGE_MAP) return "";
+
+    function norm(s) {
+      return String(s || "")
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/&nbsp;/g, " ")
+        .replace(/[^a-z0-9]+/g, " ")
+        .trim().replace(/\s+/g, " ");
+    }
+
+    var cible = norm(name);
+    if (!cible) return "";
+
+    var cles = Object.keys(IMAGE_MAP).filter(function (k) {
+      return typeof IMAGE_MAP[k] === "string" && IMAGE_MAP[k].trim();
+    });
+
+    // 1. Nom exact, après normalisation.
+    for (var i = 0; i < cles.length; i++) {
+      if (norm(cles[i]) === cible) return IMAGE_MAP[cles[i]];
+    }
+
+    // 2. Référence de modèle commune et distinctive (ex. PC16250, X515FA).
+    function modelCodes(s) {
+      var matches = String(s || "").toUpperCase().match(
+        /\b[A-Z0-9]*(?:[A-Z][A-Z0-9]*[0-9]|[0-9][A-Z0-9]*[A-Z])[A-Z0-9]*(?:-[A-Z0-9]+)*\b/g
+      ) || [];
+      return matches.filter(function (v) {
+        return v.length >= 5 && /[A-Z]/.test(v) && /\d/.test(v);
+      });
+    }
+
+    var codes = modelCodes(name);
+    var codeMatches = [];
+    if (codes.length) {
+      cles.forEach(function (k) {
+        var kc = modelCodes(k);
+        var shared = codes.some(function (c) {
+          return kc.indexOf(c) !== -1;
+        });
+        if (shared) codeMatches.push(k);
+      });
+    }
+    if (codeMatches.length === 1) return IMAGE_MAP[codeMatches[0]];
+
+    // 3. Préfixe complet uniquement si une seule clé correspond.
+    var prefixMatches = cles.filter(function (k) {
+      var kn = norm(k);
+      return cible.length >= 24 && kn.length >= 24 &&
+        (kn.indexOf(cible) === 0 || cible.indexOf(kn) === 0);
+    });
+    if (prefixMatches.length === 1) return IMAGE_MAP[prefixMatches[0]];
+
+    // En cas de doute, ne pas afficher une photo potentiellement incorrecte.
+    return "";
+  }
   function cardModelName(name) {
+    // Retirer le nom du fournisseur des titres affichés sur les cartes.
+    name = name.replace(/\s*[-–—|]\s*(?:(?:20\d{2})\s*[-–—|]\s*)?(?:TOGO INFORMATIQUE|PRO-TECH TOGO|UNIVERS HD|TIC INFO)\s*$/i, "").trim();
     var patterns = [
       /^(Lenovo ThinkPad E16 Gen 3)/i,
       /^(HP Omnibook X Flip 14-KB0023dx)/i,
@@ -106,11 +167,11 @@
   function card(p) {
     var n = esc(p.nom);
     var titreCarte = esc(cardModelName(p.nom));
-    var image = IMAGE_MAP[p.nom] || "";
+    var image = imageFor(p.nom);
     return '<article class="product"><div class="product-img">' + icon(p.cat) +
       (image ? '<img src="' + esc(image) + '" alt="' + n + '" loading="lazy" onerror="this.remove()">' : '') + '</div>' +
       '<div class="product-body"><h3>' + titreCarte + "</h3>" +
-      (p.marque ? '<span class="badge">' + esc(p.marque) + "</span>" : "") +
+      '<span class="badge">GTSI-2026</span>' +
       '<div class="pbtns"><button class="btn secondary btn-sm" type="button" data-act="det" data-n="' + n + '">Détails</button>' +
       '<button class="btn btn-sm" type="button" data-act="add" data-n="' + n + '">Ajouter au devis</button></div></div></article>';
   }
