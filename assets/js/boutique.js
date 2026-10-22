@@ -4,6 +4,7 @@
   if (!$("b-grid")) return;
   var WA = "https://wa.me/22879828669?text=";
   var DATA = window.GTSI_DATA || {}, PRIX = window.GTSI_PRIX || {};
+  var DETAILS = window.GTSI_DETAILS || {};
   var IMAGE_MAP = {};
   var BRANDS = ["MikroTik", "Cudy", "TP-Link", "Ubiquiti"];
   var TAGS = [
@@ -21,7 +22,7 @@
       var marque = "", tags = [];
       BRANDS.forEach(function (b) { if (nom.indexOf(b) > -1) marque = b; });
       TAGS.forEach(function (t) { if (t[1].test(nom)) tags.push(t[0]); });
-      items.push({ cat: cat, nom: nom, marque: marque, tags: tags,
+      items.push({ cat: cat, nom: nom, marque: marque, tags: tags, description: (DETAILS[nom] && DETAILS[nom].description) || "",
                    prix: PRIX[nom] || null, vedette: /(?:Lenovo|ThinkPad|IdeaPad|ThinkCentre|TP-Link|Ubiquiti|MikroTik|Cudy|Hewlett-Packard|HP\b|Dell|ASUS|Acer|Cisco|D-Link|Netgear|UniFi|Archer|RB5009|CPE510|TL-SG|U6 Plus)/i.test(nom) });
     });
   });

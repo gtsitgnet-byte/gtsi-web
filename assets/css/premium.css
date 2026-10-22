@@ -1,0 +1,543 @@
+/* GTSI PREMIUM CLAIR — couche visuelle indépendante */
+:root {
+  --bg: #f4f8ff;
+  --bg-2: #eaf2fc;
+  --card: #ffffff;
+  --text: #14243b;
+  --muted: #586b84;
+  --navy: #10294d;
+  --blue: #1769d2;
+  --cyan: #00a9d6;
+  --border: #dce7f4;
+  --premium-shadow: 0 18px 48px rgba(23, 57, 100, .09);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
+body {
+  background:
+    radial-gradient(ellipse at 8% 8%, rgba(62, 151, 255, .08), transparent 34rem),
+    linear-gradient(180deg, #ffffff 0%, #f4f8ff 48%, #ffffff 100%);
+  color: var(--text);
+}
+
+header {
+  background: rgba(255, 255, 255, .94) !important;
+  border-bottom: 1px solid rgba(190, 211, 237, .8);
+  box-shadow: 0 5px 26px rgba(20, 48, 82, .06);
+  backdrop-filter: blur(18px);
+}
+
+header ul a {
+  color: #1b3557;
+  font-weight: 650;
+}
+
+header ul a:hover {
+  color: var(--blue) !important;
+}
+
+header .nav-cta {
+  border-radius: 999px;
+  box-shadow: 0 7px 18px rgba(23, 105, 210, .2);
+}
+
+section {
+  position: relative;
+}
+
+section:not(.hero):not(.partners) {
+  scroll-margin-top: 82px;
+}
+
+section h2 {
+  color: #10294d;
+  letter-spacing: -.035em;
+}
+
+section h2::after {
+  background: linear-gradient(90deg, #00a9d6, #1769d2) !important;
+  border-radius: 99px;
+}
+
+.tag {
+  color: #087eaf;
+  letter-spacing: .15em;
+  font-weight: 800;
+}
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  color: #132b4b !important;
+  background:
+    radial-gradient(ellipse at 82% 38%, rgba(63, 173, 255, .2), transparent 24rem),
+    radial-gradient(ellipse at 72% 85%, rgba(0, 169, 214, .12), transparent 27rem),
+    linear-gradient(118deg, #ffffff 0%, #f4f9ff 48%, #e5f2ff 100%) !important;
+  border-bottom: 1px solid #dbe9f8;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: min(58vw, 680px);
+  aspect-ratio: 1;
+  right: 2%;
+  top: 48%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  border: 1px solid rgba(23, 105, 210, .22);
+  background:
+    radial-gradient(circle at 34% 30%, rgba(255,255,255,.95) 0 2%, transparent 3%),
+    radial-gradient(circle at 50% 50%, transparent 0 36%, rgba(0,169,214,.12) 37% 38%, transparent 39% 47%, rgba(23,105,210,.14) 48% 49%, transparent 50%),
+    repeating-radial-gradient(circle at 50% 50%, transparent 0 39px, rgba(23,105,210,.08) 40px 41px, transparent 42px 72px),
+    radial-gradient(circle at 50% 50%, rgba(74,164,255,.2), rgba(255,255,255,.06) 65%, transparent 70%);
+  box-shadow: inset 0 0 65px rgba(37, 133, 230, .08), 0 0 90px rgba(35, 133, 230, .08);
+  pointer-events: none;
+}
+
+.hero::after {
+  background-image: linear-gradient(rgba(23,105,210,.045) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(23,105,210,.045) 1px, transparent 1px);
+  background-size: 36px 36px;
+  opacity: .45;
+  pointer-events: none;
+}
+
+.hero > .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1,
+.hero h2,
+.hero p {
+  color: #10294d !important;
+}
+
+.hero h1 {
+  letter-spacing: -.045em;
+  text-wrap: balance;
+}
+
+.hero h1 span {
+  color: #087fc4 !important;
+}
+
+.hero .tag {
+  color: #087eaf !important;
+}
+
+.hero .btn {
+  background: linear-gradient(115deg, #1769d2, #00a9d6) !important;
+  color: #fff !important;
+  border: 0;
+  border-radius: 999px;
+  box-shadow: 0 10px 25px rgba(23, 105, 210, .2);
+}
+
+.hero .btn.secondary {
+  color: #164b83 !important;
+  background: rgba(255,255,255,.85) !important;
+  border: 1px solid #b9d5f4 !important;
+  box-shadow: none;
+}
+
+.card,
+.step,
+.review,
+.product-card,
+.ad {
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(20, 48, 82, .045);
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+
+.card:hover,
+.step:hover,
+.product-card:hover {
+  transform: translateY(-4px);
+  border-color: #b5d5f7;
+  box-shadow: var(--premium-shadow);
+}
+
+#services,
+#apropos,
+#nos-partenaires,
+#avis {
+  background-color: #ffffff;
+}
+
+#schemas,
+#boutique,
+#methode {
+  background-color: #f0f6ff;
+}
+
+#boutique .product-body .price {
+  color: #087fc4;
+}
+
+.chips li {
+  background: #fff;
+  border-color: #d5e4f6;
+  color: #244566;
+}
+
+.contact {
+  background:
+    radial-gradient(ellipse at 85% 20%, rgba(0,169,214,.12), transparent 28rem),
+    linear-gradient(135deg, #edf5ff, #ffffff) !important;
+  color: var(--text) !important;
+}
+
+.contact h2,
+.contact h3,
+.contact p {
+  color: var(--text);
+}
+
+footer {
+  background: #10294d !important;
+  color: #e4efff;
+}
+
+footer a {
+  color: #b9e9ff;
+}
+
+button,
+.btn,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid #00a9d6;
+  outline-offset: 3px;
+}
+
+@media (max-width: 860px) {
+  .hero::before {
+    width: min(88vw, 480px);
+    right: -30%;
+    top: 40%;
+    opacity: .6;
+  }
+
+  .hero {
+    background:
+      radial-gradient(ellipse at 90% 25%, rgba(63,173,255,.16), transparent 20rem),
+      linear-gradient(160deg, #ffffff, #eef6ff) !important;
+  }
+
+  .card:hover,
+  .step:hover,
+  .product-card:hover {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
+  }
+}
+
+/* GTSI — fond perlé, filigrane conservé, sans quadrillage */
+body::after {
+  display: block !important;
+  content: "" !important;
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+  opacity: .035;
+  background: url("../images/gtsi-logo.webp") no-repeat center /
+    min(80vw, 540px) auto !important;
+}
+
+.hero::after {
+  display: none !important;
+  background-image: none !important;
+}
+
+#schemas,
+#boutique,
+#methode {
+  background: #f5f8fc !important;
+  background-image: none !important;
+}
+
+#schemas .container,
+#boutique .container,
+#methode .container {
+  background-image: none !important;
+}
+
+
+/* GTSI — finition typographique et contours premium */
+:root {
+  --text: #172b46;
+  --muted: #5b6b80;
+  --navy: #10294d;
+  --blue: #1769d2;
+  --cyan: #00a9d6;
+  --border: #dce6f2;
+  --card: #ffffff;
+  --premium-shadow: 0 10px 28px rgba(16, 41, 77, .065);
+}
+
+body {
+  font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+  color: #172b46;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4,
+.card h3, .product-body h3 {
+  color: #10294d !important;
+  letter-spacing: -.025em;
+  line-height: 1.25;
+}
+
+p, .section-intro, .card p, .product-body p {
+  color: #5b6b80;
+}
+
+section h2::after {
+  background: linear-gradient(90deg, #1769d2, #00a9d6) !important;
+  height: 3px;
+  border-radius: 99px;
+}
+
+.card, .step, .review, .product,
+.product-card, .shop-card, .contact-option {
+  background-color: #ffffff;
+  border: 1px solid #dce6f2 !important;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(16, 41, 77, .055);
+}
+
+.card, .step, .product, .product-card {
+  border-top-width: 1px !important;
+}
+
+.card:hover, .step:hover, .product:hover,
+.product-card:hover {
+  border-color: #b7d1f2 !important;
+  box-shadow: 0 14px 32px rgba(23, 105, 210, .10);
+}
+
+.product-body .price,
+.product-body .price *,
+.price {
+  color: #1769d2;
+  font-weight: 800;
+}
+
+button, .btn, a.btn {
+  font-weight: 700;
+  letter-spacing: .005em;
+}
+
+.btn:not(.secondary):not(.btn-wa) {
+  background: linear-gradient(115deg, #1769d2, #087fc4);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 5px 14px rgba(23, 105, 210, .14);
+}
+
+.btn.secondary {
+  background: #ffffff;
+  color: #1769d2;
+  border: 1px solid #cbdcf0;
+}
+
+input, select, textarea {
+  border-color: #d3dfed;
+  border-radius: 10px;
+  color: #172b46;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #1769d2;
+  outline: 3px solid rgba(23, 105, 210, .10);
+}
+
+.chips li {
+  color: #425873;
+  background: #f7faff;
+  border-color: #dce6f2;
+}
+
+@media (max-width: 700px) {
+  body { line-height: 1.6; }
+  .card, .step, .product, .product-card { border-radius: 13px; }
+}
+
+
+/* GTSI — titres grand format */
+h1 {
+  font-size: clamp(2.7rem, 5.5vw, 4.6rem) !important;
+  line-height: 1.08 !important;
+  font-weight: 850 !important;
+  letter-spacing: -0.045em !important;
+}
+
+h2 {
+  font-size: clamp(2.1rem, 4vw, 3.2rem) !important;
+  line-height: 1.15 !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.035em !important;
+}
+
+h3 {
+  font-size: clamp(1.35rem, 2.4vw, 1.8rem) !important;
+  line-height: 1.25 !important;
+  font-weight: 750 !important;
+}
+
+h4 {
+  font-size: clamp(1.1rem, 1.8vw, 1.35rem) !important;
+  font-weight: 700 !important;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: clamp(2.25rem, 9vw, 3.2rem) !important;
+  }
+
+  h2 {
+    font-size: clamp(1.8rem, 7vw, 2.4rem) !important;
+  }
+
+  h3 {
+    font-size: 1.3rem !important;
+  }
+}
+
+
+/* GTSI — titres en majuscules */
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase !important;
+}
+
+
+/* GTSI — respiration et espacement du contenu */
+
+/* Espacement général des textes */
+body {
+  line-height: 1.8 !important;
+  letter-spacing: 0.005em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 16px !important;
+  line-height: 1.85 !important;
+}
+
+/* Titres : grands, mais avec davantage d'air */
+h1 {
+  line-height: 1.2 !important;
+  margin-top: 0 !important;
+  margin-bottom: 22px !important;
+  letter-spacing: -0.025em !important;
+}
+
+h2 {
+  line-height: 1.3 !important;
+  margin-top: 0 !important;
+  margin-bottom: 22px !important;
+  letter-spacing: -0.02em !important;
+}
+
+h3 {
+  line-height: 1.4 !important;
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+  letter-spacing: 0 !important;
+}
+
+h4 {
+  line-height: 1.4 !important;
+  margin-bottom: 8px !important;
+}
+
+/* Sections et blocs de contenu */
+section {
+  padding-top: clamp(48px, 7vw, 84px);
+  padding-bottom: clamp(48px, 7vw, 84px);
+}
+
+.section-intro {
+  margin-bottom: 28px !important;
+  line-height: 1.85 !important;
+}
+
+/* Listes de solutions : séparer chaque élément */
+#accueil li,
+#schemas li,
+#boutique li {
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+/* Cartes : plus d'espace intérieur */
+.card,
+.step,
+.product,
+.product-card {
+  padding: 22px !important;
+}
+
+.card p,
+.step p,
+.product-body p {
+  margin-top: 8px !important;
+  margin-bottom: 12px !important;
+  line-height: 1.8 !important;
+}
+
+/* Sur téléphone : lecture plus confortable */
+@media (max-width: 700px) {
+  section {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+
+  h1 {
+    line-height: 1.2 !important;
+    margin-bottom: 18px !important;
+  }
+
+  h2 {
+    line-height: 1.3 !important;
+    margin-bottom: 18px !important;
+  }
+
+  p {
+    line-height: 1.85 !important;
+    margin-bottom: 14px !important;
+  }
+
+  .card,
+  .step,
+  .product,
+  .product-card {
+    padding: 18px !important;
+  }
+}
