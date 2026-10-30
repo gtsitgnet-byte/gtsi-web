@@ -1,0 +1,9 @@
+antennes et liaisons sans fil
+routeurs et passerelles
+switches et commutateurs
+points d'accès Wi-Fi
+ponts Wi-Fi et CPE extérieurs
+équipements fibre et modules SFP
+PoE et alimentations réseau
+câbles, connecteurs et accessoires réseau
+baies, racks et panneaux de brassage

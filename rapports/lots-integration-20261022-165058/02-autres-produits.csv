@@ -1,0 +1,11 @@
+﻿priorite,lot,produit,modele_a_confirmer,image_officielle_verifiee,image_a_associer,doublon_a_verifier,fiche_fabricant_a_verifier,decision,provenance_a_verifier
+PRIORITE_2,02_CABLAGE,"Câble Console USB vers RJ45 | Adaptateur série RS232 Plug-and-Play, 1,5 mètres","RJ45, RS232",NON,,OUI,OUI,EN_ATTENTE_DE_VALIDATION,HORS_PROTECH_TO GO
+PRIORITE_2,02_CABLAGE,Touret Câble Réseau RJ45 Catégorie 6 SFTP en Cuivre – (500 mètres),"RJ45, SFTP",NON,,OUI,OUI,EN_ATTENTE_DE_VALIDATION,HORS_PROTECH_TO GO
+PRIORITE_2,02_CABLAGE,Touret de câble réseau Outdoor (Extérieur) RJ45 – Catégorie 6 SFTP,"RJ45, SFTP",NON,,OUI,OUI,EN_ATTENTE_DE_VALIDATION,HORS_PROTECH_TO GO
+PRIORITE_2,02_CABLAGE,Touret de câble réseau RJ45 FTP Catégorie 6 – 305m,RJ45,NON,,OUI,OUI,EN_ATTENTE_DE_VALIDATION,HORS_PROTECH_TO GO
+PRIORITE_2,02_CABLAGE,"Xprinter XP-80T – Imprimante thermique directe 80 mm | USB, Ethernet RJ45","XP-80T, RJ45",NON,,OUI,OUI,EN_ATTENTE_DE_VALIDATION,HORS_PROTECH_TO GO
+PRIORITE_3,04_PERIPHERIQUES,"HP Color LaserJet Pro 4303fdw – Imprimante Multifonction Laser Couleur – Impression, Fax, copie, numérisation, Wifi, Recto Verso Automatique, 33 ppm",,NON,,OUI,OUI,EN_ATTENTE_DE_VALIDATION,HORS_PROTECH_TO GO
+PRIORITE_3,04_PERIPHERIQUES,"Lemorele SD2L – Boitier SSD, Supporte SSD M.2 Nvme et SSD SATA | jusqu’à 10 Gbit/s","SD2L, SATA",NON,,OUI,OUI,EN_ATTENTE_DE_VALIDATION,HORS_PROTECH_TO GO
+PRIORITE_3,04_PERIPHERIQUES,"Lemorele TC500 – Station d’Acceuil 13-en-1, HDMI 4K 60Hz | USB-C PD, DP 1.2, USB 3.0, HDMI, SD, TF, RJ-45 Ethernet, 3,5 mm, USB Type-A","TC500, HDMI, USB-C, RJ-45",NON,,OUI,OUI,EN_ATTENTE_DE_VALIDATION,HORS_PROTECH_TO GO
+PRIORITE_2,03_ONDULEURS_ENERGIE,Onduleur Eaton 1500VA (5E1500IUSB) – 900 Watts,"1500VA, 5E1500IUSB",NON,,OUI,OUI,EN_ATTENTE_DE_VALIDATION,HORS_PROTECH_TO GO
+PRIORITE_2,03_ONDULEURS_ENERGIE,Onduleur Premax 1500VA / 900 Watts | PM-UPS1500 | Line Interactive – Affichage Numérique,"1500VA, PM-UPS1500",NON,,OUI,OUI,EN_ATTENTE_DE_VALIDATION,HORS_PROTECH_TO GO

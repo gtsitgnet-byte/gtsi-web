@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-22T09:37:25",
+  "source": "rapports/catalogue-sans-protech-20261021-144922/produits-candidats.csv",
+  "nombre_candidats": 63,
+  "repartition_statuts": {
+    "ERREUR": 2,
+    "IMAGE_TELECHARGEE_A_VERIFIER": 61
+  },
+  "images_telechargees": 61,
+  "note": "Une signature d'image valide ne prouve pas que la photo correspond au modèle. Vérification visuelle obligatoire avant intégration."
+}

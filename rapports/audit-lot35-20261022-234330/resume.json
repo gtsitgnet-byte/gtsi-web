@@ -1,0 +1,15 @@
+{
+  "candidats_analyses": 35,
+  "repartition_statuts": {
+    "DOUBLON_PROBABLE_A_VERIFIER": 13,
+    "DEJA_PRESENT_EXACT": 22
+  },
+  "sources": {
+    "TIC INFO": 12,
+    "Univers HD": 23
+  },
+  "fichiers_actifs_modifies": false,
+  "publication_github": false,
+  "rapport_csv": "/root/projects/web/rapports/audit-lot35-20261022-234330/audit-candidats.csv",
+  "rapport_json": "/root/projects/web/rapports/audit-lot35-20261022-234330/audit-candidats.json"
+}

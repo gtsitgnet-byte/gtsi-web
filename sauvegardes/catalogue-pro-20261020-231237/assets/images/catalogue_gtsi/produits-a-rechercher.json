@@ -1,0 +1,490 @@
+[
+  {
+    "categorie": "Ordinateurs et informatique",
+    "produit": "Onduleurs pour ordinateurs"
+  },
+  {
+    "categorie": "Ordinateurs et informatique",
+    "produit": "Stations d'accueil USB-C"
+  },
+  {
+    "categorie": "Ordinateurs et informatique",
+    "produit": "Hubs USB et adaptateurs"
+  },
+  {
+    "categorie": "Ordinateurs et informatique",
+    "produit": "Clés USB et cartes mémoire"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Routeurs professionnels"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Switches non administrables"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Points d'accès MikroTik"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Contrôleurs réseau"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Passerelles VPN"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Passerelles GSM"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Standards téléphoniques IP-PBX"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Modules SFP28 et QSFP selon compatibilité"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Convertisseurs de médias fibre optique"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Testeurs de câbles réseau"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Certificatrices de câblage"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Analyseurs Wi-Fi"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Antennes sectorielles"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Antennes CPE extérieures"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Équipements radio point-à-point"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Équipements point-à-multipoint"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Injecteurs PoE"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Splitters PoE"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Parafoudres Ethernet"
+  },
+  {
+    "categorie": "Réseaux et télécommunications",
+    "produit": "Armoires et baies réseau"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Câbles Cat6A"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Câbles Cat7"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Câbles fibre optique monomodes"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Câbles fibre optique multimodes"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Jarretières optiques"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Pigtails fibre optique"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Coupleurs et adaptateurs optiques"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Prises réseau murales"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Organisateurs de câbles"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Boîtiers de terminaison optique"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "ODF et tiroirs optiques"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Cliveuses de fibre optique"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Photomètres optiques"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Réflectomètres OTDR"
+  },
+  {
+    "categorie": "Fibre optique et câblage",
+    "produit": "Gaines et conduits de protection"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Caméras Wi-Fi"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Caméras 4G"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Caméras thermiques"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Caméras à vision nocturne infrarouge"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Caméras à dissuasion active"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Enregistreurs DVR"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Enregistreurs hybrides XVR"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Disques durs de vidéosurveillance"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Moniteurs de surveillance"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Kits complets de vidéosurveillance"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Alimentations 12 V pour caméras"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Injecteurs et switches PoE pour caméras"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Baluns vidéo"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Câbles coaxiaux"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Boîtes de jonction pour caméras"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Supports muraux et plafonniers"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Claviers de commande PTZ"
+  },
+  {
+    "categorie": "Vidéosurveillance et sécurité électronique",
+    "produit": "Décodeurs et contrôleurs vidéo"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Centrales d'alarme"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Détecteurs de mouvement PIR"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Détecteurs d'ouverture de porte"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Détecteurs de fuite d'eau"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Télécommandes d'alarme"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Claviers d'alarme"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Alarmes GSM et Wi-Fi"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Lecteurs biométriques"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Terminaux de reconnaissance faciale"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Contrôleurs d'accès réseau"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Ventouses électromagnétiques"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Boutons d'urgence"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Cartes et badges RFID"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Portiques et tourniquets de contrôle d'accès"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Visiophones IP"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Portiers audio"
+  },
+  {
+    "categorie": "Alarmes et contrôle d'accès",
+    "produit": "Barrières automatiques de parking"
+  },
+  {
+    "categorie": "Énergie, alimentation et protection électrique",
+    "produit": "Onduleurs rackables"
+  },
+  {
+    "categorie": "Énergie, alimentation et protection électrique",
+    "produit": "Multiprises parafoudre"
+  },
+  {
+    "categorie": "Énergie, alimentation et protection électrique",
+    "produit": "Parasurtenseurs réseau"
+  },
+  {
+    "categorie": "Énergie, alimentation et protection électrique",
+    "produit": "Alimentations stabilisées"
+  },
+  {
+    "categorie": "Énergie, alimentation et protection électrique",
+    "produit": "Alimentations 12 V et 24 V"
+  },
+  {
+    "categorie": "Énergie, alimentation et protection électrique",
+    "produit": "Alimentations secourues pour contrôle d'accès"
+  },
+  {
+    "categorie": "Énergie, alimentation et protection électrique",
+    "produit": "Convertisseurs DC-DC"
+  },
+  {
+    "categorie": "Énergie, alimentation et protection électrique",
+    "produit": "Inverseurs de source"
+  },
+  {
+    "categorie": "Énergie, alimentation et protection électrique",
+    "produit": "Stations électriques portables"
+  },
+  {
+    "categorie": "Énergie, alimentation et protection électrique",
+    "produit": "Régulateurs solaires MPPT"
+  },
+  {
+    "categorie": "Énergie, alimentation et protection électrique",
+    "produit": "Coffrets de protection électrique"
+  },
+  {
+    "categorie": "Énergie, alimentation et protection électrique",
+    "produit": "Parafoudres électriques"
+  },
+  {
+    "categorie": "Énergie, alimentation et protection électrique",
+    "produit": "Systèmes de mise à la terre"
+  },
+  {
+    "categorie": "Électronique et outils techniques",
+    "produit": "Générateurs de signaux"
+  },
+  {
+    "categorie": "Électronique et outils techniques",
+    "produit": "Fers à souder"
+  },
+  {
+    "categorie": "Électronique et outils techniques",
+    "produit": "Alimentations de laboratoire"
+  },
+  {
+    "categorie": "Électronique et outils techniques",
+    "produit": "Analyseurs logiques"
+  },
+  {
+    "categorie": "Électronique et outils techniques",
+    "produit": "Testeurs de composants"
+  },
+  {
+    "categorie": "Électronique et outils techniques",
+    "produit": "Kits de tournevis de précision"
+  },
+  {
+    "categorie": "Électronique et outils techniques",
+    "produit": "Testeurs de câbles multifonctions"
+  },
+  {
+    "categorie": "Électronique et outils techniques",
+    "produit": "Détecteurs de câbles"
+  },
+  {
+    "categorie": "Électronique et outils techniques",
+    "produit": "Caméras thermiques portables"
+  },
+  {
+    "categorie": "Électronique et outils techniques",
+    "produit": "Microscopes électroniques de réparation"
+  },
+  {
+    "categorie": "Électronique et outils techniques",
+    "produit": "Kits de réparation de smartphones"
+  },
+  {
+    "categorie": "Accessoires et périphériques",
+    "produit": "Webcams HD et 4K"
+  },
+  {
+    "categorie": "Accessoires et périphériques",
+    "produit": "Haut-parleurs informatiques"
+  },
+  {
+    "categorie": "Accessoires et périphériques",
+    "produit": "Tiroirs-caisses"
+  },
+  {
+    "categorie": "Accessoires et périphériques",
+    "produit": "Lecteurs de cartes à puce"
+  },
+  {
+    "categorie": "Accessoires et périphériques",
+    "produit": "Tablettes tactiles"
+  },
+  {
+    "categorie": "Accessoires et périphériques",
+    "produit": "Supports d'écran"
+  },
+  {
+    "categorie": "Accessoires et périphériques",
+    "produit": "Ventilateurs et refroidissement PC"
+  },
+  {
+    "categorie": "Accessoires et périphériques",
+    "produit": "Pâtes thermiques"
+  },
+  {
+    "categorie": "Accessoires et périphériques",
+    "produit": "Adaptateurs USB-C, HDMI, VGA et DisplayPort"
+  },
+  {
+    "categorie": "Accessoires et périphériques",
+    "produit": "Câbles HDMI et DisplayPort"
+  },
+  {
+    "categorie": "Accessoires et périphériques",
+    "produit": "Batteries et chargeurs d'ordinateurs portables"
+  },
+  {
+    "categorie": "Coffres-forts et équipements professionnels",
+    "produit": "Coffres-forts ignifuges"
+  },
+  {
+    "categorie": "Coffres-forts et équipements professionnels",
+    "produit": "Coffres-forts à combinaison mécanique"
+  },
+  {
+    "categorie": "Coffres-forts et équipements professionnels",
+    "produit": "Armoires fortes"
+  },
+  {
+    "categorie": "Coffres-forts et équipements professionnels",
+    "produit": "Armoires de rangement sécurisées"
+  },
+  {
+    "categorie": "Coffres-forts et équipements professionnels",
+    "produit": "Détecteurs de faux billets"
+  },
+  {
+    "categorie": "Coffres-forts et équipements professionnels",
+    "produit": "Machines à compter les billets"
+  },
+  {
+    "categorie": "Coffres-forts et équipements professionnels",
+    "produit": "Étiqueteuses professionnelles"
+  },
+  {
+    "categorie": "Coffres-forts et équipements professionnels",
+    "produit": "Imprimantes de badges"
+  },
+  {
+    "categorie": "Coffres-forts et équipements professionnels",
+    "produit": "Armoires de recharge pour ordinateurs"
+  },
+  {
+    "categorie": "Coffres-forts et équipements professionnels",
+    "produit": "Baies informatiques murales"
+  },
+  {
+    "categorie": "Coffres-forts et équipements professionnels",
+    "produit": "Baies informatiques sur pied"
+  },
+  {
+    "categorie": "Coffres-forts et équipements professionnels",
+    "produit": "Climatisation de précision pour salles serveurs"
+  },
+  {
+    "categorie": "Coffres-forts et équipements professionnels",
+    "produit": "Systèmes de surveillance environnementale pour serveurs"
+  }
+]

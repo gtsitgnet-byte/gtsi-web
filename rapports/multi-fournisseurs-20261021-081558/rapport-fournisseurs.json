@@ -1,0 +1,87 @@
+[
+  {
+    "fournisseur": "ECHIMNO BRO INFO",
+    "site": "https://www.echinmobroinfo.com/",
+    "pages_visitees": 1,
+    "fiches_examinees": 0,
+    "produits_modernes_detectes": 0,
+    "erreurs": 0,
+    "details_erreurs": []
+  },
+  {
+    "fournisseur": "GRL",
+    "site": "https://grl.tg/",
+    "pages_visitees": 1,
+    "fiches_examinees": 0,
+    "produits_modernes_detectes": 0,
+    "erreurs": 0,
+    "details_erreurs": []
+  },
+  {
+    "fournisseur": "TIC INFO",
+    "site": "https://tic-info.net/",
+    "pages_visitees": 1,
+    "fiches_examinees": 19,
+    "produits_modernes_detectes": 12,
+    "erreurs": 0,
+    "details_erreurs": []
+  },
+  {
+    "fournisseur": "Univers HD",
+    "site": "https://univ-hd.net/",
+    "pages_visitees": 2,
+    "fiches_examinees": 102,
+    "produits_modernes_detectes": 23,
+    "erreurs": 0,
+    "details_erreurs": []
+  },
+  {
+    "fournisseur": "PRO-TECH TOGO",
+    "site": "https://protechtogo.com/boutique/",
+    "pages_visitees": 45,
+    "fiches_examinees": 180,
+    "produits_modernes_detectes": 147,
+    "erreurs": 45,
+    "details_erreurs": [
+      "https://protechtogo.com/product-category/ordinateurs-pc/ordinateurs-portable/: HTTP Error 404: Not Found",
+      "https://protechtogo.com/product-category/ordinateurs-pc/ordinateur-de-bureau-pc-fixe/: The read operation timed out",
+      "https://protechtogo.com/product-category/ordinateurs-pc/ordinateur-de-bureau-pc-fixe/intel-core-i5/: The read operation timed out",
+      "https://protechtogo.com/product-category/ordinateurs-pc/ordinateur-de-bureau-pc-fixe/intel-core-i7/: The read operation timed out",
+      "https://protechtogo.com/product-category/ordinateurs-pc/ordinateur-de-bureau-pc-fixe/all-in-one/: HTTP Error 500: Internal Server Error",
+      "https://protechtogo.com/product-category/ordinateurs-pc/ordinateur-de-bureau-pc-fixe/all-in-one/avec-ecran-24/: The read operation timed out",
+      "https://protechtogo.com/product-category/ordinateurs-pc/ordinateur-de-bureau-pc-fixe/all-in-one/avec-ecran-27/: The read operation timed out",
+      "https://protechtogo.com/product-category/imprimantes-scanners/scanners/scanner-a-plat/: The read operation timed out",
+      "https://protechtogo.com/product-category/imprimantes-scanners/scanners/scanner-avec-adf/: The read operation timed out",
+      "https://protechtogo.com/product-category/toners-cartouches/: The read operation timed out",
+      "https://protechtogo.com/product-category/toners-cartouches/toners-laser/: The read operation timed out",
+      "https://protechtogo.com/product-category/toners-cartouches/authentique-original/: The read operation timed out",
+      "https://protechtogo.com/product-category/toners-cartouches/compatible-generique/: The read operation timed out",
+      "https://protechtogo.com/boutique/page/3/: The read operation timed out",
+      "https://protechtogo.com/boutique/page/4/: The read operation timed out",
+      "https://protechtogo.com/boutique/page/2/: The read operation timed out",
+      "https://protechtogo.com/boutique/page/43/: The read operation timed out",
+      "https://protechtogo.com/boutique/page/44/: The read operation timed out",
+      "https://protechtogo.com/boutique/page/45/: The read operation timed out",
+      "https://protechtogo.com/produit/70mai-dash-cam-a210-set-camera-embarquee-automobile-1080p-vision-nocturne-wi-fi/: The read operation timed out",
+      "https://protechtogo.com/produit/asus-tuf-f15-fx507vi-core-i7-13620h-nvidia-rtx-4070-8go-gddr6-ecran-15-6-fhd-gaming-laptop/: The read operation timed out",
+      "https://protechtogo.com/produit/asus-vivobook-r415ep-ek373w-intel-core-i7-1165g7-8go-ssd-512go-nvidia-geforce-mx330-2go-dedie-ecran-14/: The read operation timed out",
+      "https://protechtogo.com/produit/baofeng-bf-888s-talkie-walkie-uhf-professionnel-16-canaux-longue-portee-batterie-rechargeable/: The read operation timed out",
+      "https://protechtogo.com/produit/canon-pixma-g2410-imprimante-multifonction-couleur-usb/: The read operation timed out",
+      "https://protechtogo.com/produit/hp-laptop-15s-du3022tu-2w2x5pa-intel-core-i3-1115g4-ram-4go-1to-hdd-ecran-15-6-windows-10/: The read operation timed out",
+      "https://protechtogo.com/produit/hp-laptop-15s-fq0008nia-celeron-n4120-8go-512go-ssd-ecran-15-6/: The read operation timed out",
+      "https://protechtogo.com/produit/hp-laptop-15s-fq5023nf-core-i5-1235u-16go-512go-ssd-ecran-15-6-empreinte-digitale-pc-portable/: The read operation timed out",
+      "https://protechtogo.com/produit/hp-laserjet-mfp-m236sdw-imprimante-multifonction-monochrome/: HTTP Error 500: Internal Server Error",
+      "https://protechtogo.com/produit/hp-laserjet-enterprise-m611dn-imprimante-monochrome-7ps84a/: The read operation timed out",
+      "https://protechtogo.com/produit/hp-laserjet-m111a-imprimante-laser-monochrome/: The read operation timed out"
+    ]
+  },
+  {
+    "fournisseur": "Togo Informatique",
+    "site": "https://www.togoinformatique.com/",
+    "pages_visitees": 45,
+    "fiches_examinees": 180,
+    "produits_modernes_detectes": 28,
+    "erreurs": 0,
+    "details_erreurs": []
+  }
+]

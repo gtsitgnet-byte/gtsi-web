@@ -1,0 +1,12 @@
+{
+  "produits_source": 210,
+  "produits_exclus_pro_tech": 147,
+  "produits_restants": 63,
+  "fournisseurs_restants": {
+    "TIC INFO": 12,
+    "Togo Informatique": 28,
+    "Univers HD": 23
+  },
+  "catalogue_modifie": false,
+  "rapport": "rapports/catalogue-sans-protech-20261021-144922/produits-candidats.csv"
+}

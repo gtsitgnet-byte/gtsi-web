@@ -1,0 +1,14 @@
+{
+  "candidats_controles": 36,
+  "cles_image_map": 60,
+  "classement": {
+    "VÉRIFIER LE MODÈLE ET LES DOUBLONS": 25,
+    "IDENTIFIER LE MODÈLE EXACT": 9,
+    "CORRESPONDANCE POSSIBLE DANS LE JS": 2
+  },
+  "rapport_csv": "/root/projects/web/rapports/controle-avant-integration-20261022-161803/controle-candidats.csv",
+  "catalogue_modifie": false,
+  "images_modifiees": false,
+  "publication_github": false,
+  "attention": "Les scores de similarité sont indicatifs et ne prouvent pas un doublon."
+}

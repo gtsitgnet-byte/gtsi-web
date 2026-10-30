@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-22T14:08:52",
+  "pages_categories_ok": 5,
+  "liens_examines": 1055,
+  "liens_candidats": 186,
+  "fiches_html_lues": 96,
+  "erreurs": 0,
+  "echantillon_limite_a": 100,
+  "catalogue_actif_modifie": false,
+  "images_telechargees": false,
+  "publication_github": false,
+  "fournisseurs_interdits_exclus": [
+    "PRO-TECH TOGO"
+  ],
+  "rapport": "/root/projects/web/rapports/echantillon-fiches-20261022-135629"
+}

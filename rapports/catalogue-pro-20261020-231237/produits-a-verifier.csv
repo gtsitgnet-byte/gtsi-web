@@ -1,0 +1,123 @@
+﻿Index,Produit_JSON,Statut
+1,"{""categorie"": ""Ordinateurs et informatique"", ""produit"": ""Onduleurs pour ordinateurs""}",Référence et image à vérifier
+2,"{""categorie"": ""Ordinateurs et informatique"", ""produit"": ""Stations d'accueil USB-C""}",Référence et image à vérifier
+3,"{""categorie"": ""Ordinateurs et informatique"", ""produit"": ""Hubs USB et adaptateurs""}",Référence et image à vérifier
+4,"{""categorie"": ""Ordinateurs et informatique"", ""produit"": ""Clés USB et cartes mémoire""}",Référence et image à vérifier
+5,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Routeurs professionnels""}",Référence et image à vérifier
+6,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Switches non administrables""}",Référence et image à vérifier
+7,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Points d'accès MikroTik""}",Référence et image à vérifier
+8,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Contrôleurs réseau""}",Référence et image à vérifier
+9,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Passerelles VPN""}",Référence et image à vérifier
+10,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Passerelles GSM""}",Référence et image à vérifier
+11,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Standards téléphoniques IP-PBX""}",Référence et image à vérifier
+12,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Modules SFP28 et QSFP selon compatibilité""}",Référence et image à vérifier
+13,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Convertisseurs de médias fibre optique""}",Référence et image à vérifier
+14,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Testeurs de câbles réseau""}",Référence et image à vérifier
+15,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Certificatrices de câblage""}",Référence et image à vérifier
+16,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Analyseurs Wi-Fi""}",Référence et image à vérifier
+17,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Antennes sectorielles""}",Référence et image à vérifier
+18,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Antennes CPE extérieures""}",Référence et image à vérifier
+19,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Équipements radio point-à-point""}",Référence et image à vérifier
+20,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Équipements point-à-multipoint""}",Référence et image à vérifier
+21,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Injecteurs PoE""}",Référence et image à vérifier
+22,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Splitters PoE""}",Référence et image à vérifier
+23,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Parafoudres Ethernet""}",Référence et image à vérifier
+24,"{""categorie"": ""Réseaux et télécommunications"", ""produit"": ""Armoires et baies réseau""}",Référence et image à vérifier
+25,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Câbles Cat6A""}",Référence et image à vérifier
+26,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Câbles Cat7""}",Référence et image à vérifier
+27,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Câbles fibre optique monomodes""}",Référence et image à vérifier
+28,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Câbles fibre optique multimodes""}",Référence et image à vérifier
+29,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Jarretières optiques""}",Référence et image à vérifier
+30,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Pigtails fibre optique""}",Référence et image à vérifier
+31,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Coupleurs et adaptateurs optiques""}",Référence et image à vérifier
+32,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Prises réseau murales""}",Référence et image à vérifier
+33,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Organisateurs de câbles""}",Référence et image à vérifier
+34,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Boîtiers de terminaison optique""}",Référence et image à vérifier
+35,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""ODF et tiroirs optiques""}",Référence et image à vérifier
+36,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Cliveuses de fibre optique""}",Référence et image à vérifier
+37,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Photomètres optiques""}",Référence et image à vérifier
+38,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Réflectomètres OTDR""}",Référence et image à vérifier
+39,"{""categorie"": ""Fibre optique et câblage"", ""produit"": ""Gaines et conduits de protection""}",Référence et image à vérifier
+40,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Caméras Wi-Fi""}",Référence et image à vérifier
+41,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Caméras 4G""}",Référence et image à vérifier
+42,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Caméras thermiques""}",Référence et image à vérifier
+43,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Caméras à vision nocturne infrarouge""}",Référence et image à vérifier
+44,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Caméras à dissuasion active""}",Référence et image à vérifier
+45,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Enregistreurs DVR""}",Référence et image à vérifier
+46,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Enregistreurs hybrides XVR""}",Référence et image à vérifier
+47,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Disques durs de vidéosurveillance""}",Référence et image à vérifier
+48,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Moniteurs de surveillance""}",Référence et image à vérifier
+49,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Kits complets de vidéosurveillance""}",Référence et image à vérifier
+50,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Alimentations 12 V pour caméras""}",Référence et image à vérifier
+51,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Injecteurs et switches PoE pour caméras""}",Référence et image à vérifier
+52,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Baluns vidéo""}",Référence et image à vérifier
+53,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Câbles coaxiaux""}",Référence et image à vérifier
+54,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Boîtes de jonction pour caméras""}",Référence et image à vérifier
+55,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Supports muraux et plafonniers""}",Référence et image à vérifier
+56,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Claviers de commande PTZ""}",Référence et image à vérifier
+57,"{""categorie"": ""Vidéosurveillance et sécurité électronique"", ""produit"": ""Décodeurs et contrôleurs vidéo""}",Référence et image à vérifier
+58,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Centrales d'alarme""}",Référence et image à vérifier
+59,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Détecteurs de mouvement PIR""}",Référence et image à vérifier
+60,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Détecteurs d'ouverture de porte""}",Référence et image à vérifier
+61,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Détecteurs de fuite d'eau""}",Référence et image à vérifier
+62,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Télécommandes d'alarme""}",Référence et image à vérifier
+63,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Claviers d'alarme""}",Référence et image à vérifier
+64,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Alarmes GSM et Wi-Fi""}",Référence et image à vérifier
+65,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Lecteurs biométriques""}",Référence et image à vérifier
+66,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Terminaux de reconnaissance faciale""}",Référence et image à vérifier
+67,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Contrôleurs d'accès réseau""}",Référence et image à vérifier
+68,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Ventouses électromagnétiques""}",Référence et image à vérifier
+69,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Boutons d'urgence""}",Référence et image à vérifier
+70,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Cartes et badges RFID""}",Référence et image à vérifier
+71,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Portiques et tourniquets de contrôle d'accès""}",Référence et image à vérifier
+72,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Visiophones IP""}",Référence et image à vérifier
+73,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Portiers audio""}",Référence et image à vérifier
+74,"{""categorie"": ""Alarmes et contrôle d'accès"", ""produit"": ""Barrières automatiques de parking""}",Référence et image à vérifier
+75,"{""categorie"": ""Énergie, alimentation et protection électrique"", ""produit"": ""Onduleurs rackables""}",Référence et image à vérifier
+76,"{""categorie"": ""Énergie, alimentation et protection électrique"", ""produit"": ""Multiprises parafoudre""}",Référence et image à vérifier
+77,"{""categorie"": ""Énergie, alimentation et protection électrique"", ""produit"": ""Parasurtenseurs réseau""}",Référence et image à vérifier
+78,"{""categorie"": ""Énergie, alimentation et protection électrique"", ""produit"": ""Alimentations stabilisées""}",Référence et image à vérifier
+79,"{""categorie"": ""Énergie, alimentation et protection électrique"", ""produit"": ""Alimentations 12 V et 24 V""}",Référence et image à vérifier
+80,"{""categorie"": ""Énergie, alimentation et protection électrique"", ""produit"": ""Alimentations secourues pour contrôle d'accès""}",Référence et image à vérifier
+81,"{""categorie"": ""Énergie, alimentation et protection électrique"", ""produit"": ""Convertisseurs DC-DC""}",Référence et image à vérifier
+82,"{""categorie"": ""Énergie, alimentation et protection électrique"", ""produit"": ""Inverseurs de source""}",Référence et image à vérifier
+83,"{""categorie"": ""Énergie, alimentation et protection électrique"", ""produit"": ""Stations électriques portables""}",Référence et image à vérifier
+84,"{""categorie"": ""Énergie, alimentation et protection électrique"", ""produit"": ""Régulateurs solaires MPPT""}",Référence et image à vérifier
+85,"{""categorie"": ""Énergie, alimentation et protection électrique"", ""produit"": ""Coffrets de protection électrique""}",Référence et image à vérifier
+86,"{""categorie"": ""Énergie, alimentation et protection électrique"", ""produit"": ""Parafoudres électriques""}",Référence et image à vérifier
+87,"{""categorie"": ""Énergie, alimentation et protection électrique"", ""produit"": ""Systèmes de mise à la terre""}",Référence et image à vérifier
+88,"{""categorie"": ""Électronique et outils techniques"", ""produit"": ""Générateurs de signaux""}",Référence et image à vérifier
+89,"{""categorie"": ""Électronique et outils techniques"", ""produit"": ""Fers à souder""}",Référence et image à vérifier
+90,"{""categorie"": ""Électronique et outils techniques"", ""produit"": ""Alimentations de laboratoire""}",Référence et image à vérifier
+91,"{""categorie"": ""Électronique et outils techniques"", ""produit"": ""Analyseurs logiques""}",Référence et image à vérifier
+92,"{""categorie"": ""Électronique et outils techniques"", ""produit"": ""Testeurs de composants""}",Référence et image à vérifier
+93,"{""categorie"": ""Électronique et outils techniques"", ""produit"": ""Kits de tournevis de précision""}",Référence et image à vérifier
+94,"{""categorie"": ""Électronique et outils techniques"", ""produit"": ""Testeurs de câbles multifonctions""}",Référence et image à vérifier
+95,"{""categorie"": ""Électronique et outils techniques"", ""produit"": ""Détecteurs de câbles""}",Référence et image à vérifier
+96,"{""categorie"": ""Électronique et outils techniques"", ""produit"": ""Caméras thermiques portables""}",Référence et image à vérifier
+97,"{""categorie"": ""Électronique et outils techniques"", ""produit"": ""Microscopes électroniques de réparation""}",Référence et image à vérifier
+98,"{""categorie"": ""Électronique et outils techniques"", ""produit"": ""Kits de réparation de smartphones""}",Référence et image à vérifier
+99,"{""categorie"": ""Accessoires et périphériques"", ""produit"": ""Webcams HD et 4K""}",Référence et image à vérifier
+100,"{""categorie"": ""Accessoires et périphériques"", ""produit"": ""Haut-parleurs informatiques""}",Référence et image à vérifier
+101,"{""categorie"": ""Accessoires et périphériques"", ""produit"": ""Tiroirs-caisses""}",Référence et image à vérifier
+102,"{""categorie"": ""Accessoires et périphériques"", ""produit"": ""Lecteurs de cartes à puce""}",Référence et image à vérifier
+103,"{""categorie"": ""Accessoires et périphériques"", ""produit"": ""Tablettes tactiles""}",Référence et image à vérifier
+104,"{""categorie"": ""Accessoires et périphériques"", ""produit"": ""Supports d'écran""}",Référence et image à vérifier
+105,"{""categorie"": ""Accessoires et périphériques"", ""produit"": ""Ventilateurs et refroidissement PC""}",Référence et image à vérifier
+106,"{""categorie"": ""Accessoires et périphériques"", ""produit"": ""Pâtes thermiques""}",Référence et image à vérifier
+107,"{""categorie"": ""Accessoires et périphériques"", ""produit"": ""Adaptateurs USB-C, HDMI, VGA et DisplayPort""}",Référence et image à vérifier
+108,"{""categorie"": ""Accessoires et périphériques"", ""produit"": ""Câbles HDMI et DisplayPort""}",Référence et image à vérifier
+109,"{""categorie"": ""Accessoires et périphériques"", ""produit"": ""Batteries et chargeurs d'ordinateurs portables""}",Référence et image à vérifier
+110,"{""categorie"": ""Coffres-forts et équipements professionnels"", ""produit"": ""Coffres-forts ignifuges""}",Référence et image à vérifier
+111,"{""categorie"": ""Coffres-forts et équipements professionnels"", ""produit"": ""Coffres-forts à combinaison mécanique""}",Référence et image à vérifier
+112,"{""categorie"": ""Coffres-forts et équipements professionnels"", ""produit"": ""Armoires fortes""}",Référence et image à vérifier
+113,"{""categorie"": ""Coffres-forts et équipements professionnels"", ""produit"": ""Armoires de rangement sécurisées""}",Référence et image à vérifier
+114,"{""categorie"": ""Coffres-forts et équipements professionnels"", ""produit"": ""Détecteurs de faux billets""}",Référence et image à vérifier
+115,"{""categorie"": ""Coffres-forts et équipements professionnels"", ""produit"": ""Machines à compter les billets""}",Référence et image à vérifier
+116,"{""categorie"": ""Coffres-forts et équipements professionnels"", ""produit"": ""Étiqueteuses professionnelles""}",Référence et image à vérifier
+117,"{""categorie"": ""Coffres-forts et équipements professionnels"", ""produit"": ""Imprimantes de badges""}",Référence et image à vérifier
+118,"{""categorie"": ""Coffres-forts et équipements professionnels"", ""produit"": ""Armoires de recharge pour ordinateurs""}",Référence et image à vérifier
+119,"{""categorie"": ""Coffres-forts et équipements professionnels"", ""produit"": ""Baies informatiques murales""}",Référence et image à vérifier
+120,"{""categorie"": ""Coffres-forts et équipements professionnels"", ""produit"": ""Baies informatiques sur pied""}",Référence et image à vérifier
+121,"{""categorie"": ""Coffres-forts et équipements professionnels"", ""produit"": ""Climatisation de précision pour salles serveurs""}",Référence et image à vérifier
+122,"{""categorie"": ""Coffres-forts et équipements professionnels"", ""produit"": ""Systèmes de surveillance environnementale pour serveurs""}",Référence et image à vérifier

@@ -1,0 +1,14 @@
+{
+  "date": "20261022-164321",
+  "rapport_candidats_source": "/root/projects/web/rapports/controle-avant-integration-20261022-161803/controle-candidats.csv",
+  "candidats_analyses": 36,
+  "doublons_exacts": 0,
+  "modeles_a_identifier": 5,
+  "images_absentes_ou_invalides": 36,
+  "images_inventoriees": 151,
+  "problemes_catalogue": 0,
+  "fichiers_sauvegardes": 4,
+  "catalogue_actif_modifie": false,
+  "publication_github": false,
+  "protech_togo_a_integrer": false
+}

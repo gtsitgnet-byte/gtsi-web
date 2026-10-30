@@ -1,0 +1,14 @@
+{
+  "candidats_analyses": 36,
+  "candidats_conserves": 36,
+  "exclus_source_interdite_ou_ordinateurs": 0,
+  "classement": {
+    "NOUVEAU PRODUIT POTENTIEL À VÉRIFIER": 19,
+    "IDENTIFIER LE MODÈLE EXACT": 5,
+    "DOUBLON OU MISE À NIVEAU À ÉTUDIER": 12
+  },
+  "rapport_csv": "/root/projects/web/rapports/tri-infrastructure-20261022-161445/tri-infrastructure.csv",
+  "catalogue_modifie": false,
+  "images_modifiees": false,
+  "publication_github": false
+}

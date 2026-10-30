@@ -1,0 +1,13 @@
+{
+  "lignes_audit_source": 48,
+  "produits_infrastructure_a_verifier": 36,
+  "priorite_haute": 24,
+  "priorite_normale": 12,
+  "ordinateurs_ecartes_de_cette_phase": 11,
+  "lignes_exclues_PRO_TECH": 0,
+  "rapport": "/root/projects/web/rapports/priorite-infrastructure-20261022-161308/infrastructure-a-verifier.csv",
+  "catalogue_modifie": false,
+  "images_telechargees_ou_supprimees": false,
+  "publication_github": false,
+  "integration_automatique": false
+}

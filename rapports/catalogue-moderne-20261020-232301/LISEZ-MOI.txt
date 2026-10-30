@@ -1,0 +1,8 @@
+CATALOGUE CANDIDAT GTSI
+======================
+Les lignes proviennent de pages officielles consultées.
+Chaque modèle doit être contrôlé avant intégration au catalogue public.
+Une image accessible sur un site fabricant n'est pas automatiquement libre de réutilisation commerciale : vérifier les droits et conditions.
+Aucun produit n'a été ajouté à catalogue.js.
+Aucune image de l'ancien catalogue n'a été restaurée.
+Aucun fichier existant du site n'a été supprimé ou remplacé.

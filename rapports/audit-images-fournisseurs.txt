@@ -1,0 +1,86 @@
+AUDIT DES IMAGES FOURNISSEURS — SANS MODIFICATION
+
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-150-metres-4k-wireless-hdmi-transmetteur-hdmi-sans-fil-rallonge-hdmi-emette.png
+TAILLE: 310535 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-1to-m-2-2280-pcle-nvme-stockage-disque-dur-ssd-interne-lexar-nm620-2026.jpg
+TAILLE: 128725 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-1to-m-2-pcle-3-0-nvme-stockage-disque-dur-ssd-interne-hiksemi-wave-2026.jpg
+TAILLE: 188701 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-4g-portable-pocket-wifi-router-lte-wifi-h807-pro-4g-5g-mobile-wifi-hotspot-.jpg
+TAILLE: 71477 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-acer-aspire-3-laptop-15-6-pouces-full-hd-10e-gen-intel-core-i5-1035g1-8gb-d.jpg
+TAILLE: 177035 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-adaptateur-11-en-1-type-c-avec-usb-3-0-compatible-4k-dock-usb-c-station-d-a.jpg
+TAILLE: 167710 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-adaptateur-usb-c-vers-ethernet-rj45-gigabit-avec-hub-usb-3-0-2026.jpg
+TAILLE: 60881 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-apple-imac-27-pouces-mxwt2-core-i5-8-go-ram-256-go-ssd-4go-de-graphique-ded.jpg
+TAILLE: 117894 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-archer-ax10-ax1500-routeur-gigabit-wifi-6-fukll-gigabit-dual-band-2-4-ghz-e.jpg
+TAILLE: 134437 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-asus-tuf-dash-f15-fx517zr-gaming-laptop-intel-core-i7-12650h-16go-ddr5-1to-.jpg
+TAILLE: 146761 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-asus-vivobook-15-f1504vap-intel-core-7-150u-16go-ddr4-512go-ssd-nvme-ecran-.png
+TAILLE: 286438 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-asus-vivobook-r415ep-ek373w-core-i7-1165g7-8go-512-ssd-14-pouces-2go-gpu-20.jpg
+TAILLE: 124271 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-hp-250-g10-i7-13e-generation-16go-ram-1to-ssd.jpg
+TAILLE: 6068 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-hp-envy-x360-14-i7-13e-gen-1to-ssd-tactile.jpg
+TAILLE: 2898 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-hp-laptop-15-i5-13e-gen-512go-ssd-windows-11.jpg
+TAILLE: 86879 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-hp-pavilion-15-i7-13e-gen-tactile-16go-ram-1to-ssd.jpg
+TAILLE: 10178 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-hp-probook-450-g10-intel-core-i7-13eme-generation-tactile.png
+TAILLE: 13499 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-hp-victus-16-gaming-i5-13e-gen-16go-ram-1to-ssd.jpg
+TAILLE: 3989 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-kit-de-videosurveillance-hikvision-colorvu-smart-hd-8-canaux.jpg
+TAILLE: 9867 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-lenovo-ideapad-slim-3-i5-13e-gen-1to-ssd.jpg
+TAILLE: 6659 octets
+UTILISÉE DANS: aucune référence textuelle trouvée
+
+IMAGE: assets/images/catalogue_gtsi/fournisseur-lenovo-thinkpad-e16-gen-1-intel-core-i7-13eme-generation.png
+TAILLE: 66223 octets
+UTILISÉE DANS: aucune référence textuelle trouvée

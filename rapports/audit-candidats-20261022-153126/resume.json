@@ -1,0 +1,12 @@
+{
+  "candidats_audites": 71,
+  "references_deja_reperees_dans_catalogue": 2,
+  "titres_possiblement_deja_presents": 4,
+  "a_prioriser_pour_verification": 15,
+  "anciens_ou_a_evaluer": 6,
+  "rapport": "/root/projects/web/rapports/audit-candidats-20261022-153126",
+  "catalogue_modifie": false,
+  "images_telechargees": false,
+  "publication_github": false,
+  "PRO-TECH TOGO": "exclu"
+}

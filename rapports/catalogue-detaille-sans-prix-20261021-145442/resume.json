@@ -1,0 +1,16 @@
+{
+  "candidats_analyses": 63,
+  "nouveaux_candidats": 0,
+  "correspondances_possibles_a_verifier": 63,
+  "descriptions_a_verifier": 0,
+  "fournisseurs": {
+    "TIC INFO": 12,
+    "Togo Informatique": 28,
+    "Univers HD": 23
+  },
+  "catalogue_actif_modifie": false,
+  "prix_inclus": false,
+  "pro_tech_exclu": true,
+  "fichier_provisoire": "rapports/catalogue-detaille-sans-prix-20261021-145442/catalogue-detaille-provisoire.json",
+  "rapport_descriptions_a_verifier": "rapports/catalogue-detaille-sans-prix-20261021-145442/descriptions-a-verifier.json"
+}

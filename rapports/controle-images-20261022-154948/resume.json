@@ -1,0 +1,11 @@
+{
+  "produits_cibles": 48,
+  "lignes_de_controle": 48,
+  "avec_image_candidate": 48,
+  "sans_image_candidate": 0,
+  "rapport": "/root/projects/web/rapports/controle-images-20261022-154948/controle-images.csv",
+  "catalogue_modifie": false,
+  "images_telechargees": false,
+  "publication_github": false,
+  "PRO-TECH TOGO": "exclu"
+}

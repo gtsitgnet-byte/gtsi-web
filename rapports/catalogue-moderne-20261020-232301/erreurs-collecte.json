@@ -1,0 +1,17 @@
+{
+  "pages_en_echec": [
+    {
+      "source": "https://www.tp-link.com/us/business-networking/omada/wifi/wifi-7/",
+      "erreur": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.tp-link.com/us/business-networking/omada/switch/managed/",
+      "erreur": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://mikrotik.com/products/group/ethernet-routers?filter=&s=c",
+      "erreur": "IncompleteRead(419406 bytes read)"
+    }
+  ],
+  "images_en_echec": []
+}
