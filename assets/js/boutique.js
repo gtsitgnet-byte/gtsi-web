@@ -5,7 +5,6 @@
   var WA = "https://wa.me/22879828669?text=";
   var DATA = window.GTSI_DATA || {}, PRIX = window.GTSI_PRIX || {};
   var DETAILS = window.GTSI_DETAILS || {};
-  var IMAGE_MAP = {};
   var BRANDS = ["MikroTik", "Cudy", "TP-Link", "Ubiquiti"];
   var TAGS = [
     ["PoE", /PoE/i], ["Wi-Fi", /Wi-Fi/i],
@@ -78,64 +77,6 @@
     return '<span class="pi" aria-hidden="true"><svg viewBox="0 0 48 48">' + d + '</svg></span>';
   }
 
-  function imageFor(name) {
-    if (!name || !IMAGE_MAP) return "";
-
-    function norm(s) {
-      return String(s || "")
-        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase()
-        .replace(/&nbsp;/g, " ")
-        .replace(/[^a-z0-9]+/g, " ")
-        .trim().replace(/\s+/g, " ");
-    }
-
-    var cible = norm(name);
-    if (!cible) return "";
-
-    var cles = Object.keys(IMAGE_MAP).filter(function (k) {
-      return typeof IMAGE_MAP[k] === "string" && IMAGE_MAP[k].trim();
-    });
-
-    // 1. Nom exact, après normalisation.
-    for (var i = 0; i < cles.length; i++) {
-      if (norm(cles[i]) === cible) return IMAGE_MAP[cles[i]];
-    }
-
-    // 2. Référence de modèle commune et distinctive (ex. PC16250, X515FA).
-    function modelCodes(s) {
-      var matches = String(s || "").toUpperCase().match(
-        /\b[A-Z0-9]*(?:[A-Z][A-Z0-9]*[0-9]|[0-9][A-Z0-9]*[A-Z])[A-Z0-9]*(?:-[A-Z0-9]+)*\b/g
-      ) || [];
-      return matches.filter(function (v) {
-        return v.length >= 5 && /[A-Z]/.test(v) && /\d/.test(v);
-      });
-    }
-
-    var codes = modelCodes(name);
-    var codeMatches = [];
-    if (codes.length) {
-      cles.forEach(function (k) {
-        var kc = modelCodes(k);
-        var shared = codes.some(function (c) {
-          return kc.indexOf(c) !== -1;
-        });
-        if (shared) codeMatches.push(k);
-      });
-    }
-    if (codeMatches.length === 1) return IMAGE_MAP[codeMatches[0]];
-
-    // 3. Préfixe complet uniquement si une seule clé correspond.
-    var prefixMatches = cles.filter(function (k) {
-      var kn = norm(k);
-      return cible.length >= 24 && kn.length >= 24 &&
-        (kn.indexOf(cible) === 0 || cible.indexOf(kn) === 0);
-    });
-    if (prefixMatches.length === 1) return IMAGE_MAP[prefixMatches[0]];
-
-    // En cas de doute, ne pas afficher une photo potentiellement incorrecte.
-    return "";
-  }
   function cardModelName(name) {
     // Retirer le nom du fournisseur des titres affichés sur les cartes.
     name = name.replace(/\s*[-–—|]\s*(?:(?:20\d{2})\s*[-–—|]\s*)?(?:TOGO INFORMATIQUE|PRO-TECH TOGO|UNIVERS HD|TIC INFO)\s*$/i, "").trim();
@@ -168,13 +109,59 @@
   function card(p) {
     var n = esc(p.nom);
     var titreCarte = esc(cardModelName(p.nom));
-    var image = imageFor(p.nom);
-    return '<article class="product"><div class="product-img">' + icon(p.cat) +
-      (image ? '<img src="' + esc(image) + '" alt="' + n + '" loading="lazy" onerror="this.remove()">' : '') + '</div>' +
-      '<div class="product-body"><h3>' + titreCarte + "</h3>" +
+    var image = "";
+    if (p.nom === "MikroTik RB5009UG+S+IN") {
+      image = "assets/images/catalogue_gtsi/gtsi-rb5009ug-s-in.webp";
+    } else if (p.nom === "MikroTik RB5009UPr+S+OUT") {
+      image = "assets/images/catalogue_gtsi/gtsi-rb5009upr-s-out.webp";
+    } else if (p.nom === "MikroTik RB4011iGS+RM") {
+      image = "assets/images/catalogue_gtsi/gtsi-rb4011igs-rm.webp";
+    } else if (p.nom === "MikroTik hAP ax²") {
+      image = "assets/images/catalogue_gtsi/gtsi-hap-ax2.webp";
+    } else if (p.nom === "MikroTik L009UiGS-RM") {
+      image = "assets/images/catalogue_gtsi/gtsi-l009uigs-rm.webp";
+    } else if (p.nom === "TP-Link CPE220") {
+      image = "assets/images/catalogue_gtsi/gtsi-cpe220.jpg";
+    } else if (p.nom === "COMFAST CF-E313AC") {
+    image = "assets/images/catalogue_gtsi/gtsi-comfast-cf-e313ac.webp";
+} else if (p.nom === "COMFAST CF-E315D") {
+    image = "assets/images/catalogue_gtsi/gtsi-comfast-cf-e315d.webp";
+} else if (p.nom === "COMFAST CF-E312A V2") {
+    image = "assets/images/catalogue_gtsi/gtsi-comfast-cf-e312a-v2.webp";
+} else if (p.nom === "TP-Link CPE610") {
+      image = "assets/images/catalogue_gtsi/gtsi-cpe610.jpg";
+    } else if (p.nom === "TP-Link CPE710") {
+      image = "assets/images/catalogue_gtsi/gtsi-cpe710.jpg";
+    } else if (p.nom === "TP-Link EAP110-Outdoor") {
+      image = "assets/images/catalogue_gtsi/gtsi-eap110-outdoor.jpg";
+
+    } else if (p.nom === "TP-Link EAP650-Outdoor") {
+      image = "assets/images/catalogue_gtsi/gtsi-eap650-outdoor.jpg";
+    } else if (p.nom === "TP-Link Omada EAP723 Wi-Fi 7") {
+      image = "assets/images/catalogue_gtsi/gtsi-eap723.jpg";
+    } else if (p.nom === "TP-Link Omada EAP773 Wi-Fi 7") {
+      image = "assets/images/catalogue_gtsi/gtsi-eap773.jpg";
+    } else if (p.nom === "TP-Link Omada EAP783 Wi-Fi 7") {
+      image = "assets/images/catalogue_gtsi/gtsi-eap783.jpg";
+    }
+
+    var description = p.description || "";
+    var caracteristiques = description
+      ? '<p class="product-description">' + esc(description) + '</p>'
+      : "";
+
+    return '<article class="product">' +
+      '<div class="product-img">' +
+      (image ? '<img src="' + image + '" alt="' + n + '" loading="lazy">' : '') +
+      '</div>' +
+      '<div class="product-body">' +
       '<span class="badge">GTSI-2026</span>' +
+      '<h3>' + titreCarte + '</h3>' +
+      '<p class="cat">' + esc(p.cat) + '</p>' +
+      caracteristiques +
       '<div class="pbtns"><button class="btn secondary btn-sm" type="button" data-act="det" data-n="' + n + '">Détails</button>' +
-      '<button class="btn btn-sm" type="button" data-act="add" data-n="' + n + '">Ajouter au devis</button></div></div></article>';
+      '<button class="btn btn-sm" type="button" data-act="add" data-n="' + n + '">Ajouter au devis</button></div>' +
+      '</div></article>';
   }
   function render() {
     var r = list();
@@ -365,16 +352,5 @@
   $("b-who").addEventListener("input", link);
   render();
   drawCart();
-  fetch("assets/images/catalogue_gtsi/image-map.json")
-    .then(function (response) {
-      if (!response.ok) throw new Error("Carte des images indisponible");
-      return response.json();
-    })
-    .then(function (map) {
-      IMAGE_MAP = map || {};
-      render();
-    })
-    .catch(function (error) {
-      console.warn("GTSI : images du catalogue non chargées.", error);
-    });
+
 })();
