@@ -677,3 +677,566 @@ header .nav-submenu a:hover { background: rgba(47,208,236,.1); }
     width: 100%;
   }
 }
+
+/* GTSI — Formulaire publicitaire */
+.partner-card.promo.gtsi-ad-form-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 18px;
+  padding: 26px;
+  text-align: left;
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--cyan);
+  border-radius: 14px;
+  background: var(--card);
+}
+
+.gtsi-form-heading .tag {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.gtsi-form-heading h3 {
+  margin: 0 0 9px;
+}
+
+.gtsi-form-heading p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.gtsi-price-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.gtsi-price-list > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg, transparent);
+}
+
+.gtsi-price-list strong {
+  color: var(--cyan);
+  font-size: 1.1rem;
+}
+
+.gtsi-price-list span {
+  color: var(--muted);
+  font-size: .82rem;
+}
+
+.gtsi-form {
+  display: grid;
+  gap: 13px;
+  width: 100%;
+}
+
+.gtsi-form label {
+  display: grid;
+  gap: 7px;
+  font-size: .88rem;
+  font-weight: 650;
+}
+
+.gtsi-form input,
+.gtsi-form select,
+.gtsi-form textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 12px 13px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg, transparent);
+  color: inherit;
+  font: inherit;
+}
+
+.gtsi-form input:focus,
+.gtsi-form select:focus,
+.gtsi-form textarea:focus {
+  outline: 2px solid var(--cyan);
+  outline-offset: 1px;
+}
+
+.gtsi-form button {
+  width: 100%;
+  margin-top: 4px;
+}
+
+.gtsi-form-note {
+  color: var(--muted);
+  font-size: .78rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 520px) {
+  .partner-card.promo.gtsi-ad-form-card {
+    padding: 18px;
+  }
+  .gtsi-price-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* GTSI — Refonte professionnelle de l'inscription publicitaire */
+.gtsi-ad-section-heading {
+  max-width: 780px;
+  margin: 45px auto 30px;
+  padding: 28px 20px;
+  text-align: center;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #102b43, #1d4967);
+  color: #fff;
+}
+
+.gtsi-ad-section-heading .tag {
+  color: #f0c56f;
+  letter-spacing: 2px;
+}
+
+.gtsi-ad-section-heading h3 {
+  margin: 13px 0;
+  font-size: clamp(1.45rem, 4vw, 2rem);
+  line-height: 1.3;
+}
+
+.gtsi-ad-section-heading p {
+  max-width: 620px;
+  margin: auto;
+  color: #d9e4ec;
+  line-height: 1.7;
+}
+
+.partner-card.promo.gtsi-ad-form-card {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+  text-align: left;
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--cyan);
+  border-radius: 18px;
+  background: var(--card);
+  box-shadow: 0 12px 35px rgba(0,0,0,.07);
+}
+
+.gtsi-form-heading h3 {
+  margin: 10px 0;
+  font-size: 1.35rem;
+  line-height: 1.35;
+}
+
+.gtsi-form-heading p {
+  line-height: 1.7;
+}
+
+.gtsi-price-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.gtsi-price-list > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg, transparent);
+}
+
+.gtsi-price-list strong {
+  font-size: 1.2rem;
+  color: var(--cyan);
+}
+
+.gtsi-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+}
+
+.gtsi-form label {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  gap: 9px !important;
+  width: 100%;
+  font-size: .92rem;
+  font-weight: 650;
+  line-height: 1.5;
+}
+
+.gtsi-form input,
+.gtsi-form select,
+.gtsi-form textarea {
+  display: block;
+  width: 100% !important;
+  min-height: 48px;
+  padding: 13px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg, transparent);
+  color: inherit;
+  font: inherit;
+}
+
+.gtsi-form textarea {
+  min-height: 115px;
+  resize: vertical;
+}
+
+.gtsi-form button {
+  width: 100%;
+  min-height: 52px;
+  margin-top: 5px;
+}
+
+.gtsi-form-note {
+  display: block;
+  line-height: 1.7;
+}
+
+@media (max-width: 800px) {
+  .partner-cards {
+    grid-template-columns: 1fr !important;
+  }
+
+  .partner-card.promo.gtsi-ad-form-card {
+    max-width: 100%;
+    padding: 22px 18px;
+  }
+
+  .gtsi-ad-section-heading {
+    margin-top: 35px;
+    padding: 25px 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gtsi-price-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* GTSI — Design premium du formulaire publicitaire */
+.partner-card.promo.gtsi-ad-form-card {
+  display: block !important;
+  width: 100% !important;
+  max-width: 760px !important;
+  margin: 25px auto !important;
+  padding: 32px 28px !important;
+  border: 1px solid #dce5ee !important;
+  border-top: 5px solid #c69b4b !important;
+  border-radius: 20px !important;
+  background: #fff !important;
+  box-shadow: 0 18px 45px rgba(15, 39, 63, .09) !important;
+  text-align: left !important;
+  box-sizing: border-box !important;
+}
+
+.gtsi-ad-section-heading {
+  max-width: 760px !important;
+  margin: 45px auto 25px !important;
+  padding: 32px 22px !important;
+  border-radius: 18px !important;
+  background: linear-gradient(135deg, #102b43, #1b4564) !important;
+  color: #fff !important;
+  text-align: center !important;
+}
+
+.gtsi-ad-section-heading .tag {
+  color: #e9c47b !important;
+  letter-spacing: 2px !important;
+  font-weight: 700 !important;
+}
+
+.gtsi-ad-section-heading h3 {
+  margin: 16px 0 !important;
+  color: #fff !important;
+  font-size: clamp(1.35rem, 5vw, 2rem) !important;
+  line-height: 1.4 !important;
+}
+
+.gtsi-ad-section-heading p {
+  max-width: 600px !important;
+  margin: auto !important;
+  color: #e1eaf1 !important;
+  line-height: 1.8 !important;
+}
+
+.gtsi-form-heading {
+  margin-bottom: 25px !important;
+}
+
+.gtsi-form-heading h3 {
+  margin: 12px 0 !important;
+  color: #102b43 !important;
+  font-size: 1.4rem !important;
+  line-height: 1.4 !important;
+}
+
+.gtsi-form-heading p {
+  color: #647487 !important;
+  line-height: 1.7 !important;
+}
+
+/* Tarifs séparés et lisibles */
+.partner-card.promo.gtsi-ad-form-card .gtsi-price-list {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 14px !important;
+  margin: 25px 0 32px !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-price-list > div {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  gap: 9px !important;
+  min-width: 0 !important;
+  padding: 20px 16px !important;
+  border: 1px solid #e3e9ef !important;
+  border-radius: 14px !important;
+  background: #f7f9fc !important;
+  box-sizing: border-box !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-price-list strong {
+  display: block !important;
+  color: #123653 !important;
+  font-size: 1.35rem !important;
+  line-height: 1.3 !important;
+  white-space: nowrap !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-price-list span {
+  display: block !important;
+  color: #68798b !important;
+  font-size: .9rem !important;
+  line-height: 1.5 !important;
+}
+
+/* Formulaire : un champ par ligne */
+.partner-card.promo.gtsi-ad-form-card form.gtsi-form {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  gap: 21px !important;
+  width: 100% !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-form label {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  gap: 9px !important;
+  width: 100% !important;
+  margin: 0 !important;
+  color: #243b50 !important;
+  font-size: .94rem !important;
+  font-weight: 650 !important;
+  line-height: 1.5 !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-form input,
+.partner-card.promo.gtsi-ad-form-card .gtsi-form select,
+.partner-card.promo.gtsi-ad-form-card .gtsi-form textarea {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 50px !important;
+  margin: 0 !important;
+  padding: 13px 15px !important;
+  border: 1px solid #d5dee8 !important;
+  border-radius: 11px !important;
+  background: #fbfcfe !important;
+  color: #18334b !important;
+  font: inherit !important;
+  font-weight: 400 !important;
+  box-sizing: border-box !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-form textarea {
+  min-height: 115px !important;
+  resize: vertical !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-form input:focus,
+.partner-card.promo.gtsi-ad-form-card .gtsi-form select:focus,
+.partner-card.promo.gtsi-ad-form-card .gtsi-form textarea:focus {
+  outline: 2px solid #c69b4b !important;
+  outline-offset: 2px !important;
+  border-color: #c69b4b !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-form button {
+  display: block !important;
+  width: 100% !important;
+  min-height: 54px !important;
+  margin: 8px 0 0 !important;
+  border: 0 !important;
+  border-radius: 12px !important;
+  background: #123b5b !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  letter-spacing: .2px !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-form-note {
+  display: block !important;
+  margin-top: 4px !important;
+  color: #718094 !important;
+  font-size: .82rem !important;
+  line-height: 1.7 !important;
+}
+
+@media (max-width: 600px) {
+  .partner-card.promo.gtsi-ad-form-card {
+    padding: 23px 17px !important;
+  }
+
+  .partner-card.promo.gtsi-ad-form-card .gtsi-price-list {
+    grid-template-columns: 1fr !important;
+  }
+
+  .partner-card.promo.gtsi-ad-form-card .gtsi-price-list > div {
+    padding: 17px !important;
+  }
+
+  .partner-card.promo.gtsi-ad-form-card .gtsi-form button {
+    margin-bottom: 95px !important;
+  }
+}
+
+/* GTSI — Correction définitive des tarifs publicitaires */
+.partner-card.promo.gtsi-ad-form-card .gtsi-price-list {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 16px !important;
+  width: 100% !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-price-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+  padding: 20px !important;
+  border: 1px solid #dce5ee !important;
+  border-radius: 14px !important;
+  background: #f5f8fc !important;
+  box-sizing: border-box !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-price-card strong,
+.partner-card.promo.gtsi-ad-form-card .gtsi-price-card span,
+.partner-card.promo.gtsi-ad-form-card .gtsi-price-card b {
+  display: block !important;
+  width: 100% !important;
+  white-space: normal !important;
+  line-height: 1.5 !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-price-card strong {
+  color: #123b5b !important;
+  font-size: 1.35rem !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-price-card span {
+  color: #647487 !important;
+  font-size: .85rem !important;
+}
+
+.partner-card.promo.gtsi-ad-form-card .gtsi-price-card b {
+  color: #b18437 !important;
+  font-size: 1.1rem !important;
+}
+
+@media (max-width: 600px) {
+  .partner-card.promo.gtsi-ad-form-card .gtsi-price-list {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Information importante — formulaire publicitaire */
+.gtsi-form-note.gtsi-notice {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+  padding: 16px !important;
+  border: 1px solid #dce8e3 !important;
+  border-radius: 12px !important;
+  background: #f3f8f6 !important;
+  color: #42566a !important;
+  line-height: 1.65 !important;
+}
+
+.gtsi-notice-icon {
+  display: flex;
+  flex: 0 0 26px;
+  width: 26px;
+  height: 26px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #267b61;
+  color: #fff;
+  font-weight: 800;
+}
+
+.gtsi-notice strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #205b49;
+  font-size: .78rem;
+  letter-spacing: .7px;
+}
+
+.gtsi-notice p {
+  margin: 0;
+  font-size: .84rem;
+}
+
+/* GTSI — Lisibilité de la section Contact */
+.contact .section-intro {
+  max-width: 760px !important;
+  margin: 14px auto 30px !important;
+  color: #263b50 !important;
+  font-size: 1.05rem !important;
+  font-weight: 450 !important;
+  line-height: 1.85 !important;
+  opacity: 1 !important;
+  text-align: center !important;
+  letter-spacing: .1px !important;
+}
+
+.contact h2 {
+  color: #102b43 !important;
+  line-height: 1.3 !important;
+}
+
+@media (max-width: 600px) {
+  .contact .section-intro {
+    padding: 0 8px !important;
+    font-size: 1rem !important;
+    line-height: 1.8 !important;
+    text-align: left !important;
+  }
+}

@@ -1,0 +1,167 @@
+(() => {
+  "use strict";
+
+  const root = document.getElementById("gtsi-devis");
+  if (!root) return;
+
+  const state = { service: "camera", tier: "classique", step: 1 };
+
+  const services = {
+    camera: "Vidéosurveillance",
+    wifi: "Installation Wi-Fi Zone / MikroTik",
+    combo: "Vidéosurveillance + Wi-Fi"
+  };
+
+  const tiers = {
+    standard: "Standard",
+    classique: "Classique",
+    premium: "Premium"
+  };
+
+  const features = {
+    camera: {
+      standard: ["2 à 4 caméras selon le site", "Enregistreur et stockage adaptés", "Configuration et accès à distance"],
+      classique: ["5 à 8 caméras selon le site", "Enregistrement professionnel", "Vision nocturne et accès distant"],
+      premium: ["9 à 16 caméras ou plus", "Stockage renforcé selon les besoins", "Configuration avancée et accompagnement"]
+    },
+    wifi: {
+      standard: ["1 à 2 points d'accès", "Couverture d'une zone ciblée", "Configuration et sécurisation Wi-Fi"],
+      classique: ["3 à 5 points d'accès", "Routeur MikroTik selon le besoin", "Hotspot et gestion des utilisateurs"],
+      premium: ["6 points d'accès ou plus", "Architecture réseau avancée", "Hotspot, tickets et gestion centralisée"]
+    },
+    combo: {
+      standard: ["2 à 4 caméras", "1 à 2 points Wi-Fi", "Configuration de l'infrastructure"],
+      classique: ["5 à 8 caméras", "3 à 5 points Wi-Fi", "Gestion réseau et accès distant"],
+      premium: ["9 à 16 caméras ou plus", "6 points Wi-Fi ou plus", "Infrastructure intégrée et configuration avancée"]
+    }
+  };
+
+  const $ = id => root.querySelector("#" + id);
+
+  function updateSummary() {
+    $("gd-summary-service").textContent = services[state.service];
+    $("gd-summary-tier").textContent = tiers[state.tier];
+    $("gd-summary-site").textContent = $("gd-site").value;
+    $("gd-summary-quantity").textContent = $("gd-quantity").value;
+    $("gd-included").innerHTML = "";
+    features[state.service][state.tier].forEach(item => {
+      const li = document.createElement("li");
+      li.textContent = item;
+      $("gd-included").appendChild(li);
+    });
+  }
+
+  function selectService(value) {
+    state.service = value;
+    root.querySelectorAll("[data-gd-service]").forEach(button => {
+      const selected = button.dataset.gdService === value;
+      button.classList.toggle("selected", selected);
+      button.setAttribute("aria-pressed", String(selected));
+    });
+    updateSummary();
+  }
+
+  function selectTier(value) {
+    state.tier = value;
+    root.querySelectorAll("[data-gd-tier]").forEach(button => {
+      const selected = button.dataset.gdTier === value;
+      button.classList.toggle("selected", selected);
+      button.setAttribute("aria-pressed", String(selected));
+    });
+    updateSummary();
+  }
+
+  function showStep(number) {
+    state.step = number;
+    [1, 2, 3].forEach(index => {
+      $("gd-step-" + index).hidden = index !== number;
+      $("gd-progress-" + index).classList.toggle("active", index <= number);
+    });
+    $("gd-result").hidden = true;
+    $("gd-form").hidden = false;
+  }
+
+  root.querySelectorAll("[data-gd-service]").forEach(button => {
+    button.addEventListener("click", () => selectService(button.dataset.gdService));
+  });
+
+  root.querySelectorAll("[data-gd-tier]").forEach(button => {
+    button.addEventListener("click", () => selectTier(button.dataset.gdTier));
+  });
+
+  root.querySelectorAll("[data-gd-next]").forEach(button => {
+    button.addEventListener("click", () => {
+      const target = Number(button.dataset.gdNext);
+      if (target === 2 && !$("gd-site").value) return;
+      showStep(target);
+    });
+  });
+
+  root.querySelectorAll("[data-gd-back]").forEach(button => {
+    button.addEventListener("click", () => showStep(Number(button.dataset.gdBack)));
+  });
+
+  ["gd-site", "gd-quantity"].forEach(id => {
+    $(id).addEventListener("change", updateSummary);
+  });
+
+  $("gd-form").addEventListener("submit", event => {
+    event.preventDefault();
+
+    if (!$("gd-form").reportValidity()) return;
+    if (!$("gd-consent").checked) {
+      $("gd-consent").focus();
+      return;
+    }
+
+    const value = id => $(id).value.trim() || "Non précisé";
+    const message = [
+      "DEMANDE DE DEVIS — GTSI",
+      "",
+      "Prestation : " + services[state.service],
+      "Formule souhaitée : " + tiers[state.tier],
+      "Type de site : " + value("gd-site"),
+      "Quantité estimée : " + value("gd-quantity"),
+      "Ville / quartier : " + value("gd-location"),
+      "Superficie : " + value("gd-area"),
+      "Délai : " + value("gd-deadline"),
+      "",
+      "Description du projet : " + value("gd-details"),
+      "",
+      "Nom : " + value("gd-name"),
+      "Téléphone : " + value("gd-phone"),
+      "E-mail : " + value("gd-email"),
+      "Contact préféré : " + value("gd-contact"),
+      "",
+      "Merci de me contacter pour une étude technique et un devis personnalisé."
+    ].join("\n");
+
+    $("gd-request").value = message;
+    $("gd-form").hidden = true;
+    $("gd-result").hidden = false;
+
+    $("gd-whatsapp").href = "https://wa.me/22879828669?text=" + encodeURIComponent(message);
+    $("gd-email-link").href = "mailto:gtsi.tg.net@gmail.com?subject=" +
+      encodeURIComponent("Demande de devis GTSI") + "&body=" + encodeURIComponent(message);
+
+    $("gd-result").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  $("gd-copy").addEventListener("click", async () => {
+    const text = $("gd-request").value;
+    try {
+      await navigator.clipboard.writeText(text);
+      $("gd-copy-status").textContent = "Demande copiée. Vous pouvez la coller dans votre message.";
+    } catch {
+      $("gd-request").select();
+      $("gd-copy-status").textContent = "Texte sélectionné : utilisez la commande Copier de votre appareil.";
+    }
+  });
+
+  $("gd-edit").addEventListener("click", () => showStep(3));
+
+  selectService(state.service);
+  selectTier(state.tier);
+  updateSummary();
+  showStep(1);
+})();
