@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="assets/css/gtsi.css?v=20261019_003247">
   <link rel="stylesheet" href="assets/css/light.css?v=20261020_071938">
   <link rel="stylesheet" href="assets/css/premium.css?v=20261022_01">
+  <link rel="stylesheet" href="assets/css/hero.css?v=1">
 </head>
 <body>
 
@@ -37,21 +38,38 @@
 </header>
 
 <main>
-  <section class="hero" id="accueil">
-    <div class="container">
-      <div class="tag">RÉSEAUX • SÉCURITÉ • INFRASTRUCTURE IT</div>
-      <h1>Des réseaux fiables,<br><span>des systèmes sécurisés.</span></h1>
-      <p>
-        GLOBALTECH SECURITY &amp; INNOVATION (GTSI) conçoit, installe et sécurise vos
-        infrastructures : Wi-Fi, vidéosurveillance, serveurs, VPN et
-        réseaux d'entreprise.
-      </p>
-      <div class="actions">
-        <a class="btn" href="#contact">Demander un devis</a>
-        <a class="btn secondary" href="#services">Découvrir nos services</a>
+  <section class="hero-slider" id="accueil" aria-label="Présentation GTSI">
+    <div class="hs-track">
+      <div class="hs-slide">
+        <img class="hs-bg" src="assets/images/equipe/gtsi-fondateur.webp" alt="Le responsable de GTSI à son bureau" fetchpriority="high">
+        <div class="hs-content">
+          <div class="hs-role"><strong>Fondateur &amp; PDG</strong><span>GLOBALTECH SECURITY &amp; INNOVATION</span></div>
+          <div class="tag">RÉSEAUX • SÉCURITÉ • INFRASTRUCTURE IT</div>
+          <h1>Des réseaux fiables,<br><span>des systèmes sécurisés.</span></h1>
+          <p>GLOBALTECH SECURITY &amp; INNOVATION (GTSI) conçoit, installe et sécurise vos infrastructures.</p>
+          <div class="actions"><a class="btn" href="#contact">Demander un devis</a> <a class="btn secondary" href="#services">Nos services</a></div>
+        </div>
       </div>
-      <ul class="chips"><li>Réseaux LAN/WAN</li><li>Wifi Zone</li><li>Sécurité</li><li>Serveurs</li><li>Vidéosurveillance</li></ul>
+      <div class="hs-slide" aria-hidden="true">
+        <div class="hs-bg g1"></div>
+        <div class="hs-content">
+          <div class="tag">RÉSEAUX</div>
+          <h1>Wi-Fi, LAN/WAN<br><span>et serveurs.</span></h1>
+          <p>Conception, installation et configuration de réseaux d'entreprise et de zones Wi-Fi.</p>
+          <div class="actions"><a class="btn" href="#services">Découvrir</a></div>
+        </div>
+      </div>
+      <div class="hs-slide" aria-hidden="true">
+        <div class="hs-bg g2"></div>
+        <div class="hs-content">
+          <div class="tag">SÉCURITÉ ET BOUTIQUE</div>
+          <h1>Vidéosurveillance<br><span>et matériel réseau.</span></h1>
+          <p>Protégez vos locaux et équipez-vous avec notre sélection de matériel.</p>
+          <div class="actions"><a class="btn" href="#boutique">Voir la boutique</a></div>
+        </div>
+      </div>
     </div>
+    <div class="hs-dots"></div>
   </section>
 
   <!-- PARTNERS:START -->
@@ -348,5 +366,6 @@
 <script src="assets/js/catalogue-details.js"></script>
 <script src="assets/js/boutique.js"></script>
 <script src="assets/js/main.js"></script>
+  <script src="assets/js/hero.js?v=1"></script>
 </body>
 </html>
