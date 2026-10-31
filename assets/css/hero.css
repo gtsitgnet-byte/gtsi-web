@@ -20,3 +20,4 @@
 .hs-role{display:inline-flex;flex-direction:column;gap:2px;margin-bottom:12px;padding:8px 14px;border-left:4px solid #ffb25b;background:rgba(8,20,40,.55);border-radius:0 8px 8px 0}
 .hs-role strong{font-size:1.05rem;color:#fff}
 .hs-role span{font-size:.75rem;letter-spacing:.06em;color:#ffb25b}
+.hs-name{font-size:1.25rem;color:#fff;line-height:1.2}
