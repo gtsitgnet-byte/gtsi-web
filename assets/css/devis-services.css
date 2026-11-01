@@ -1,0 +1,61 @@
+/* GTSI — Configurateur de devis indépendant */
+#gtsi-devis {
+  --gd-blue: #123b5a;
+  --gd-gold: #d6a343;
+  --gd-text: #203244;
+  --gd-muted: #687887;
+  --gd-border: #dce5ec;
+  --gd-soft: #f3f7fa;
+  padding: 72px 0;
+  background: #f6f8fa;
+  color: var(--gd-text);
+  scroll-margin-top: 30px;
+}
+#gtsi-devis * { box-sizing: border-box; }
+#gtsi-devis .gd-container { width: min(1120px, calc(100% - 36px)); margin: auto; }
+#gtsi-devis .gd-heading { max-width: 720px; margin-bottom: 30px; }
+#gtsi-devis .gd-eyebrow { color: #9a6c1c; font-size: .75rem; font-weight: 800; letter-spacing: .13em; }
+#gtsi-devis h2 { color: var(--gd-blue); font-size: clamp(1.8rem, 4vw, 2.5rem); margin: 10px 0; }
+#gtsi-devis .gd-heading p { color: var(--gd-muted); line-height: 1.7; }
+#gtsi-devis .gd-layout { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(260px, .8fr); gap: 22px; align-items: start; }
+#gtsi-devis .gd-panel { background: #fff; border: 1px solid var(--gd-border); border-radius: 18px; padding: clamp(18px, 3vw, 28px); box-shadow: 0 12px 32px rgba(20,48,70,.06); }
+#gtsi-devis .gd-progress { display: flex; gap: 8px; margin-bottom: 25px; }
+#gtsi-devis .gd-progress span { height: 5px; flex: 1; background: #e4eaf0; border-radius: 20px; }
+#gtsi-devis .gd-progress span.active { background: var(--gd-gold); }
+#gtsi-devis .gd-field { margin: 18px 0; }
+#gtsi-devis label, #gtsi-devis .gd-label { display: block; font-weight: 750; font-size: .88rem; margin-bottom: 8px; }
+#gtsi-devis input:not([type=checkbox]), #gtsi-devis select, #gtsi-devis textarea { width: 100%; min-height: 46px; padding: 12px; border: 1px solid var(--gd-border); border-radius: 10px; background: #fff; color: #203244; font: inherit; }
+#gtsi-devis textarea { resize: vertical; }
+#gtsi-devis input:focus, #gtsi-devis select:focus, #gtsi-devis textarea:focus { outline: 2px solid rgba(214,163,67,.35); border-color: var(--gd-gold); }
+#gtsi-devis .gd-choices { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+#gtsi-devis .gd-choice { min-height: 94px; padding: 14px; text-align: left; border: 1px solid var(--gd-border); border-radius: 12px; background: #fff; color: var(--gd-text); cursor: pointer; }
+#gtsi-devis .gd-choice strong, #gtsi-devis .gd-choice small { display: block; }
+#gtsi-devis .gd-choice small { margin-top: 6px; color: var(--gd-muted); line-height: 1.4; }
+#gtsi-devis .gd-choice.selected { border: 2px solid var(--gd-gold); background: #fffaf0; padding: 13px; }
+#gtsi-devis .gd-hint { display: block; margin-top: 8px; color: var(--gd-muted); font-size: .78rem; line-height: 1.5; }
+#gtsi-devis .gd-two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+#gtsi-devis .gd-actions { display: flex; justify-content: space-between; gap: 10px; margin-top: 24px; }
+#gtsi-devis .gd-btn { display: inline-flex; justify-content: center; align-items: center; min-height: 45px; padding: 11px 17px; border: 0; border-radius: 10px; background: var(--gd-blue); color: #fff; font-weight: 750; cursor: pointer; text-decoration: none; }
+#gtsi-devis .gd-btn.gold { background: var(--gd-gold); color: #1d2c38; }
+#gtsi-devis .gd-btn.light { background: var(--gd-soft); border: 1px solid var(--gd-border); color: var(--gd-text); }
+#gtsi-devis .gd-summary { position: sticky; top: 18px; }
+#gtsi-devis .gd-summary h3 { margin-top: 0; color: var(--gd-blue); }
+#gtsi-devis .gd-line { display: flex; justify-content: space-between; gap: 12px; padding: 13px 0; border-bottom: 1px solid var(--gd-border); font-size: .85rem; }
+#gtsi-devis .gd-line span { color: var(--gd-muted); }
+#gtsi-devis .gd-line strong { text-align: right; }
+#gtsi-devis .gd-note { padding: 13px; margin-top: 16px; border-radius: 10px; background: var(--gd-soft); color: var(--gd-muted); font-size: .8rem; line-height: 1.55; }
+#gtsi-devis .gd-check { display: flex; align-items: flex-start; gap: 9px; font-weight: 500; line-height: 1.5; }
+#gtsi-devis .gd-check input { margin-top: 4px; }
+#gtsi-devis [hidden] { display: none !important; }
+#gtsi-devis .gd-result textarea { min-height: 250px; }
+#gtsi-devis .gd-status { color: #247b5b; font-size: .85rem; }
+@media (max-width: 800px) {
+  #gtsi-devis .gd-layout { grid-template-columns: 1fr; }
+  #gtsi-devis .gd-summary { position: static; }
+}
+@media (max-width: 560px) {
+  #gtsi-devis .gd-choices, #gtsi-devis .gd-two { grid-template-columns: 1fr; }
+  #gtsi-devis .gd-choice { min-height: 0; }
+  #gtsi-devis .gd-actions { flex-wrap: wrap; }
+  #gtsi-devis .gd-actions .gd-btn { flex: 1; }
+}

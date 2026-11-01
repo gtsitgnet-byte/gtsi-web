@@ -1,0 +1,26 @@
+{
+  "rapports_json_lus": 102,
+  "produits_candidats_uniques": 26,
+  "statuts": {
+    "A_VERIFIER": 6,
+    "NOUVEAU_POTENTIEL": 4,
+    "DOUBLON_PROBABLE": 2,
+    "DEJA_PRESENT_EXACT": 14
+  },
+  "sources_autorisees": {
+    "PRO-TECH TOGO": 10,
+    "TIC INFO": 1,
+    "Univers HD": 15
+  },
+  "catalogue_actif_produits": 71,
+  "associations_image_map": 71,
+  "fichiers_actifs_modifies": false,
+  "fournisseurs_exclus": [
+    "Togo Informatique",
+    "PRO-TECH TOGO"
+  ],
+  "prix_publies": false,
+  "publication_github": false,
+  "csv": "/root/projects/web/rapports/audit-global-20261022-234525/produits-potentiels.csv",
+  "json": "/root/projects/web/rapports/audit-global-20261022-234525/produits-potentiels.json"
+}

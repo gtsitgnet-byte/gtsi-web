@@ -1,0 +1,12 @@
+/* ===== DESIGN V2 : fond pro + filigrane GTSI derrière le contenu ===== */
+body::before{content:""!important;display:block!important;position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.06;background:url("../images/gtsi-logo.webp") no-repeat center/min(80vw,520px) auto!important}
+header,main,section,footer{position:relative;z-index:1}
+header{background:#fff!important;box-shadow:0 2px 14px rgba(11,31,58,.08)}
+#services,#schemas,#apropos,#nos-partenaires,.partners{background:rgba(255,255,255,.72)!important}
+#methode,#boutique,#avis{background:rgba(238,244,252,.78)!important}
+section{padding-block:clamp(40px,8vw,84px)}
+section h2{font-size:clamp(1.5rem,5.5vw,2.3rem);line-height:1.2;letter-spacing:0;text-transform:none;color:#0b1f3a}
+section .tag{color:#1769d2;font-weight:700;letter-spacing:.12em}
+section h2::after{content:"";display:block;width:64px;height:4px;border-radius:4px;margin-top:12px;background:linear-gradient(90deg,#f0a431,#1769d2)!important}
+.card,.step,.product,.review,.partner-card{background:rgba(255,255,255,.96);border:1px solid #d5e1ef;border-radius:16px;box-shadow:0 8px 24px rgba(11,31,58,.07)}
+.hero-slider,.contact,footer{z-index:1}

@@ -1,0 +1,1338 @@
+{
+  "date": "20261022-234927",
+  "sauvegarde": "rapports/sauvegarde-nettoyage-protech-20261022-234927",
+  "fichiers_actifs_modifies": [],
+  "fichiers_avec_traces_a_examiner": 58,
+  "traces": [
+    {
+      "fichier": "rapports/photos-protech-a-remplacer-20261021.txt",
+      "occurrences": 147,
+      "exemples": [
+        {
+          "ligne": 4,
+          "texte": "IMAGE : https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg"
+        },
+        {
+          "ligne": 7,
+          "texte": "IMAGE : https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg"
+        },
+        {
+          "ligne": 10,
+          "texte": "IMAGE : https://protechtogo.com/wp-content/uploads/2023/09/CANON-RP-108-Kit-de-3-Rubans-dimpression-1-1.jpg"
+        },
+        {
+          "ligne": 13,
+          "texte": "IMAGE : https://protechtogo.com/wp-content/uploads/2024/07/Canon-SELPHY-CP1000-3.jpg"
+        },
+        {
+          "ligne": 16,
+          "texte": "IMAGE : https://protechtogo.com/wp-content/uploads/2025/01/Canon-BH-40-Noir-Tete-dimpression.jpg"
+        },
+        {
+          "ligne": 19,
+          "texte": "IMAGE : https://protechtogo.com/wp-content/uploads/2025/01/Canon-CH-40-Couleur-Tete-dimpression.jpg"
+        },
+        {
+          "ligne": 22,
+          "texte": "IMAGE : https://protechtogo.com/wp-content/uploads/2024/07/Canon-CanoScan-LiDE-300-2996C010-2.jpg"
+        },
+        {
+          "ligne": 25,
+          "texte": "IMAGE : https://protechtogo.com/wp-content/uploads/2024/01/Canon-CanoScan-LiDE-400-2996C010.jpg"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/audit-sources-a-exclure.txt",
+      "occurrences": 941,
+      "exemples": [
+        {
+          "ligne": 58,
+          "texte": "ligne 4: IMAGE : https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg"
+        },
+        {
+          "ligne": 59,
+          "texte": "ligne 7: IMAGE : https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg"
+        },
+        {
+          "ligne": 60,
+          "texte": "ligne 10: IMAGE : https://protechtogo.com/wp-content/uploads/2023/09/CANON-RP-108-Kit-de-3-Rubans-dimpression-1-1.jpg"
+        },
+        {
+          "ligne": 61,
+          "texte": "ligne 13: IMAGE : https://protechtogo.com/wp-content/uploads/2024/07/Canon-SELPHY-CP1000-3.jpg"
+        },
+        {
+          "ligne": 62,
+          "texte": "ligne 16: IMAGE : https://protechtogo.com/wp-content/uploads/2025/01/Canon-BH-40-Noir-Tete-dimpression.jpg"
+        },
+        {
+          "ligne": 63,
+          "texte": "ligne 19: IMAGE : https://protechtogo.com/wp-content/uploads/2025/01/Canon-CH-40-Couleur-Tete-dimpression.jpg"
+        },
+        {
+          "ligne": 64,
+          "texte": "ligne 22: IMAGE : https://protechtogo.com/wp-content/uploads/2024/07/Canon-CanoScan-LiDE-300-2996C010-2.jpg"
+        },
+        {
+          "ligne": 65,
+          "texte": "ligne 25: IMAGE : https://protechtogo.com/wp-content/uploads/2024/01/Canon-CanoScan-LiDE-400-2996C010.jpg"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/nettoyage-fournisseurs-20261022-225000.txt",
+      "occurrences": 6831,
+      "exemples": [
+        {
+          "ligne": 233,
+          "texte": "rapports/photos-protech-a-remplacer-20261021.txt:4: IMAGE : https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg"
+        },
+        {
+          "ligne": 234,
+          "texte": "rapports/photos-protech-a-remplacer-20261021.txt:7: IMAGE : https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg"
+        },
+        {
+          "ligne": 235,
+          "texte": "rapports/photos-protech-a-remplacer-20261021.txt:10: IMAGE : https://protechtogo.com/wp-content/uploads/2023/09/CANON-RP-108-Kit-de-3-Rubans-dimpression-1-1.jpg"
+        },
+        {
+          "ligne": 236,
+          "texte": "rapports/photos-protech-a-remplacer-20261021.txt:13: IMAGE : https://protechtogo.com/wp-content/uploads/2024/07/Canon-SELPHY-CP1000-3.jpg"
+        },
+        {
+          "ligne": 237,
+          "texte": "rapports/photos-protech-a-remplacer-20261021.txt:16: IMAGE : https://protechtogo.com/wp-content/uploads/2025/01/Canon-BH-40-Noir-Tete-dimpression.jpg"
+        },
+        {
+          "ligne": 238,
+          "texte": "rapports/photos-protech-a-remplacer-20261021.txt:19: IMAGE : https://protechtogo.com/wp-content/uploads/2025/01/Canon-CH-40-Couleur-Tete-dimpression.jpg"
+        },
+        {
+          "ligne": 239,
+          "texte": "rapports/photos-protech-a-remplacer-20261021.txt:22: IMAGE : https://protechtogo.com/wp-content/uploads/2024/07/Canon-CanoScan-LiDE-300-2996C010-2.jpg"
+        },
+        {
+          "ligne": 240,
+          "texte": "rapports/photos-protech-a-remplacer-20261021.txt:25: IMAGE : https://protechtogo.com/wp-content/uploads/2024/01/Canon-CanoScan-LiDE-400-2996C010.jpg"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/multi-fournisseurs-20261021-081558/produits-modernes.csv",
+      "occurrences": 147,
+      "exemples": [
+        {
+          "ligne": 2,
+          "texte": "PRO-TECH TOGO,\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",0 CFA,https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg,https://protechtogo.com/produit/a"
+        },
+        {
+          "ligne": 3,
+          "texte": "PRO-TECH TOGO,Battérie CANON NB-CP2L pour imprimante SELPHY CP1000,0 CFA,https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg,https://protechtogo.com/produit/batterie-canon-nb-cp2l-pour-imprimante-selphy-cp1000/,ind"
+        },
+        {
+          "ligne": 4,
+          "texte": "PRO-TECH TOGO,\"Canon BH-40 Noir, Tête d’impression pour Canon PIXMA G2420, G3420\",0 CFA,https://protechtogo.com/wp-content/uploads/2025/01/Canon-BH-40-Noir-Tete-dimpression.jpg,https://protechtogo.com/produit/canon-bh-40-noir-tete-dimpressi"
+        },
+        {
+          "ligne": 5,
+          "texte": "PRO-TECH TOGO,Canon CanoScan LIDE 300 Scanner à Plat A4 (2995C010),0 CFA,https://protechtogo.com/wp-content/uploads/2024/07/Canon-CanoScan-LiDE-300-2996C010-2.jpg,https://protechtogo.com/produit/canon-canoscan-lide-300-scanner-a-plat-a4-299"
+        },
+        {
+          "ligne": 6,
+          "texte": "PRO-TECH TOGO,Canon CanoScan LiDE 400 (2996C010) Scanner à Plat A4 USB,0 CFA,https://protechtogo.com/wp-content/uploads/2024/01/Canon-CanoScan-LiDE-400-2996C010.jpg,https://protechtogo.com/produit/canon-canoscan-lide-400-2996c010-scanner-a-"
+        },
+        {
+          "ligne": 7,
+          "texte": "PRO-TECH TOGO,\"Canon CH-40 Couleur, Tête d’impression pour Canon PIXMA G2420, G3420\",0 CFA,https://protechtogo.com/wp-content/uploads/2025/01/Canon-CH-40-Couleur-Tete-dimpression.jpg,https://protechtogo.com/produit/canon-ch-40-couleur-tete-"
+        },
+        {
+          "ligne": 8,
+          "texte": "PRO-TECH TOGO,\"Canon i-SENSYS LBP6030B, Imprimante Laser Monochrome\",0 CFA,https://protechtogo.com/wp-content/uploads/2025/07/Canon-i-SENSYS-LBP6030B.jpg,https://protechtogo.com/produit/canon-i-sensys-lbp6030b-imprimante-laser-monochrome/,i"
+        },
+        {
+          "ligne": 9,
+          "texte": "PRO-TECH TOGO,\"Canon i-SENSYS MF275dw, Imprimante Multifonction Laser Monochrome\",0 CFA,https://protechtogo.com/wp-content/uploads/2025/05/Canon-i-SENSYS-MF275dw-Imprimante-Multifonction.jpg,https://protechtogo.com/produit/canon-i-sensys-mf"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/multi-fournisseurs-20261021-081558/produits-modernes.json",
+      "occurrences": 441,
+      "exemples": [
+        {
+          "ligne": 3,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 6,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg\","
+        },
+        {
+          "ligne": 7,
+          "texte": "\"produit_url\": \"https://protechtogo.com/produit/asus-tuf-gaming-f16-core-i7-14650h-32go-1to-nvidia-geforce-rtx-5060-ecran-16-gaming-laptop/\","
+        },
+        {
+          "ligne": 14,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 17,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg\","
+        },
+        {
+          "ligne": 18,
+          "texte": "\"produit_url\": \"https://protechtogo.com/produit/batterie-canon-nb-cp2l-pour-imprimante-selphy-cp1000/\","
+        },
+        {
+          "ligne": 25,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 28,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2025/01/Canon-BH-40-Noir-Tete-dimpression.jpg\","
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/multi-fournisseurs-20261021-081558/rapport-fournisseurs.json",
+      "occurrences": 32,
+      "exemples": [
+        {
+          "ligne": 39,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 40,
+          "texte": "\"site\": \"https://protechtogo.com/boutique/\","
+        },
+        {
+          "ligne": 46,
+          "texte": "\"https://protechtogo.com/product-category/ordinateurs-pc/ordinateurs-portable/: HTTP Error 404: Not Found\","
+        },
+        {
+          "ligne": 47,
+          "texte": "\"https://protechtogo.com/product-category/ordinateurs-pc/ordinateur-de-bureau-pc-fixe/: The read operation timed out\","
+        },
+        {
+          "ligne": 48,
+          "texte": "\"https://protechtogo.com/product-category/ordinateurs-pc/ordinateur-de-bureau-pc-fixe/intel-core-i5/: The read operation timed out\","
+        },
+        {
+          "ligne": 49,
+          "texte": "\"https://protechtogo.com/product-category/ordinateurs-pc/ordinateur-de-bureau-pc-fixe/intel-core-i7/: The read operation timed out\","
+        },
+        {
+          "ligne": 50,
+          "texte": "\"https://protechtogo.com/product-category/ordinateurs-pc/ordinateur-de-bureau-pc-fixe/all-in-one/: HTTP Error 500: Internal Server Error\","
+        },
+        {
+          "ligne": 51,
+          "texte": "\"https://protechtogo.com/product-category/ordinateurs-pc/ordinateur-de-bureau-pc-fixe/all-in-one/avec-ecran-24/: The read operation timed out\","
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-enrichi/produits-enrichis.json",
+      "occurrences": 588,
+      "exemples": [
+        {
+          "ligne": 3,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 6,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg\","
+        },
+        {
+          "ligne": 7,
+          "texte": "\"produit_url\": \"https://protechtogo.com/produit/asus-tuf-gaming-f16-core-i7-14650h-32go-1to-nvidia-geforce-rtx-5060-ecran-16-gaming-laptop/\","
+        },
+        {
+          "ligne": 15,
+          "texte": "\"url_image_source\": \"https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg\","
+        },
+        {
+          "ligne": 19,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 22,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg\","
+        },
+        {
+          "ligne": 23,
+          "texte": "\"produit_url\": \"https://protechtogo.com/produit/batterie-canon-nb-cp2l-pour-imprimante-selphy-cp1000/\","
+        },
+        {
+          "ligne": 31,
+          "texte": "\"url_image_source\": \"https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg\","
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-enrichi/controle-qualite.csv",
+      "occurrences": 147,
+      "exemples": [
+        {
+          "ligne": 2,
+          "texte": "PRO-TECH TOGO,\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop Produits d'actualités\",340,\"ASUS "
+        },
+        {
+          "ligne": 3,
+          "texte": "PRO-TECH TOGO,Battérie CANON NB-CP2L pour imprimante SELPHY CP1000,Battérie CANON NB-CP2L pour imprimante SELPHY CP1000 Produits d'actualités,404,\"Battérie NB-CP2LI pour imprimante photo canon SELPHY vous pouvez désormais imprimer où que vo"
+        },
+        {
+          "ligne": 4,
+          "texte": "PRO-TECH TOGO,CANON RP-108 Kit de 3 Rubans d’impression + Papier Photo (108 tirages) pour Canon Selphy,CANON RP-108 Kit de 3 Rubans d’impression + Papier Photo (108 tirages) pour Canon Selphy Produits d'actualités,542,\"CANON RP-108 Rubans d"
+        },
+        {
+          "ligne": 5,
+          "texte": "PRO-TECH TOGO,CANON SELPHY CP1000 Imprimante photo couleur (0011C012),CANON SELPHY CP1000 Imprimante photo couleur (0011C012) Produits d'actualités,493,\"Imprimante photo couleur CANON SELPHY Transformez vos plus beaux souvenirs en tirages p"
+        },
+        {
+          "ligne": 6,
+          "texte": "PRO-TECH TOGO,\"Canon BH-40 Noir, Tête d’impression pour Canon PIXMA G2420, G3420\",\"Canon BH-40 Noir, Tête d’impression pour Canon PIXMA G2420, G3420 Produits d'actualités\",384,\"Tête d'impression CANON BH40 - Couleur: Noir - Qualité d’impres"
+        },
+        {
+          "ligne": 7,
+          "texte": "PRO-TECH TOGO,\"Canon CH-40 Couleur, Tête d’impression pour Canon PIXMA G2420, G3420\",\"Canon CH-40 Couleur, Tête d’impression pour Canon PIXMA G2420, G3420 Produits d'actualités\",382,\"Tête d'impression CANON CH40 - Couleur: Tri-color - Quali"
+        },
+        {
+          "ligne": 8,
+          "texte": "PRO-TECH TOGO,Canon CanoScan LIDE 300 Scanner à Plat A4 (2995C010),Canon CanoScan LIDE 300 Scanner à Plat A4 (2995C010) Produits d'actualités,355,\"Scanner à plat CANON : 2400 x 4800 dpi Idéal à la maison ou au bureau Taille de document max."
+        },
+        {
+          "ligne": 9,
+          "texte": "PRO-TECH TOGO,Canon CanoScan LiDE 400 (2996C010) Scanner à Plat A4 USB,Canon CanoScan LiDE 400 (2996C010) Scanner à Plat A4 USB Produits d'actualités,445,\"Scanner à plat : 4800 x 4800 dpi Idéal à la maison ou au bureau Taille de document ma"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-enrichi/candidats-nettoyes.json",
+      "occurrences": 441,
+      "exemples": [
+        {
+          "ligne": 3,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 7,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg\","
+        },
+        {
+          "ligne": 8,
+          "texte": "\"produit_url\": \"https://protechtogo.com/produit/asus-tuf-gaming-f16-core-i7-14650h-32go-1to-nvidia-geforce-rtx-5060-ecran-16-gaming-laptop/\","
+        },
+        {
+          "ligne": 13,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 17,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg\","
+        },
+        {
+          "ligne": 18,
+          "texte": "\"produit_url\": \"https://protechtogo.com/produit/batterie-canon-nb-cp2l-pour-imprimante-selphy-cp1000/\","
+        },
+        {
+          "ligne": 23,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 27,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2023/09/CANON-RP-108-Kit-de-3-Rubans-dimpression-1-1.jpg\","
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-enrichi/candidats-nettoyes.csv",
+      "occurrences": 147,
+      "exemples": [
+        {
+          "ligne": 2,
+          "texte": "PRO-TECH TOGO,\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",\"ASUS TUF Gaming F16 est équipé "
+        },
+        {
+          "ligne": 3,
+          "texte": "PRO-TECH TOGO,Battérie CANON NB-CP2L pour imprimante SELPHY CP1000,Battérie CANON NB-CP2L pour imprimante SELPHY CP1000,\"Battérie NB-CP2LI pour imprimante photo canon SELPHY vous pouvez désormais imprimer où que vous soyez. La NB-CP2LI a un"
+        },
+        {
+          "ligne": 4,
+          "texte": "PRO-TECH TOGO,CANON RP-108 Kit de 3 Rubans d’impression + Papier Photo (108 tirages) pour Canon Selphy,CANON RP-108 Kit de 3 Rubans d’impression + Papier Photo (108 tirages) pour Canon Selphy,\"CANON RP-108 Rubans d'impression et Papier Phot"
+        },
+        {
+          "ligne": 5,
+          "texte": "PRO-TECH TOGO,CANON SELPHY CP1000 Imprimante photo couleur (0011C012),CANON SELPHY CP1000 Imprimante photo couleur (0011C012),\"Imprimante photo couleur CANON SELPHY Transformez vos plus beaux souvenirs en tirages photos Système d’impression"
+        },
+        {
+          "ligne": 6,
+          "texte": "PRO-TECH TOGO,\"Canon BH-40 Noir, Tête d’impression pour Canon PIXMA G2420, G3420\",\"Canon BH-40 Noir, Tête d’impression pour Canon PIXMA G2420, G3420\",\"Tête d'impression CANON BH40 - Couleur: Noir - Qualité d’impression : La tête d’impressio"
+        },
+        {
+          "ligne": 7,
+          "texte": "PRO-TECH TOGO,\"Canon CH-40 Couleur, Tête d’impression pour Canon PIXMA G2420, G3420\",\"Canon CH-40 Couleur, Tête d’impression pour Canon PIXMA G2420, G3420\",\"Tête d'impression CANON CH40 - Couleur: Tri-color - Qualité d’impression : La tête "
+        },
+        {
+          "ligne": 8,
+          "texte": "PRO-TECH TOGO,Canon CanoScan LIDE 300 Scanner à Plat A4 (2995C010),Canon CanoScan LIDE 300 Scanner à Plat A4 (2995C010),\"Scanner à plat CANON : 2400 x 4800 dpi Idéal à la maison ou au bureau Taille de document max. : A4 / Lettre (216 x 297 "
+        },
+        {
+          "ligne": 9,
+          "texte": "PRO-TECH TOGO,Canon CanoScan LiDE 400 (2996C010) Scanner à Plat A4 USB,Canon CanoScan LiDE 400 (2996C010) Scanner à Plat A4 USB,\"Scanner à plat : 4800 x 4800 dpi Idéal à la maison ou au bureau Taille de document max. : A4 / Lettre (216 x 29"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-enrichi/verification-images.json",
+      "occurrences": 451,
+      "exemples": [
+        {
+          "ligne": 3,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 5,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg\","
+        },
+        {
+          "ligne": 6,
+          "texte": "\"produit_url\": \"https://protechtogo.com/produit/asus-tuf-gaming-f16-core-i7-14650h-32go-1to-nvidia-geforce-rtx-5060-ecran-16-gaming-laptop/\","
+        },
+        {
+          "ligne": 13,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 15,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg\","
+        },
+        {
+          "ligne": 16,
+          "texte": "\"produit_url\": \"https://protechtogo.com/produit/batterie-canon-nb-cp2l-pour-imprimante-selphy-cp1000/\","
+        },
+        {
+          "ligne": 23,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 25,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2023/09/CANON-RP-108-Kit-de-3-Rubans-dimpression-1-1.jpg\","
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-enrichi/verification-images.csv",
+      "occurrences": 147,
+      "exemples": [
+        {
+          "ligne": 2,
+          "texte": "PRO-TECH TOGO,\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg,https://protechtogo.com/produit/asus-tu"
+        },
+        {
+          "ligne": 3,
+          "texte": "PRO-TECH TOGO,Battérie CANON NB-CP2L pour imprimante SELPHY CP1000,https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg,https://protechtogo.com/produit/batterie-canon-nb-cp2l-pour-imprimante-selphy-cp1000/,206,image"
+        },
+        {
+          "ligne": 4,
+          "texte": "PRO-TECH TOGO,CANON RP-108 Kit de 3 Rubans d’impression + Papier Photo (108 tirages) pour Canon Selphy,https://protechtogo.com/wp-content/uploads/2023/09/CANON-RP-108-Kit-de-3-Rubans-dimpression-1-1.jpg,https://protechtogo.com/produit/canon"
+        },
+        {
+          "ligne": 5,
+          "texte": "PRO-TECH TOGO,CANON SELPHY CP1000 Imprimante photo couleur (0011C012),https://protechtogo.com/wp-content/uploads/2024/07/Canon-SELPHY-CP1000-3.jpg,https://protechtogo.com/produit/canon-selphy-cp1000-imprimante-photo-couleur-0011c012/,206,im"
+        },
+        {
+          "ligne": 6,
+          "texte": "PRO-TECH TOGO,\"Canon BH-40 Noir, Tête d’impression pour Canon PIXMA G2420, G3420\",https://protechtogo.com/wp-content/uploads/2025/01/Canon-BH-40-Noir-Tete-dimpression.jpg,https://protechtogo.com/produit/canon-bh-40-noir-tete-dimpression-pou"
+        },
+        {
+          "ligne": 7,
+          "texte": "PRO-TECH TOGO,\"Canon CH-40 Couleur, Tête d’impression pour Canon PIXMA G2420, G3420\",https://protechtogo.com/wp-content/uploads/2025/01/Canon-CH-40-Couleur-Tete-dimpression.jpg,https://protechtogo.com/produit/canon-ch-40-couleur-tete-dimpre"
+        },
+        {
+          "ligne": 8,
+          "texte": "PRO-TECH TOGO,Canon CanoScan LIDE 300 Scanner à Plat A4 (2995C010),https://protechtogo.com/wp-content/uploads/2024/07/Canon-CanoScan-LiDE-300-2996C010-2.jpg,https://protechtogo.com/produit/canon-canoscan-lide-300-scanner-a-plat-a4-2995c010/"
+        },
+        {
+          "ligne": 9,
+          "texte": "PRO-TECH TOGO,Canon CanoScan LiDE 400 (2996C010) Scanner à Plat A4 USB,https://protechtogo.com/wp-content/uploads/2024/01/Canon-CanoScan-LiDE-400-2996C010.jpg,https://protechtogo.com/produit/canon-canoscan-lide-400-2996c010-scanner-a-plat-a"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-enrichi/inventaire-images-par-categorie.json",
+      "occurrences": 242,
+      "exemples": [
+        {
+          "ligne": 5,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 7,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2025/08/Epson-TM-m30III-Imprimante-thermique.jpg\","
+        },
+        {
+          "ligne": 11,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 13,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2024/05/Imprimante-HP-Deskjet-2630-multifonction-4.jpg\","
+        },
+        {
+          "ligne": 17,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 19,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2024/05/Imprimante-HP-LaserJet-Pro-P1102w-Monochrome-1.jpg\","
+        },
+        {
+          "ligne": 85,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 87,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2026/09/D-Link-DGS-F1010P-E-Switch-PoE-Gigabit-10-Ports.jpg\","
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-enrichi/remplacements-protech-candidats.txt",
+      "occurrences": 147,
+      "exemples": [
+        {
+          "ligne": 8,
+          "texte": "IMAGE ACTUELLE : https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg"
+        },
+        {
+          "ligne": 26,
+          "texte": "IMAGE ACTUELLE : https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg"
+        },
+        {
+          "ligne": 31,
+          "texte": "IMAGE ACTUELLE : https://protechtogo.com/wp-content/uploads/2023/09/CANON-RP-108-Kit-de-3-Rubans-dimpression-1-1.jpg"
+        },
+        {
+          "ligne": 36,
+          "texte": "IMAGE ACTUELLE : https://protechtogo.com/wp-content/uploads/2024/07/Canon-SELPHY-CP1000-3.jpg"
+        },
+        {
+          "ligne": 41,
+          "texte": "IMAGE ACTUELLE : https://protechtogo.com/wp-content/uploads/2025/01/Canon-BH-40-Noir-Tete-dimpression.jpg"
+        },
+        {
+          "ligne": 46,
+          "texte": "IMAGE ACTUELLE : https://protechtogo.com/wp-content/uploads/2025/01/Canon-CH-40-Couleur-Tete-dimpression.jpg"
+        },
+        {
+          "ligne": 51,
+          "texte": "IMAGE ACTUELLE : https://protechtogo.com/wp-content/uploads/2024/07/Canon-CanoScan-LiDE-300-2996C010-2.jpg"
+        },
+        {
+          "ligne": 56,
+          "texte": "IMAGE ACTUELLE : https://protechtogo.com/wp-content/uploads/2024/01/Canon-CanoScan-LiDE-400-2996C010.jpg"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-enrichi/remplacements-par-categorie.txt",
+      "occurrences": 147,
+      "exemples": [
+        {
+          "ligne": 7,
+          "texte": "ANCIENNE IMAGE: https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg"
+        },
+        {
+          "ligne": 17,
+          "texte": "ANCIENNE IMAGE: https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg"
+        },
+        {
+          "ligne": 22,
+          "texte": "ANCIENNE IMAGE: https://protechtogo.com/wp-content/uploads/2023/09/CANON-RP-108-Kit-de-3-Rubans-dimpression-1-1.jpg"
+        },
+        {
+          "ligne": 27,
+          "texte": "ANCIENNE IMAGE: https://protechtogo.com/wp-content/uploads/2024/07/Canon-SELPHY-CP1000-3.jpg"
+        },
+        {
+          "ligne": 32,
+          "texte": "ANCIENNE IMAGE: https://protechtogo.com/wp-content/uploads/2025/01/Canon-BH-40-Noir-Tete-dimpression.jpg"
+        },
+        {
+          "ligne": 37,
+          "texte": "ANCIENNE IMAGE: https://protechtogo.com/wp-content/uploads/2025/01/Canon-CH-40-Couleur-Tete-dimpression.jpg"
+        },
+        {
+          "ligne": 42,
+          "texte": "ANCIENNE IMAGE: https://protechtogo.com/wp-content/uploads/2024/07/Canon-CanoScan-LiDE-300-2996C010-2.jpg"
+        },
+        {
+          "ligne": 47,
+          "texte": "ANCIENNE IMAGE: https://protechtogo.com/wp-content/uploads/2024/01/Canon-CanoScan-LiDE-400-2996C010.jpg"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-enrichi/correspondances-images-a-valider.csv",
+      "occurrences": 1028,
+      "exemples": [
+        {
+          "ligne": 2,
+          "texte": "\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",ORDINATEUR,https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg,1,HP Laptop 15 i5 13è Gén | 512Go SSD | Wi"
+        },
+        {
+          "ligne": 3,
+          "texte": "\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",ORDINATEUR,https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg,2,HP Pavilion 15 i7 13è Gén | Tactile | 16"
+        },
+        {
+          "ligne": 4,
+          "texte": "\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",ORDINATEUR,https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg,3,HP ProBook 450 G10 i5 13è Gén | Écran Ta"
+        },
+        {
+          "ligne": 5,
+          "texte": "\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",ORDINATEUR,https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg,4,HP ProBook 450 G10 – Intel Core i7 (13èm"
+        },
+        {
+          "ligne": 6,
+          "texte": "\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",ORDINATEUR,https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg,5,Lenovo Ideapad Slim 3 i5 13è Gén | 1To S"
+        },
+        {
+          "ligne": 7,
+          "texte": "\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",ORDINATEUR,https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg,6,Lenovo ThinkPad E16 Gen 1 – Intel Core i"
+        },
+        {
+          "ligne": 8,
+          "texte": "\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",ORDINATEUR,https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg,7,\"ASUS Vivobook 15 F1504VAP Intel Core 7 "
+        },
+        {
+          "ligne": 9,
+          "texte": "\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",ORDINATEUR,https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg,8,\"ASUS Vivobook X515FA-EJ046 - Intel Core"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-enrichi/remplacements-images-lot-20261021-130910.json",
+      "occurrences": 57,
+      "exemples": [
+        {
+          "ligne": 23,
+          "texte": "\"ancienne_image\": \"https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg\","
+        },
+        {
+          "ligne": 31,
+          "texte": "\"ancienne_image\": \"https://protechtogo.com/wp-content/uploads/2026/09/D-Link-DGS-F1010P-E-Switch-PoE-Gigabit-10-Ports.jpg\","
+        },
+        {
+          "ligne": 39,
+          "texte": "\"ancienne_image\": \"https://protechtogo.com/wp-content/uploads/2025/10/Dell-Inspiron-15-3530-Laptop-4.jpg\","
+        },
+        {
+          "ligne": 47,
+          "texte": "\"ancienne_image\": \"https://protechtogo.com/wp-content/uploads/2026/06/ELITE-LITE-POS-C500-–-Core-i5-Terminal-POS.jpg\","
+        },
+        {
+          "ligne": 55,
+          "texte": "\"ancienne_image\": \"https://protechtogo.com/wp-content/uploads/2024/09/HP-250-G10-Notebook-PC-Core™-i3-1315U-13th-Gen.jpg\","
+        },
+        {
+          "ligne": 63,
+          "texte": "\"ancienne_image\": \"https://protechtogo.com/wp-content/uploads/2024/09/HP-250-G10-Notebook-PC-Core™-i5-1335U-13th.jpg\","
+        },
+        {
+          "ligne": 71,
+          "texte": "\"ancienne_image\": \"https://protechtogo.com/wp-content/uploads/2024/09/HP-250-G8-Notebook-PC-Intel-Core-i3-3.jpg\","
+        },
+        {
+          "ligne": 79,
+          "texte": "\"ancienne_image\": \"https://protechtogo.com/wp-content/uploads/2024/09/HP-250-G9-Notebook-PC-Core-i7-1255U-1.jpg\","
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-enrichi/images-sources-portables.csv",
+      "occurrences": 45,
+      "exemples": [
+        {
+          "ligne": 2,
+          "texte": "\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",PRO-TECH TOGO,ASUS,ASUS TUF Gaming F16,a_sourcer,,,,,,,"
+        },
+        {
+          "ligne": 3,
+          "texte": "\"DYMO LabelManager 160, Étiqueteuse portable (LM160)\",PRO-TECH TOGO,,DYMO LabelManager 160,modele_non_identifie,,,,,,,"
+        },
+        {
+          "ligne": 4,
+          "texte": "\"Dell Inspiron 15 3530, Core i5-1334U 16Go 512Go, Ecran 15.6″ Full HD Laptop\",PRO-TECH TOGO,Dell,Dell Inspiron 15 3530,a_sourcer,,,,,,,"
+        },
+        {
+          "ligne": 5,
+          "texte": "HP 250 G10 Notebook PC Core™ i3-1315U 13th Gen Ecran 15.6″ Laptop,PRO-TECH TOGO,HP,HP 250 G10 Notebook PC Core™ i3-1315U 13th Gen Ecran 15.6″ Laptop,a_sourcer,,,,,,,"
+        },
+        {
+          "ligne": 6,
+          "texte": "HP 250 G10 Notebook PC Core™ i5-1335U 13th Gen 8Go 512Go SSD Ecran 15.6″ Full HD Laptop,PRO-TECH TOGO,HP,HP 250 G10 Notebook PC Core™ i5-1335U 13th Gen 8Go 512Go SSD Ecran 15.6″ Full HD Laptop,a_sourcer,,,,,,,"
+        },
+        {
+          "ligne": 7,
+          "texte": "\"HP 250 G8 Notebook PC, Core i3-1005G1, 8Go 512Go SSD, Ecran 15.6″ Laptop\",PRO-TECH TOGO,HP,HP 250 G8 Notebook PC,a_sourcer,,,,,,,"
+        },
+        {
+          "ligne": 8,
+          "texte": "HP 250 G9 Notebook PC | Core i7-1255U | 16Go 512Go SSD | Ecran 15.6″ Full HD | Ordinateur portable,PRO-TECH TOGO,HP,HP 250 G9 Notebook PC,a_sourcer,,,,,,,"
+        },
+        {
+          "ligne": 9,
+          "texte": "\"HP ENVY x360 13m-bd1033dx, Core i7-1195G7 8Go 512Go SSD, Ecran tactile 13″ | Ordinateur portable\",PRO-TECH TOGO,HP,HP ENVY x360 13m-bd1033dx,a_sourcer,,,,,,,"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-enrichi/archive-protech.json",
+      "occurrences": 588,
+      "exemples": [
+        {
+          "ligne": 3,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 6,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg\","
+        },
+        {
+          "ligne": 7,
+          "texte": "\"produit_url\": \"https://protechtogo.com/produit/asus-tuf-gaming-f16-core-i7-14650h-32go-1to-nvidia-geforce-rtx-5060-ecran-16-gaming-laptop/\","
+        },
+        {
+          "ligne": 15,
+          "texte": "\"url_image_source\": \"https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg\","
+        },
+        {
+          "ligne": 19,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 22,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg\","
+        },
+        {
+          "ligne": 23,
+          "texte": "\"produit_url\": \"https://protechtogo.com/produit/batterie-canon-nb-cp2l-pour-imprimante-selphy-cp1000/\","
+        },
+        {
+          "ligne": 31,
+          "texte": "\"url_image_source\": \"https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg\","
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/integration-images-20261021-104051/rapport.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 12,
+          "texte": "\"PRO-TECH TOGO\": 147,"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/integration-images-20261021-104051/produits-images.json",
+      "occurrences": 441,
+      "exemples": [
+        {
+          "ligne": 4,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 5,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg\","
+        },
+        {
+          "ligne": 6,
+          "texte": "\"produit_url\": \"https://protechtogo.com/produit/asus-tuf-gaming-f16-core-i7-14650h-32go-1to-nvidia-geforce-rtx-5060-ecran-16-gaming-laptop/\","
+        },
+        {
+          "ligne": 11,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 12,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg\","
+        },
+        {
+          "ligne": 13,
+          "texte": "\"produit_url\": \"https://protechtogo.com/produit/batterie-canon-nb-cp2l-pour-imprimante-selphy-cp1000/\","
+        },
+        {
+          "ligne": 18,
+          "texte": "\"fournisseur\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 19,
+          "texte": "\"image_url\": \"https://protechtogo.com/wp-content/uploads/2023/09/CANON-RP-108-Kit-de-3-Rubans-dimpression-1-1.jpg\","
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-detaille-sans-prix-20261021-145442/catalogue-detaille-provisoire.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 3,
+          "texte": "\"note\": \"Brouillon non publié. Aucun prix inclus. PRO-TECH TOGO exclu. Descriptions à valider avant publication.\","
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/sauvegarde-integration-20261021-170612/boutique.js",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 140,
+          "texte": "name = name.replace(/\\s*[-–—|]\\s*(?:(?:20\\d{2})\\s*[-–—|]\\s*)?(?:TOGO INFORMATIQUE|PRO-TECH TOGO|UNIVERS HD|TIC INFO)\\s*$/i, \"\").trim();"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/sauvegarde-integration-20261021-170612/image-map.json",
+      "occurrences": 90,
+      "exemples": [
+        {
+          "ligne": 9,
+          "texte": "\"Battérie CANON NB-CP2L pour imprimante SELPHY CP1000\": \"https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg\","
+        },
+        {
+          "ligne": 10,
+          "texte": "\"CANON RP-108 Kit de 3 Rubans d’impression + Papier Photo (108 tirages) pour Canon Selphy\": \"https://protechtogo.com/wp-content/uploads/2023/09/CANON-RP-108-Kit-de-3-Rubans-dimpression-1-1.jpg\","
+        },
+        {
+          "ligne": 11,
+          "texte": "\"CANON SELPHY CP1000 Imprimante photo couleur (0011C012)\": \"https://protechtogo.com/wp-content/uploads/2024/07/Canon-SELPHY-CP1000-3.jpg\","
+        },
+        {
+          "ligne": 12,
+          "texte": "\"Canon BH-40 Noir, Tête d’impression pour Canon PIXMA G2420, G3420\": \"https://protechtogo.com/wp-content/uploads/2025/01/Canon-BH-40-Noir-Tete-dimpression.jpg\","
+        },
+        {
+          "ligne": 13,
+          "texte": "\"Canon CH-40 Couleur, Tête d’impression pour Canon PIXMA G2420, G3420\": \"https://protechtogo.com/wp-content/uploads/2025/01/Canon-CH-40-Couleur-Tete-dimpression.jpg\","
+        },
+        {
+          "ligne": 14,
+          "texte": "\"Canon CanoScan LIDE 300 Scanner à Plat A4 (2995C010)\": \"https://protechtogo.com/wp-content/uploads/2024/07/Canon-CanoScan-LiDE-300-2996C010-2.jpg\","
+        },
+        {
+          "ligne": 15,
+          "texte": "\"Canon CanoScan LiDE 400 (2996C010) Scanner à Plat A4 USB\": \"https://protechtogo.com/wp-content/uploads/2024/01/Canon-CanoScan-LiDE-400-2996C010.jpg\","
+        },
+        {
+          "ligne": 16,
+          "texte": "\"Canon MAXIFY GX3040 Imprimante multifonction couleur (5777C009AA)\": \"https://protechtogo.com/wp-content/uploads/2025/12/Canon-MAXIFY-GX3040-Imprimante-multifonction-couleur.jpg\","
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/sauvegarde-avant-integration-20261021-171018/boutique.js",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 140,
+          "texte": "name = name.replace(/\\s*[-–—|]\\s*(?:(?:20\\d{2})\\s*[-–—|]\\s*)?(?:TOGO INFORMATIQUE|PRO-TECH TOGO|UNIVERS HD|TIC INFO)\\s*$/i, \"\").trim();"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/audit-lecture-seule-20261022-090731/rapport-audit.txt",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 591,
+          "texte": "PRO-TECH TOGO doit rester exclu de toute future intégration."
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/audit-sources-maitre-20261022-093157/audit-sources.txt",
+      "occurrences": 5,
+      "exemples": [
+        {
+          "ligne": 3,
+          "texte": "Règle : PRO-TECH TOGO est exclu de tout futur catalogue."
+        },
+        {
+          "ligne": 7,
+          "texte": "Exemple : {\"fournisseur\": \"PRO-TECH TOGO\", \"nom\": \"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\", \"prix_affiche\": \"0 CFA\", \"image_url\": \"https://protechtogo.com/wp-content/uploads/2025/10/AS"
+        },
+        {
+          "ligne": 12,
+          "texte": "- PRO-TECH TOGO: 147"
+        },
+        {
+          "ligne": 19,
+          "texte": "Fournisseurs : {\"PRO-TECH TOGO\": 147, \"TIC INFO\": 12, \"Togo Informatique\": 28, \"Univers HD\": 23}"
+        },
+        {
+          "ligne": 24,
+          "texte": "Exemple : {\"fournisseur\": \"PRO-TECH TOGO\", \"nom\": \"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\", \"prix_affiche\": \"0 CFA\", \"image_url\": \"https://protechtogo.com/wp-content/uploads/2025/10/AS"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/catalogue-maitre-provisoire-20261022-095104/catalogue-maitre.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 6,
+          "texte": "\"PRO-TECH TOGO exclu\","
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/inventaire-reseau-20261022-124200/rapport.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 17,
+          "texte": "\"PRO-TECH TOGO\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/echantillon-fiches-20261022-135629/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 13,
+          "texte": "\"PRO-TECH TOGO\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/liste-propre-20261022-151026/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 9,
+          "texte": "\"PRO-TECH TOGO\": \"exclu\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/preselection-gtsi-20261022-152815/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 7,
+          "texte": "\"PRO-TECH TOGO\": \"exclu\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/audit-candidats-20261022-153126/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 11,
+          "texte": "\"PRO-TECH TOGO\": \"exclu\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/priorite-metier-20261022-153356/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 7,
+          "texte": "\"PRO-TECH TOGO\": \"exclu\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/audit-metier-20261022-153643/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 14,
+          "texte": "\"PRO-TECH TOGO\": \"exclu\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/validation-fabricants-20261022-154002/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 7,
+          "texte": "\"PRO-TECH TOGO\": \"exclu\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/controle-images-20261022-154948/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 10,
+          "texte": "\"PRO-TECH TOGO\": \"exclu\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/preparation-validation-20261022-155131/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 9,
+          "texte": "\"PRO-TECH TOGO\": \"exclu\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/remplacements-a-etudier-20261022-155410/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 7,
+          "texte": "\"PRO-TECH TOGO\": \"exclu\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/controle-final-routeurs-20261022-160000/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 7,
+          "texte": "\"PRO-TECH TOGO\": \"exclu\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/audit-global-remplacements-20261022-160204/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 9,
+          "texte": "\"PRO-TECH TOGO\": \"EXCLU\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/audit-global-20261022-234525/produits-potentiels.csv",
+      "occurrences": 10,
+      "exemples": [
+        {
+          "ligne": 2,
+          "texte": "\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\",PRO-TECH TOGO,A_VERIFIER,\"DELL Gaming Notebook 7620 Intel Core I7-12700H 16Go/1To SSD, 6Go NVIDIA Gforce RTX 3060\",Ordinateurs et informatique,"
+        },
+        {
+          "ligne": 3,
+          "texte": "HP Envy x360 14-fc0023dx | Core Ultra 7-155U | 16Go | 1To SSD | Ecran tactile 14″ WUXGA,PRO-TECH TOGO,A_VERIFIER,HP Envy x360 14- i7 13è Gén | 1To SSD | Tactile,Ordinateurs et informatique,0.617,,https://protechtogo.com/wp-content/uploads/2"
+        },
+        {
+          "ligne": 4,
+          "texte": "HP ENVY x360 16-ac0033dx | Core Ultra 7 155U | 16Go | 1To SSD | Ecran tactile 16.0″ WUXGA,PRO-TECH TOGO,A_VERIFIER,HP Envy x360 14- i7 13è Gén | 1To SSD | Tactile,Ordinateurs et informatique,0.59,,https://protechtogo.com/wp-content/uploads/"
+        },
+        {
+          "ligne": 5,
+          "texte": "\"HP Laptop 15-fd0154wm, Core Ultra 5-125H 8Go 512Go SSD, écran tactile 15.6″ FHD, PC Portable\",PRO-TECH TOGO,A_VERIFIER,\"ASUS Vivobook 15 F1504VAP Intel Core 7 150U 16Go DDR4 / 512Go SSD NVMe, Ecran 15,6 Tactile - 90NB13Y2-M01D40\",Ordinateu"
+        },
+        {
+          "ligne": 6,
+          "texte": "\"HP OmniBook X Flip 14-fm0023dx, Core Ultra 7-256V, Ecran tactile 2K, Laptop 14 pouces\",PRO-TECH TOGO,NOUVEAU_POTENTIEL,HP ProBook 450 G10 i5 13è Gén | Écran Tactile | 512Go SSD,Ordinateurs et informatique,0.504,,https://protechtogo.com/wp-"
+        },
+        {
+          "ligne": 7,
+          "texte": "\"HP ProBook 460 G11, Core Ultra 7-155U 16Go 512 Go, Ecran 16 Pouces – PC Portable\",PRO-TECH TOGO,A_VERIFIER,\"DELL Inspiron 7440 X360 - Intel Core 7 150U | 16Go DDR5 / 512Go SSD M.2, Ecran 14 Pouces\",Ordinateurs et informatique,0.573,,https:"
+        },
+        {
+          "ligne": 8,
+          "texte": "\"HP ProDesk 2 Tower G1i E – Core i7‑14700, 8Go DDR5, SSD 512Go + Écran HP 22″\",PRO-TECH TOGO,NOUVEAU_POTENTIEL,\"DELL Alienware M18 Intel Core I9-14900HX - 32Go/2To SSD - 12Go NVIDIA RTX 4080 - Ecran 18\"\" QHD+ DISPLAY 165HZ\",Ordinateurs et i"
+        },
+        {
+          "ligne": 9,
+          "texte": "\"HP ProDesk 2 Tower G1i E – Core i7‑14700, 8Go DDR5, SSD 512Go | Unité Centrale\",PRO-TECH TOGO,NOUVEAU_POTENTIEL,\"DELL Gaming Notebook 7620 Intel Core I7-12700H 16Go/1To SSD, 6Go NVIDIA Gforce RTX 3060\",Ordinateurs et informatique,0.481,,ht"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/audit-global-20261022-234525/produits-potentiels.json",
+      "occurrences": 20,
+      "exemples": [
+        {
+          "ligne": 4,
+          "texte": "\"source_autorisee\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 10,
+          "texte": "\"url_image_source\": \"https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg\","
+        },
+        {
+          "ligne": 18,
+          "texte": "\"source_autorisee\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 24,
+          "texte": "\"url_image_source\": \"https://protechtogo.com/wp-content/uploads/2024/09/HP-Envy-x360-14-fc0023dx-5.jpg\","
+        },
+        {
+          "ligne": 32,
+          "texte": "\"source_autorisee\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 38,
+          "texte": "\"url_image_source\": \"https://protechtogo.com/wp-content/uploads/2024/09/HP-ENVY-x360-16-ac0033dx-6.jpg\","
+        },
+        {
+          "ligne": 46,
+          "texte": "\"source_autorisee\": \"PRO-TECH TOGO\","
+        },
+        {
+          "ligne": 52,
+          "texte": "\"url_image_source\": \"https://protechtogo.com/wp-content/uploads/2026/05/HP-Laptop-15-fd0154wm-Core-Ultra-5-125H.jpg\","
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/audit-global-20261022-234525/resume.json",
+      "occurrences": 2,
+      "exemples": [
+        {
+          "ligne": 11,
+          "texte": "\"PRO-TECH TOGO\": 10,"
+        },
+        {
+          "ligne": 20,
+          "texte": "\"PRO-TECH TOGO\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/verification-produits-images-20261022-160500/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 10,
+          "texte": "\"PRO-TECH TOGO\": \"EXCLU\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/audit-associations-images-20261022-160651/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 11,
+          "texte": "\"PRO-TECH TOGO\": \"EXCLU\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/audit-prochaine-etape-20261022-160954/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 13,
+          "texte": "\"PRO-TECH TOGO\": \"EXCLU\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/integration-modeles-officiels-20261022-165509/boutique.js.extrait.txt",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 141,
+          "texte": "name = name.replace(/\\s*[-–—|]\\s*(?:(?:20\\d{2})\\s*[-–—|]\\s*)?(?:TOGO INFORMATIQUE|PRO-TECH TOGO|UNIVERS HD|TIC INFO)\\s*$/i, \"\").trim();"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/lot-propre-20261022-232842/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 4,
+          "texte": "\"PRO-TECH TOGO\": 147,"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/integration-wifi7-20261022-233933/resume.json",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 6,
+          "texte": "\"PRO-TECH TOGO\""
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/integration-reelle-20261022-164321/sauvegarde/assets/js/boutique.js",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 141,
+          "texte": "name = name.replace(/\\s*[-–—|]\\s*(?:(?:20\\d{2})\\s*[-–—|]\\s*)?(?:TOGO INFORMATIQUE|PRO-TECH TOGO|UNIVERS HD|TIC INFO)\\s*$/i, \"\").trim();"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/finalisation-catalogue-20261021-175001/assets/js/boutique.js",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 141,
+          "texte": "name = name.replace(/\\s*[-–—|]\\s*(?:(?:20\\d{2})\\s*[-–—|]\\s*)?(?:TOGO INFORMATIQUE|PRO-TECH TOGO|UNIVERS HD|TIC INFO)\\s*$/i, \"\").trim();"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/sauvegarde-images-20261021-173435/assets/js/boutique.js",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 141,
+          "texte": "name = name.replace(/\\s*[-–—|]\\s*(?:(?:20\\d{2})\\s*[-–—|]\\s*)?(?:TOGO INFORMATIQUE|PRO-TECH TOGO|UNIVERS HD|TIC INFO)\\s*$/i, \"\").trim();"
+        }
+      ]
+    },
+    {
+      "fichier": "rapports/sauvegarde-images-20261021-173435/assets/images/catalogue_gtsi/image-map.json",
+      "occurrences": 90,
+      "exemples": [
+        {
+          "ligne": 9,
+          "texte": "\"Battérie CANON NB-CP2L pour imprimante SELPHY CP1000\": \"https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg\","
+        },
+        {
+          "ligne": 10,
+          "texte": "\"CANON RP-108 Kit de 3 Rubans d’impression + Papier Photo (108 tirages) pour Canon Selphy\": \"https://protechtogo.com/wp-content/uploads/2023/09/CANON-RP-108-Kit-de-3-Rubans-dimpression-1-1.jpg\","
+        },
+        {
+          "ligne": 11,
+          "texte": "\"CANON SELPHY CP1000 Imprimante photo couleur (0011C012)\": \"https://protechtogo.com/wp-content/uploads/2024/07/Canon-SELPHY-CP1000-3.jpg\","
+        },
+        {
+          "ligne": 12,
+          "texte": "\"Canon BH-40 Noir, Tête d’impression pour Canon PIXMA G2420, G3420\": \"https://protechtogo.com/wp-content/uploads/2025/01/Canon-BH-40-Noir-Tete-dimpression.jpg\","
+        },
+        {
+          "ligne": 13,
+          "texte": "\"Canon CH-40 Couleur, Tête d’impression pour Canon PIXMA G2420, G3420\": \"https://protechtogo.com/wp-content/uploads/2025/01/Canon-CH-40-Couleur-Tete-dimpression.jpg\","
+        },
+        {
+          "ligne": 14,
+          "texte": "\"Canon CanoScan LIDE 300 Scanner à Plat A4 (2995C010)\": \"https://protechtogo.com/wp-content/uploads/2024/07/Canon-CanoScan-LiDE-300-2996C010-2.jpg\","
+        },
+        {
+          "ligne": 15,
+          "texte": "\"Canon CanoScan LiDE 400 (2996C010) Scanner à Plat A4 USB\": \"https://protechtogo.com/wp-content/uploads/2024/01/Canon-CanoScan-LiDE-400-2996C010.jpg\","
+        },
+        {
+          "ligne": 16,
+          "texte": "\"Canon MAXIFY GX3040 Imprimante multifonction couleur (5777C009AA)\": \"https://protechtogo.com/wp-content/uploads/2025/12/Canon-MAXIFY-GX3040-Imprimante-multifonction-couleur.jpg\","
+        }
+      ]
+    },
+    {
+      "fichier": "sauvegardes/avant-integration-catalogue-20261022-111908/assets/js/boutique.js",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 141,
+          "texte": "name = name.replace(/\\s*[-–—|]\\s*(?:(?:20\\d{2})\\s*[-–—|]\\s*)?(?:TOGO INFORMATIQUE|PRO-TECH TOGO|UNIVERS HD|TIC INFO)\\s*$/i, \"\").trim();"
+        }
+      ]
+    },
+    {
+      "fichier": "assets/js/boutique.js",
+      "occurrences": 1,
+      "exemples": [
+        {
+          "ligne": 141,
+          "texte": "name = name.replace(/\\s*[-–—|]\\s*(?:(?:20\\d{2})\\s*[-–—|]\\s*)?(?:TOGO INFORMATIQUE|PRO-TECH TOGO|UNIVERS HD|TIC INFO)\\s*$/i, \"\").trim();"
+        }
+      ]
+    },
+    {
+      "fichier": "assets/images/catalogue_gtsi/image-map.avant-remplacement-protech-20261021-123916.json",
+      "occurrences": 147,
+      "exemples": [
+        {
+          "ligne": 8,
+          "texte": "\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\": \"https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg\","
+        },
+        {
+          "ligne": 9,
+          "texte": "\"Battérie CANON NB-CP2L pour imprimante SELPHY CP1000\": \"https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg\","
+        },
+        {
+          "ligne": 10,
+          "texte": "\"CANON RP-108 Kit de 3 Rubans d’impression + Papier Photo (108 tirages) pour Canon Selphy\": \"https://protechtogo.com/wp-content/uploads/2023/09/CANON-RP-108-Kit-de-3-Rubans-dimpression-1-1.jpg\","
+        },
+        {
+          "ligne": 11,
+          "texte": "\"CANON SELPHY CP1000 Imprimante photo couleur (0011C012)\": \"https://protechtogo.com/wp-content/uploads/2024/07/Canon-SELPHY-CP1000-3.jpg\","
+        },
+        {
+          "ligne": 12,
+          "texte": "\"Canon BH-40 Noir, Tête d’impression pour Canon PIXMA G2420, G3420\": \"https://protechtogo.com/wp-content/uploads/2025/01/Canon-BH-40-Noir-Tete-dimpression.jpg\","
+        },
+        {
+          "ligne": 13,
+          "texte": "\"Canon CH-40 Couleur, Tête d’impression pour Canon PIXMA G2420, G3420\": \"https://protechtogo.com/wp-content/uploads/2025/01/Canon-CH-40-Couleur-Tete-dimpression.jpg\","
+        },
+        {
+          "ligne": 14,
+          "texte": "\"Canon CanoScan LIDE 300 Scanner à Plat A4 (2995C010)\": \"https://protechtogo.com/wp-content/uploads/2024/07/Canon-CanoScan-LiDE-300-2996C010-2.jpg\","
+        },
+        {
+          "ligne": 15,
+          "texte": "\"Canon CanoScan LiDE 400 (2996C010) Scanner à Plat A4 USB\": \"https://protechtogo.com/wp-content/uploads/2024/01/Canon-CanoScan-LiDE-400-2996C010.jpg\","
+        }
+      ]
+    },
+    {
+      "fichier": "assets/images/catalogue_gtsi/image-map.avant-lot-20261021-130910.json",
+      "occurrences": 147,
+      "exemples": [
+        {
+          "ligne": 8,
+          "texte": "\"ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop\": \"https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg\","
+        },
+        {
+          "ligne": 9,
+          "texte": "\"Battérie CANON NB-CP2L pour imprimante SELPHY CP1000\": \"https://protechtogo.com/wp-content/uploads/2024/02/Batterie-CANON-NB-CP2L.jpg\","
+        },
+        {
+          "ligne": 10,
+          "texte": "\"CANON RP-108 Kit de 3 Rubans d’impression + Papier Photo (108 tirages) pour Canon Selphy\": \"https://protechtogo.com/wp-content/uploads/2023/09/CANON-RP-108-Kit-de-3-Rubans-dimpression-1-1.jpg\","
+        },
+        {
+          "ligne": 11,
+          "texte": "\"CANON SELPHY CP1000 Imprimante photo couleur (0011C012)\": \"https://protechtogo.com/wp-content/uploads/2024/07/Canon-SELPHY-CP1000-3.jpg\","
+        },
+        {
+          "ligne": 12,
+          "texte": "\"Canon BH-40 Noir, Tête d’impression pour Canon PIXMA G2420, G3420\": \"https://protechtogo.com/wp-content/uploads/2025/01/Canon-BH-40-Noir-Tete-dimpression.jpg\","
+        },
+        {
+          "ligne": 13,
+          "texte": "\"Canon CH-40 Couleur, Tête d’impression pour Canon PIXMA G2420, G3420\": \"https://protechtogo.com/wp-content/uploads/2025/01/Canon-CH-40-Couleur-Tete-dimpression.jpg\","
+        },
+        {
+          "ligne": 14,
+          "texte": "\"Canon CanoScan LIDE 300 Scanner à Plat A4 (2995C010)\": \"https://protechtogo.com/wp-content/uploads/2024/07/Canon-CanoScan-LiDE-300-2996C010-2.jpg\","
+        },
+        {
+          "ligne": 15,
+          "texte": "\"Canon CanoScan LiDE 400 (2996C010) Scanner à Plat A4 USB\": \"https://protechtogo.com/wp-content/uploads/2024/01/Canon-CanoScan-LiDE-400-2996C010.jpg\","
+        }
+      ]
+    }
+  ],
+  "erreurs": [],
+  "note": "Les rapports historiques sont conservés; les traces restantes sont listées pour examen."
+}

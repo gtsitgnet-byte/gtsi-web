@@ -1,0 +1,14 @@
+{
+  "cles_image_map": 60,
+  "cles_retrouvees_catalogue_js": 57,
+  "cles_absentes_catalogue_js": 3,
+  "images_locales_hors_sauvegardes": 151,
+  "candidats_uniques_hors_PRO_TECH": 180,
+  "candidats_texte_absent_catalogue_js": 178,
+  "rapport_candidats": "/root/projects/web/rapports/audit-prochaine-etape-20261022-160954/candidats-a-verifier.csv",
+  "rapport_associations": "/root/projects/web/rapports/audit-prochaine-etape-20261022-160954/associations-actives.csv",
+  "site_modifie": false,
+  "images_supprimees_ou_telechargees": false,
+  "publication_github": false,
+  "PRO-TECH TOGO": "EXCLU"
+}

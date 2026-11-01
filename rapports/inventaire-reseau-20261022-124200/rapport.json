@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-22T12:42:00",
+  "projet": "GTSI - inventaire équipements réseau",
+  "perimetre": [
+    "antennes et liaisons sans fil",
+    "routeurs et passerelles",
+    "switches et commutateurs",
+    "points d'accès Wi-Fi",
+    "ponts Wi-Fi et CPE extérieurs",
+    "équipements fibre et modules SFP",
+    "PoE et alimentations réseau",
+    "câbles, connecteurs et accessoires réseau",
+    "baies, racks et panneaux de brassage"
+  ],
+  "exclusions": [
+    "ordinateurs",
+    "PRO-TECH TOGO"
+  ],
+  "sources": [
+    {
+      "nom": "Togo Informatique",
+      "url": "https://www.togoinformatique.com/product-category/reseau-informatique/",
+      "robots": {
+        "robots_accessible": true,
+        "robots_http": 200,
+        "autorise_par_robots": true,
+        "note": "Robots.txt ne remplace pas les conditions d'utilisation."
+      },
+      "statut": "page d'entrée consultée",
+      "http": 200,
+      "url_finale": "https://www.togoinformatique.com/product-category/reseau-informatique/",
+      "liens_visibles_releves": 735,
+      "note": "Liens candidats seulement; pas encore un inventaire complet."
+    },
+    {
+      "nom": "Uniformatic - points d'accès Wi-Fi",
+      "url": "https://www.uniformatic.fr/point-d-acces-wifi-standard-c102x3633462",
+      "robots": {
+        "robots_accessible": true,
+        "robots_http": 200,
+        "autorise_par_robots": true,
+        "note": "Robots.txt ne remplace pas les conditions d'utilisation."
+      },
+      "statut": "page d'entrée consultée",
+      "http": 200,
+      "url_finale": "https://www.uniformatic.fr/point-d-acces-wifi-standard-c102x3633462",
+      "liens_visibles_releves": 340,
+      "note": "Liens candidats seulement; pas encore un inventaire complet."
+    },
+    {
+      "nom": "Uniformatic - catalogue général",
+      "url": "https://www.uniformatic.fr/PBSCCatalog.asp",
+      "robots": {
+        "robots_accessible": true,
+        "robots_http": 200,
+        "autorise_par_robots": true,
+        "note": "Robots.txt ne remplace pas les conditions d'utilisation."
+      },
+      "statut": "page d'entrée consultée",
+      "http": 200,
+      "url_finale": "https://www.uniformatic.fr/PBSCCatalog.asp",
+      "liens_visibles_releves": 325,
+      "note": "Liens candidats seulement; pas encore un inventaire complet."
+    }
+  ],
+  "avertissement": "Inventaire préparatoire. Aucun prix ou fournisseur ne sera publié dans le catalogue public. Ne pas contourner les restrictions d'accès."
+}

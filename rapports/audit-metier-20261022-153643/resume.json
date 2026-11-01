@@ -1,0 +1,15 @@
+{
+  "candidats_audites": 48,
+  "repartition": {
+    "INFRASTRUCTURE_A_VERIFIER": 34,
+    "DOUBLON_REFERENCE_POSSIBLE": 2,
+    "ORDINATEUR_A_TRAITER_SEPAREMENT": 8,
+    "ACCESSOIRE_A_VERIFIER": 3,
+    "REVISION_MANUELLE": 1
+  },
+  "rapport_csv": "/root/projects/web/rapports/audit-metier-20261022-153643/audit-metier.csv",
+  "catalogue_modifie": false,
+  "images_telechargees": false,
+  "publication_github": false,
+  "PRO-TECH TOGO": "exclu"
+}

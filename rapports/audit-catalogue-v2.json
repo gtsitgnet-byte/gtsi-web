@@ -1,0 +1,21 @@
+{
+  "fichier": "/root/projects/web/catalogue.v2.json",
+  "total": 61,
+  "ids_uniques": 61,
+  "doublons_id": 0,
+  "doublons_titre_categorie": 0,
+  "categories": {
+    "Câbles et connectique": 15,
+    "Ordinateurs portables": 18,
+    "Réseau": 9,
+    "Stockage": 10,
+    "Vidéosurveillance": 7,
+    "Écrans": 2
+  },
+  "champs_manquants": {
+    "id": 0,
+    "categorie": 0,
+    "titre_generique": 0,
+    "sources": 0
+  }
+}

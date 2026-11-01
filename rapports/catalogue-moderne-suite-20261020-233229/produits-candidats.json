@@ -1,0 +1,32 @@
+[
+  {
+    "fabricant": "TP-Link Omada",
+    "modele": "SG3428XPP-M2",
+    "url": "https://www.tp-link.com/us/business-networking/omada-switch-poe/sg3428xpp-m2/v1/",
+    "titre": "",
+    "description": "",
+    "image_url": "",
+    "image_locale": "",
+    "statut": "ÉCHEC : HTTP Error 404: Not Found"
+  },
+  {
+    "fabricant": "TP-Link Omada",
+    "modele": "SG2210XMP-M2",
+    "url": "https://www.tp-link.com/us/business-networking/omada-switch-access-pro/sg2210xmp-m2/",
+    "titre": "Omada Access Pro 8-Port 2.5G and 2-Port 10GE SFP+ Switch with 8-Port PoE+",
+    "description": "Omada Access Pro 8-Port 2.5G and 2-Port 10GE SFP+ Switch with 8-Port PoE+. As a 2.5G switch that seamlessly integrates into the Omada Software Defined Networking (SDN) platform, SG2210XMP-M2 allows for remote and centralized management, anywhere, anytime.",
+    "image_url": "https://static.tp-link.com/upload/image-line/SG2210XMP-M2_UN_1.20_1_large_20260518034348i.jpg",
+    "image_locale": "rapports/catalogue-moderne-suite-20261020-233229/images/02_SG2210XMP-M2.jpg",
+    "statut": "IMAGE RÉCUPÉRÉE — MODÈLE ET DROITS À VÉRIFIER"
+  },
+  {
+    "fabricant": "Ubiquiti UniFi",
+    "modele": "E7 Wi-Fi 7",
+    "url": "https://store.ui.com/us/en/products/e7",
+    "titre": "Access Point E7 - Ubiquiti Store United States",
+    "description": "Enterprise-grade indoor access point with 10-stream WiFi 7 performance, a 10 GbE uplink, and a redundant GbE port for high availability.",
+    "image_url": "https://cdn.ecomm.ui.com/products/93ae773e-8969-4889-8591-2c227a31ac3f/09ff1a3a-0ce6-43ad-8188-607086944059.png",
+    "image_locale": "rapports/catalogue-moderne-suite-20261020-233229/images/03_E7_Wi-Fi_7.png",
+    "statut": "IMAGE RÉCUPÉRÉE — MODÈLE ET DROITS À VÉRIFIER"
+  }
+]

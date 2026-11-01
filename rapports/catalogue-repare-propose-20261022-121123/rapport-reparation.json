@@ -1,0 +1,12 @@
+{
+  "source": "rapports/catalogue-corrige-propose-20261022-113444",
+  "dossier_repare": "rapports/catalogue-repare-propose-20261022-121123",
+  "changements_titres": 27,
+  "nombre_details": 60,
+  "nombre_correspondances_images": 60,
+  "fichiers_images_introuvables": 0,
+  "cles_des_details_et_images_alignees": true,
+  "site_actif_modifie": false,
+  "publication_effectuee": false,
+  "remarque": "Copie candidate uniquement ; validation complète du catalogue encore nécessaire."
+}

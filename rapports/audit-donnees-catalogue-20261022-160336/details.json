@@ -1,0 +1,125 @@
+[
+  {
+    "reference_groupe": "TL-WA850RE",
+    "termes_recherches": "TL-WA850RE ; RE705X",
+    "nombre_lignes_correspondantes": 0,
+    "fichiers": "",
+    "details": []
+  },
+  {
+    "reference_groupe": "Archer C20",
+    "termes_recherches": "Archer C20 ; Archer AX23 ; Archer AX55",
+    "nombre_lignes_correspondantes": 2,
+    "fichiers": "assets/images/catalogue_gtsi/rapport_controle.csv",
+    "details": [
+      {
+        "fichier": "assets/images/catalogue_gtsi/rapport_controle.csv",
+        "ligne": 183,
+        "texte": "TP-Link Archer AX55 AX3000 – Routeur Wi-Fi 6,Réseaux et télécommunications,IMAGE EXISTANTE - SOURCE/LICENCE À VÉRIFIER,,assets/images/catalogue_gtsi/reseau-tp-link-archer-ax55.jpg,Association conservée ; vérifier la provenance et la licence."
+      },
+      {
+        "fichier": "assets/images/catalogue_gtsi/rapport_controle.csv",
+        "ligne": 184,
+        "texte": "TP-Link Archer C20 AC750 – Routeur Wi-Fi bi-bande,Réseaux et télécommunications,IMAGE EXISTANTE - SOURCE/LICENCE À VÉRIFIER,,assets/images/catalogue_gtsi/reseau-tp-link-archer-c20.jpg,Association conservée ; vérifier la provenance et la licence."
+      }
+    ]
+  },
+  {
+    "reference_groupe": "Archer C60",
+    "termes_recherches": "Archer C60 ; Archer AX23 ; Archer AX55",
+    "nombre_lignes_correspondantes": 1,
+    "fichiers": "assets/images/catalogue_gtsi/rapport_controle.csv",
+    "details": [
+      {
+        "fichier": "assets/images/catalogue_gtsi/rapport_controle.csv",
+        "ligne": 183,
+        "texte": "TP-Link Archer AX55 AX3000 – Routeur Wi-Fi 6,Réseaux et télécommunications,IMAGE EXISTANTE - SOURCE/LICENCE À VÉRIFIER,,assets/images/catalogue_gtsi/reseau-tp-link-archer-ax55.jpg,Association conservée ; vérifier la provenance et la licence."
+      }
+    ]
+  },
+  {
+    "reference_groupe": "TL-WR840N",
+    "termes_recherches": "TL-WR840N ; Archer AX23",
+    "nombre_lignes_correspondantes": 0,
+    "fichiers": "",
+    "details": []
+  },
+  {
+    "reference_groupe": "RB951Ui-2HnD",
+    "termes_recherches": "RB951Ui-2HnD ; hAP ax²",
+    "nombre_lignes_correspondantes": 0,
+    "fichiers": "",
+    "details": []
+  },
+  {
+    "reference_groupe": "RB2011UiAS-IN",
+    "termes_recherches": "RB2011UiAS-IN ; L009UiGS-RM",
+    "nombre_lignes_correspondantes": 0,
+    "fichiers": "",
+    "details": []
+  },
+  {
+    "reference_groupe": "UAP-AC-PRO",
+    "termes_recherches": "UAP-AC-PRO ; U6+",
+    "nombre_lignes_correspondantes": 0,
+    "fichiers": "",
+    "details": []
+  },
+  {
+    "reference_groupe": "2960-X 24PS-L",
+    "termes_recherches": "2960-X 24PS-L ; C9200L-24P-4G",
+    "nombre_lignes_correspondantes": 0,
+    "fichiers": "",
+    "details": []
+  },
+  {
+    "reference_groupe": "Archer AX10",
+    "termes_recherches": "Archer AX10 ; Archer AX55",
+    "nombre_lignes_correspondantes": 7,
+    "fichiers": "assets/images/catalogue_gtsi/image-map.avant-lot-20261021-130910.json ; assets/images/catalogue_gtsi/image-map.avant-remplacement-protech-20261021-123916.json ; assets/images/catalogue_gtsi/image-map.json ; assets/images/catalogue_gtsi/image-map.sans-protech.json ; assets/images/catalogue_gtsi/rapport_controle.csv ; assets/js/catalogue-details.js ; assets/js/catalogue.js",
+    "details": [
+      {
+        "fichier": "assets/js/catalogue.js",
+        "ligne": 46,
+        "texte": "\"Archer AX10 AX1500 - Routeur Gigabit WiFi 6 Fukll Gigabit, Dual-Band (2,4 GHz Et 5 GHz)\","
+      },
+      {
+        "fichier": "assets/js/catalogue-details.js",
+        "ligne": 22,
+        "texte": "\"Archer AX10 AX1500 - Routeur Gigabit WiFi 6 Fukll Gigabit, Dual-Band (2,4 GHz Et 5 GHz)\": {},"
+      },
+      {
+        "fichier": "assets/images/catalogue_gtsi/image-map.avant-remplacement-protech-20261021-123916.json",
+        "ligne": 178,
+        "texte": "\"Archer AX10 AX1500 - Routeur Gigabit WiFi 6 Fukll Gigabit, Dual-Band (2,4 GHz Et 5 GHz) - 2026 - TOGO INFORMATIQUE\": \"https://www.togoinformatique.com/wp-content/uploads/2026/01/Archer-AX10.jpg\","
+      },
+      {
+        "fichier": "assets/images/catalogue_gtsi/image-map.avant-lot-20261021-130910.json",
+        "ligne": 178,
+        "texte": "\"Archer AX10 AX1500 - Routeur Gigabit WiFi 6 Fukll Gigabit, Dual-Band (2,4 GHz Et 5 GHz) - 2026 - TOGO INFORMATIQUE\": \"https://www.togoinformatique.com/wp-content/uploads/2026/01/Archer-AX10.jpg\","
+      },
+      {
+        "fichier": "assets/images/catalogue_gtsi/image-map.sans-protech.json",
+        "ligne": 31,
+        "texte": "\"Archer AX10 AX1500 - Routeur Gigabit WiFi 6 Fukll Gigabit, Dual-Band (2,4 GHz Et 5 GHz) - 2026 - TOGO INFORMATIQUE\": \"https://www.togoinformatique.com/wp-content/uploads/2026/01/Archer-AX10.jpg\","
+      },
+      {
+        "fichier": "assets/images/catalogue_gtsi/image-map.json",
+        "ligne": 54,
+        "texte": "\"Archer AX10 AX1500 - Routeur Gigabit WiFi 6 Fukll Gigabit, Dual-Band (2,4 GHz Et 5 GHz)\": \"assets/images/catalogue_gtsi/previsualisation-20261022-105221/GTSI-CANDIDAT-021.jpg\","
+      },
+      {
+        "fichier": "assets/images/catalogue_gtsi/rapport_controle.csv",
+        "ligne": 183,
+        "texte": "TP-Link Archer AX55 AX3000 – Routeur Wi-Fi 6,Réseaux et télécommunications,IMAGE EXISTANTE - SOURCE/LICENCE À VÉRIFIER,,assets/images/catalogue_gtsi/reseau-tp-link-archer-ax55.jpg,Association conservée ; vérifier la provenance et la licence."
+      }
+    ]
+  },
+  {
+    "reference_groupe": "TL-MR6400",
+    "termes_recherches": "TL-MR6400",
+    "nombre_lignes_correspondantes": 0,
+    "fichiers": "",
+    "details": []
+  }
+]

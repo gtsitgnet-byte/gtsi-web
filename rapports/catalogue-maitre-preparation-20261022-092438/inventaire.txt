@@ -1,0 +1,8 @@
+INVENTAIRE DU CATALOGUE GTSI
+Date : 2026-10-22T09:24:38
+Projet : /root/projects/web
+
+catalogue.v2.json : JSON lisible
+rapports/catalogue-sans-protech-20261021-144922/produits-candidats.csv : 63 lignes CSV
+rapports/catalogue-detaille-sans-prix-20261021-145442/catalogue-detaille-provisoire.json : JSON lisible
+rapports/multi-fournisseurs-20261021-081558/resume.json : JSON lisible

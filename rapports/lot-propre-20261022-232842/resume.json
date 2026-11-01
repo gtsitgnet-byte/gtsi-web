@@ -1,0 +1,18 @@
+{
+  "total_source": 210,
+  "par_fournisseur": {
+    "PRO-TECH TOGO": 147,
+    "TIC INFO": 12,
+    "Togo Informatique": 28,
+    "Univers HD": 23
+  },
+  "retenus_sources_autorisees": 35,
+  "rejetes_sources_interdites": 175,
+  "mis_en_attente_provenance": 0,
+  "prix_a_confirmer": 12,
+  "images_manquantes": 0,
+  "doublons_possibles": 33,
+  "catalogue_actif_modifie": false,
+  "publication_github": false,
+  "dossier": "/root/projects/web/rapports/lot-propre-20261022-232842"
+}

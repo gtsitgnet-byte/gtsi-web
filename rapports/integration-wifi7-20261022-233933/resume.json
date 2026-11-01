@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-22T23:39:33",
+  "sources_images": "Images officielles TP-Link/Omada déjà téléchargées et vérifiées",
+  "fournisseurs_exclus": [
+    "Togo Informatique",
+    "PRO-TECH TOGO"
+  ],
+  "produits_ajoutes_catalogue_js": [
+    "TP-Link Omada EAP773 — Point d’accès Wi-Fi 7",
+    "TP-Link Omada EAP783 — Point d’accès Wi-Fi 7 haute capacité",
+    "TP-Link EAP723 — Point d’accès Wi-Fi 7"
+  ],
+  "modeles_deja_presents": [],
+  "associations_image_map_ajoutees": 3,
+  "orientation_image_map": "titre_vers_image",
+  "catalogue_v2_modifie": false,
+  "prix_publics_ajoutes": false,
+  "publication_github": false,
+  "images_copiees_ou_deja_presentes": [
+    "assets/images/catalogue_gtsi/gtsi-eap773.jpg",
+    "assets/images/catalogue_gtsi/gtsi-eap783.jpg",
+    "assets/images/catalogue_gtsi/gtsi-eap723.jpg"
+  ],
+  "controle_final": "OK"
+}

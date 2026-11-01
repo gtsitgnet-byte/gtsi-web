@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-22T13:09:26",
+  "sources": {
+    "Togo Informatique": {
+      "pages_visitees": 30,
+      "fiches_candidates": 0,
+      "categories_de_depart": 18
+    },
+    "Uniformatic": {
+      "pages_visitees": 30,
+      "fiches_candidates": 0,
+      "categories_de_depart": 84
+    }
+  },
+  "total_candidats_uniques": 0,
+  "erreurs": 19,
+  "catalogue_actif_modifie": false,
+  "publication_github": false,
+  "note": "Inventaire partiel et automatique. Les modèles, catégories, générations, caractéristiques et droits des images doivent être vérifiés avant intégration."
+}

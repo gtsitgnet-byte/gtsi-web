@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-22T12:50:31",
+  "fichier_source": "/root/projects/web/rapports/inventaire-reseau-20261022-124200/liens_a_examiner.csv",
+  "liens_bruts": 1400,
+  "candidats_reseau": 186,
+  "liens_exclus": 119,
+  "liens_non_classes": 374,
+  "candidats_par_source": {
+    "Togo Informatique": 99,
+    "Uniformatic - points d'accès Wi-Fi": 86,
+    "Uniformatic - catalogue général": 1
+  },
+  "candidats_par_famille": {
+    "À classer manuellement": 62,
+    "Routeurs et passerelles": 23,
+    "Points d'accès Wi-Fi": 20,
+    "Switches": 22,
+    "Câbles et connectique réseau": 36,
+    "Antennes et liaisons sans fil": 3,
+    "Fibre et modules optiques": 17,
+    "PoE et alimentation réseau": 3
+  },
+  "avertissement": "Les candidats ne sont pas encore des produits vérifiés."
+}

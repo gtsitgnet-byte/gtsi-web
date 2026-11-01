@@ -1,0 +1,55 @@
+=== AUDIT APPROFONDI DES SOURCES GTSI ===
+Date : 2026-10-22T09:31:57
+Règle : PRO-TECH TOGO est exclu de tout futur catalogue.
+
+1. COLLECTE JSON : 210 fiches
+Clés du premier produit : fournisseur, nom, prix_affiche, image_url, produit_url, generation_detectee, prix_disponible, image_disponible, id_dedup
+Exemple : {"fournisseur": "PRO-TECH TOGO", "nom": "ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop", "prix_affiche": "0 CFA", "image_url": "https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg", "produit_url": "https://protechtogo.com/produit/asus-tuf-gaming-f16-core-i7-14650h-32go-1to-nvidia-geforce-rtx-5060-ecran-16-gaming-laptop/", "generation_detectee": "indice moderne à vérifier", "prix_disponible": true, "image_disponible": true, "id_dedup": "9f7605503b7db9"}
+Fiches avec fournisseur PRO-TECH : 147
+Fiches avec prix nul explicite : 147
+Fiches sans URL d'image repérée : 0
+Répartition des fournisseurs :
+  - PRO-TECH TOGO: 147
+  - Togo Informatique: 28
+  - Univers HD: 23
+  - TIC INFO: 12
+
+2. COLLECTE_CSV : 210 lignes
+Colonnes : fournisseur, nom, prix_affiche, image_url, produit_url, generation_detectee, prix_disponible, image_disponible, id_dedup
+Fournisseurs : {"PRO-TECH TOGO": 147, "TIC INFO": 12, "Togo Informatique": 28, "Univers HD": 23}
+Lignes PRO-TECH restantes : 147
+Sans image URL : 0
+Prix vide : 12
+Prix zéro : 147
+Exemple : {"fournisseur": "PRO-TECH TOGO", "nom": "ASUS TUF Gaming F16, Core i7-14650H 32Go 1To, Nvidia GeForce RTX 5060, Ecran 16″ Gaming Laptop", "prix_affiche": "0 CFA", "image_url": "https://protechtogo.com/wp-content/uploads/2025/10/ASUS-TUF-Gaming-F16-Core-i7-14650H.jpg", "produit_url": "https://protechtogo.com/produit/asus-tuf-gaming-f16-core-i7-14650h-32go-1to-nvidia-geforce-rtx-5060-ecran-16-gaming-laptop/", "generation_detectee": "indice moderne à vérifier", "prix_disponible": "True", "image_disponible": "True", "id_dedup": "9f7605503b7db9"}
+
+2. CANDIDATS_CSV : 63 lignes
+Colonnes : fournisseur, nom, prix_affiche, image_url, produit_url, generation_detectee, prix_disponible, image_disponible, id_dedup
+Fournisseurs : {"TIC INFO": 12, "Togo Informatique": 28, "Univers HD": 23}
+Lignes PRO-TECH restantes : 0
+Sans image URL : 0
+Prix vide : 12
+Prix zéro : 0
+Exemple : {"fournisseur": "TIC INFO", "nom": "HP 250 G10 i5 13è Gén | 512Go SSD | Empreinte Digitale - Tic Info", "prix_affiche": "", "image_url": "https://tic-info.net/wp-content/uploads/2026/01/Ordinateur-Portable-HP-250-G10-–-Intel-Core-i5-13eme-Generation1.jpg", "produit_url": "https://tic-info.net/product/ordinateur-portable-hp-250-g10-intel-core-i5-13eme-generation/", "generation_detectee": "indice moderne à vérifier", "prix_disponible": "False", "image_disponible": "True", "id_dedup": "2f420b4eb91421"}
+
+3. CATALOGUE DÉTAILLÉ PROVISOIRE
+Clés : date_preparation, note, catalogue_existant_nombre_fiches, candidats_analyses, nouveaux_candidats, correspondances_a_verifier
+  nouveaux_candidats: 0
+  correspondances_a_verifier: 63
+    Exemple : {"titre_generique": "HP 250 G10 i5 13è Gén | 512Go SSD | Empreinte Digitale - Tic Info", "categorie": "Stockage", "description": "Optez pour la fiabilité avec le HP 250 G10 chez Tic Info. Processeur i5 13e gén, SSD 512Go, clavier rétroéclairé et sécurité biométrique. Parfait pour les pros.\n\nTITRE_PAGE: De grandes choses se profilent à l’horizon", "specs": ["512 Go SSD"], "image": null, "image_statut": "a_verifier", "sources": [{"fournisseur": "TIC INFO", "nom_source": "HP 250 G10 i5 13è Gén | 512Go SSD | Empreinte Digitale - Tic Info", "produit_url": "https://tic-info.net/product/ordinateur-portable-hp-250-g10-intel-core-i5-13eme-generation/", "image_url_source": "https://tic-info.net/wp-content/uploads/2026/01/Ordinateur-Portable-HP-250-G10-–-Intel-Core-i5-13eme-Generation1.jpg"}], "id": "GTSI-0045", "statut_integration": "correspondance_possible_a_verifier", "image_url_page_fournisse
+Fiches provisoires examinées : 63
+Fiches avec PRO-TECH dans un fournisseur : 0
+Fiches sans URL d'image repérée : 0
+Fiches avec prix nul explicite : 0
+Titres répétés exactement : 0
+
+4. CATALOGUE V2
+Fiches : 61
+Répartition des catégories :
+  - Ordinateurs portables: 17
+  - Câbles et connectique: 15
+  - Vidéosurveillance: 11
+  - Stockage: 10
+  - Réseau: 6
+  - Écrans: 2
+Fiches dont image principale est vide : 61

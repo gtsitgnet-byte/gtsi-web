@@ -1,0 +1,32 @@
+[
+  {
+    "id": "GTSI-0016",
+    "titre": "4G Portable / Pocket WiFi Router LTE WiFi H807 PRO 4G / 5G",
+    "ancienne_categorie": "Ordinateurs portables",
+    "nouvelle_categorie": "Réseau"
+  },
+  {
+    "id": "GTSI-0036",
+    "titre": "Caméra PTZ Mapesen 8MP",
+    "ancienne_categorie": "Réseau",
+    "nouvelle_categorie": "Vidéosurveillance"
+  },
+  {
+    "id": "GTSI-0037",
+    "titre": "Caméra Smart Tuya WiFi 4G",
+    "ancienne_categorie": "Réseau",
+    "nouvelle_categorie": "Vidéosurveillance"
+  },
+  {
+    "id": "GTSI-0038",
+    "titre": "Caméra Solaire PTZ 4K Double Objectif",
+    "ancienne_categorie": "Réseau",
+    "nouvelle_categorie": "Vidéosurveillance"
+  },
+  {
+    "id": "GTSI-0042",
+    "titre": "Visiophone WiFi 7 Tuya avec Badges RFID et Ouverture Porte",
+    "ancienne_categorie": "Réseau",
+    "nouvelle_categorie": "Vidéosurveillance"
+  }
+]

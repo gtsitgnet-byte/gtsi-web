@@ -1,0 +1,12 @@
+{
+  "cles_image_map": 60,
+  "images_locales_scanees": 151,
+  "associations_avec_fichier_local": 60,
+  "associations_sans_fichier_local": 0,
+  "associations_a_examiner": 0,
+  "rapport_csv": "/root/projects/web/rapports/audit-associations-images-20261022-160651/associations-images.csv",
+  "site_modifie": false,
+  "images_supprimees_ou_telechargees": false,
+  "publication_github": false,
+  "PRO-TECH TOGO": "EXCLU"
+}

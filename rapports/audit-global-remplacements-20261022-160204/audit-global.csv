@@ -1,0 +1,11 @@
+﻿reference_actuelle,occurrence_catalogue,fichiers_ancien_modele,remplacements_a_etudier,candidat_deja_dans_catalogue,fichiers_candidats,image_ancienne_trouvee_par_nom,images_candidates_trouvees_par_nom,disponibilite_Togo,validation_fabricant,integration_autorisee
+TP-Link TL-WA850RE,NON,,RE705X,NON,,NON,,NON VERIFIEE,A CONFIRMER,NON
+TP-Link Archer C20,NON,,Archer AX23 ; Archer AX55,NON,,NON,,NON VERIFIEE,A CONFIRMER,NON
+TP-Link Archer C60,NON,,Archer AX23 ; Archer AX55,NON,,OUI,,NON VERIFIEE,A CONFIRMER,NON
+TP-Link TL-WR840N,NON,,Archer AX23 ; routeur Wi-Fi 6,OUI,assets/images/catalogue_gtsi/image-map.json ; assets/js/catalogue-details.js ; assets/js/catalogue.js,NON,,NON VERIFIEE,A CONFIRMER,NON
+MikroTik RB951Ui-2HnD,NON,,hAP ax²,NON,,NON,,NON VERIFIEE,A CONFIRMER,NON
+MikroTik RB2011UiAS-IN,NON,,L009UiGS-RM,NON,,NON,,NON VERIFIEE,A CONFIRMER,NON
+Ubiquiti UAP-AC-PRO,NON,,U6+,NON,,NON,,NON VERIFIEE,A CONFIRMER,NON
+Cisco Catalyst 2960-X 24PS-L,NON,,C9200L-24P-4G,NON,,NON,,NON VERIFIEE,A CONFIRMER,NON
+TP-Link Archer AX10,OUI,assets/js/catalogue.js ; assets/js/catalogue-details.js ; assets/images/catalogue_gtsi/image-map.json,Archer AX55,NON,,OUI,,NON VERIFIEE,A CONFIRMER,NON
+TP-Link TL-MR6400,NON,,routeur 4G ; routeur 5G,NON,,NON,,NON VERIFIEE,A CONFIRMER,NON

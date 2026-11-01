@@ -1,0 +1,42 @@
+[
+  {
+    "fabricant": "TP-Link Omada",
+    "modele_attendu": "EAP773 Wi-Fi 7",
+    "url": "https://www.tp-link.com/us/business-networking/omada-wifi-wifi7/eap773/",
+    "titre_page": "BE11000 Ceiling Mount Tri-Band Wi-Fi 7 Access Point",
+    "description": "Based on BE11000 tri-band Wi-Fi 7, EAP773 shows high performance with 1× 10G Port and rich advanced functions.",
+    "image_url": "https://static.tp-link.com/upload/image-line/EAP773_EU_2.0_overview_01_large_20251204032005i.jpg",
+    "image_locale": "rapports/catalogue-moderne-20261020-232804/images/01_EAP773_Wi-Fi_7.jpg",
+    "statut": "PAGE LUE — IMAGE TÉLÉCHARGÉE, DROITS À VÉRIFIER"
+  },
+  {
+    "fabricant": "TP-Link Omada",
+    "modele_attendu": "EAP783 Wi-Fi 7",
+    "url": "https://www.tp-link.com/uk/business-networking/omada-wifi-ceiling-mount/eap783/%28eu%29/",
+    "titre_page": "BE19000 Ceiling Mount Tri-Band Wi-Fi 7 Access Point",
+    "description": "Based on BE19000 tri-band Wi-Fi 7, EAP783 shows high performance with 2× 10G Port and rich advanced functions.",
+    "image_url": "https://static.tp-link.com/upload/image-line/280_x_280_x_46.5_mm_large_20231207102457j.png",
+    "image_locale": "rapports/catalogue-moderne-20261020-232804/images/02_EAP783_Wi-Fi_7.png",
+    "statut": "PAGE LUE — IMAGE TÉLÉCHARGÉE, DROITS À VÉRIFIER"
+  },
+  {
+    "fabricant": "MikroTik",
+    "modele_attendu": "RB5009UG+S+IN",
+    "url": "https://mikrotik.com/product/rb5009ug_s_in",
+    "titre_page": "RB5009UG+S+IN | MikroTik",
+    "description": "The ultimate heavy-duty home lab router with USB 3.0, 1G and 2.5G Ethernet and a 10G SFP+ cage. You can mount four of these new routers in a single 1U rackmount space! Unprecedented processing power in such a small form factor.",
+    "image_url": "https://cdn.mikrotik.com/web-assets/rb_images/2065_tm.webp",
+    "image_locale": "rapports/catalogue-moderne-20261020-232804/images/03_RB5009UG_S_IN.webp",
+    "statut": "PAGE LUE — IMAGE TÉLÉCHARGÉE, DROITS À VÉRIFIER"
+  },
+  {
+    "fabricant": "MikroTik",
+    "modele_attendu": "RB5009UPr+S+OUT",
+    "url": "https://mikrotik.com/product/rb5009_out",
+    "titre_page": "RB5009UPr+S+OUT | MikroTik",
+    "description": "An outdoor version of our best-selling heavy-duty PoE router. Extensive power redundancy for the best price! 7x Gigabit Ethernet ports, 1x 2.5 Gigabit Ethernet, 10G SFP+, 1GB of RAM, 1GB NAND, modern quad-core CPU, 9 (!) powering options, durable IP66 waterproof enclosure.",
+    "image_url": "https://cdn.mikrotik.com/web-assets/rb_images/2250_tm.webp",
+    "image_locale": "rapports/catalogue-moderne-20261020-232804/images/04_RB5009UPr_S_OUT.webp",
+    "statut": "PAGE LUE — IMAGE TÉLÉCHARGÉE, DROITS À VÉRIFIER"
+  }
+]

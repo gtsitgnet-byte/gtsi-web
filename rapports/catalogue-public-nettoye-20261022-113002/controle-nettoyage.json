@@ -1,0 +1,11 @@
+{
+  "produits": 60,
+  "categories": 5,
+  "fiches": 60,
+  "images": 60,
+  "prix_publics": 0,
+  "champs_fournisseur_source_publics": 0,
+  "noms_doublons_apres_nettoyage": false,
+  "produits_a_verifier_pour_generation": [],
+  "statut": "CANDIDAT_NETTOYE_NON_PUBLIE"
+}

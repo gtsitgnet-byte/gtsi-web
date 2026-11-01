@@ -1,0 +1,23 @@
+{
+  "statut": "PREPARATION_SEULE_NON_PUBLIEE",
+  "date": "20261022-111908",
+  "produits": 60,
+  "categories": {
+    "Ordinateurs et informatique": 27,
+    "Vidéosurveillance et sécurité électronique": 10,
+    "Réseaux et télécommunications": 6,
+    "Accessoires et périphériques": 16,
+    "Alarmes et contrôle d'accès": 1
+  },
+  "prix_publics": 0,
+  "sources_interdites": 0,
+  "images_manquantes": 0,
+  "fichiers_actifs_remplaces": [],
+  "sauvegarde": "sauvegardes/avant-integration-catalogue-20261022-111908",
+  "fichiers_prepares": "rapports/catalogue-integration-prepare-20261022-111908",
+  "notes": [
+    "Aucun fichier actif remplacé.",
+    "Aucune publication GitHub effectuée.",
+    "Correspondance visuelle des images à vérifier avant publication."
+  ]
+}

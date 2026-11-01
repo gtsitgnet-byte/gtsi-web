@@ -1,0 +1,11 @@
+﻿reference_actuelle,description_actuelle,remplacement_candidat,verification_requise,fabricant_verifie,disponibilite_Togo_verifiee,integration_autorisee
+TP-Link TL-WA850RE,Répéteur Wi-Fi 4 300 Mb/s,TP-Link RE705X ou modèle Wi-Fi 6 équivalent,À confirmer selon disponibilité et compatibilité régionale,NON,NON,NON
+TP-Link Archer C20,Routeur Wi-Fi AC750,Routeur Wi-Fi 6 de gamme équivalente,"Choisir selon ports, couverture et budget",NON,NON,NON
+TP-Link Archer C60,Routeur Wi-Fi AC1350,Routeur Wi-Fi 6 de gamme équivalente,Comparer les ports Ethernet et les performances,NON,NON,NON
+TP-Link TL-WR840N,Routeur Wi-Fi 4 300 Mb/s,Routeur Wi-Fi 6 d’entrée de gamme,Confirmer les besoins du client,NON,NON,NON
+MikroTik RB951Ui-2HnD,Routeur Wi-Fi 4,MikroTik hAP ax² ou modèle récent adapté,Vérifier le nombre de ports et les besoins Wi-Fi,NON,NON,NON
+MikroTik RB2011UiAS-IN,Routeur filaire/Wi-Fi ancien,MikroTik L009 ou autre modèle récent adapté,"Comparer interfaces, PoE et fonctions RouterOS",NON,NON,NON
+Ubiquiti UAP-AC-PRO,Point d’accès Wi-Fi 5,UniFi U6+ ou gamme UniFi Wi-Fi 7,Choisir selon densité de clients et débit Ethernet,NON,NON,NON
+Cisco Catalyst 2960-X 24PS-L,Switch PoE d’ancienne génération,Switch Cisco Business/Catalyst actuel équivalent,"Vérifier PoE, uplinks, licences et support",NON,NON,NON
+TP-Link Archer AX10,Routeur Wi-Fi 6 AX1500,À conserver provisoirement ou comparer à un modèle plus récent,Wi-Fi 6 n’est pas automatiquement obsolète,NON,NON,NON
+TP-Link TL-MR6400,Routeur 4G LTE,Routeur 4G/5G selon couverture et besoin,Ne pas remplacer sans vérifier bandes et opérateurs,NON,NON,NON

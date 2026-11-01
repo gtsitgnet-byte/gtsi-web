@@ -1,0 +1,30 @@
+{
+  "date": "20261021-104051",
+  "source_produits": "rapports/catalogue-enrichi/produits-enrichis.json",
+  "produits_lus": 210,
+  "associations_avant": 6,
+  "associations_apres": 216,
+  "nouvelles_associations": 210,
+  "associations_existantes_conservees": 0,
+  "produits_sans_image": 0,
+  "entrees_invalides": 0,
+  "repartition_fournisseurs": {
+    "PRO-TECH TOGO": 147,
+    "TIC INFO": 12,
+    "Togo Informatique": 28,
+    "Univers HD": 23
+  },
+  "code_affichage_trouve": [
+    {
+      "fichier": "assets/js/boutique.js",
+      "ligne": 111,
+      "extrait": "(image ? '<img src=\"' + esc(image) + '\" alt=\"' + n + '\" loading=\"lazy\" onerror=\"this.remove()\">' : '') + '</div>' +"
+    },
+    {
+      "fichier": "assets/js/boutique.js",
+      "ligne": 306,
+      "extrait": "fetch(\"assets/images/catalogue_gtsi/image-map.json\")"
+    }
+  ],
+  "avertissement": "L'ajout des URL au mapping ne prouve pas que le catalogue les affiche. Le code de rendu doit être vérifié."
+}
