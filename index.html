@@ -483,7 +483,7 @@
       <p class="section-intro">Entreprises, écoles, commerces : faites connaître votre activité sur le site GTSI. Votre annonce (logo, adresse, téléphone) s'affiche dans le bandeau défilant et dans une fiche dédiée. Contactez-nous pour connaître les conditions.</p>
       <div class="gtsi-ad-section-heading">
         <span class="tag">ESPACE PROFESSIONNEL GTSI</span>
-        <h3>FORMULAIRE D’INSCRIPTION À L’ESPACE PUBLICITAIRE</h3>
+        <h3>VOTRE ENTREPRISE / ÉCOLE ET AUTRES ICI</h3>
         <p>Vous souhaitez présenter votre entreprise, votre école ou votre commerce sur notre plateforme ? Renseignez les informations ci-dessous pour soumettre votre demande.</p>
       </div>
       <div class="partner-cards">
@@ -506,7 +506,7 @@
               <b>6 mois</b>
             </div>
           </div>
-          <form id="gtsi-ad-form" class="gtsi-form">
+          <form id="gtsi-ad-form" class="gtsi-form" novalidate>
             <label>Nom de l'entreprise ou de l'école *
               <input name="organisation" type="text" required placeholder="Nom de votre structure">
             </label>
@@ -521,12 +521,26 @@
             <label>Description de l'activité *
               <textarea name="description" required rows="3" placeholder="Présentez brièvement votre activité"></textarea>
             </label>
-            <label>Adresse ou localisation *
-              <input name="adresse" required placeholder="Quartier, ville">
+            <label>Pays *
+              <select name="pays"></select>
+            </label>
+            <label>Ville *
+              <input name="ville" autocomplete="address-level2" placeholder="Ex. : Lomé">
+            </label>
+            <label>Quartier *
+              <input name="quartier" placeholder="Ex. : Adidogomé">
+            </label>
+            <input name="adresse" type="hidden">
+            <label>Pays du numéro *
+              <select name="pays_tel"></select>
+            </label>
+            <label>Indicatif
+              <input name="indicatif" readonly placeholder="+...">
             </label>
             <label>Téléphone / WhatsApp *
-              <input name="telephone" type="tel" required placeholder="+228 ...">
+              <input name="tel_local" type="tel" inputmode="numeric" autocomplete="off" placeholder="Numéro sans indicatif">
             </label>
+            <input name="telephone" type="hidden">
             <label>Durée de publication *
               <select name="duree" required>
                 <option value="">Choisir une durée</option>
@@ -534,10 +548,13 @@
                 <option value="6 mois — 30 000 FCFA">6 mois — 30 000 FCFA</option>
               </select>
             </label>
+            <label>Adresse e-mail *
+              <input name="email" type="email" autocomplete="email" placeholder="nom@exemple.com">
+            </label>
             <label>Nom du responsable
               <input name="responsable" placeholder="Votre nom">
             </label>
-            <button class="btn" type="submit">Envoyer ma demande sur WhatsApp</button>
+            <button class="btn" type="submit">Envoyer ma demande</button>
             <div class="gtsi-form-note gtsi-notice">
               <span class="gtsi-notice-icon" aria-hidden="true">✓</span>
               <div>
@@ -599,11 +616,11 @@
   <script src="assets/js/devis-services.js?v=3"></script>
   <script src="assets/js/devis-validation.js?v=1"></script>
   <script src="assets/js/devis-verif.js?v=1"></script>
-  <script src="assets/js/devis-code.js?v=1"></script>
-  <script src="assets/js/devis-code.js?v=1"></script>
+  <script src="assets/js/devis-code.js?v=2"></script>
   <script src="assets/js/jspdf.umd.min.js"></script>
   <script src="assets/js/devis-pdf.js?v=3"></script>
-  <script src="assets/js/devis-wa.js?v=3"></script>
-<script src="assets/js/inscriptions-gtsi.js?v=1"></script>
+  <script src="assets/js/devis-wa.js?v=4"></script>
+<script src="assets/js/inscriptions-lieu.js?v=1"></script>
+<script src="assets/js/inscriptions-gtsi.js?v=4"></script>
 </body>
 </html>

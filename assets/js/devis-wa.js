@@ -1,6 +1,6 @@
 (() => {
   "use strict";
-  const URL_SCRIPT = "https://script.google.com/macros/s/AKfycbwEoeyrKevDy4qKVuDFiMoyJLwW0l5WctNWiZLprXT52u8JREI-df1I-Luq3wHx_7dj/exec";
+  const URL_SCRIPT = "https://script.google.com/macros/s/AKfycbxd7GGH6m8TqJJZmgf5P8vt-K8X3jPuauHHfkzHDsxwesErwWxV23kvnyd9ZHfqkLU1uQ/exec";
   const WA = "22879828669";
   const root = document.getElementById("gtsi-devis");
   if (!root) return;
